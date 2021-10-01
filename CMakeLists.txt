@@ -53,13 +53,14 @@ find_package(KF5 REQUIRED COMPONENTS Archive Bookmarks CoreAddons Config ConfigW
                  OPTIONAL_COMPONENTS DocTools FileMetaData Crash Purpose)
 
 # Qt
-set(QT_MIN_VERSION 5.11.0)
+set(QT_MIN_VERSION 5.15.0)
 find_package(Qt5 REQUIRED COMPONENTS Core Widgets Svg Quick QuickControls2 Concurrent QuickWidgets Multimedia NetworkAuth)
 if(NOT NODBUS)
     find_package(KF5 REQUIRED COMPONENTS DBusAddons)
     find_package(Qt5 REQUIRED COMPONENTS DBus)
 endif()
 add_definitions(-DQT_NO_CAST_TO_ASCII -DQT_NO_URL_CAST_FROM_STRING)
+#add_compile_definitions(QT_DISABLE_DEPRECATED_BEFORE=0x050F00)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${Qt5Widgets_EXECUTABLE_COMPILE_FLAGS}")
 
 # MLT
