@@ -16,14 +16,14 @@ set(kdenlive_render_SRCS
 add_executable(kdenlive_render ${kdenlive_render_SRCS})
 ecm_mark_nongui_executable(kdenlive_render)
 
-target_link_libraries(kdenlive_render Qt5::Core Qt5::Widgets Qt5::Xml
+target_link_libraries(kdenlive_render Qt::Core Qt::Widgets Qt::Xml
     ${MLT_LIBRARIES}
     ${MLTPP_LIBRARIES})
 if(NODBUS)
     target_compile_definitions(kdenlive_render PRIVATE NODBUS)
-    target_link_libraries(kdenlive_render Qt5::Network)
+    target_link_libraries(kdenlive_render Qt::Network)
 else()
-    target_link_libraries(kdenlive_render Qt5::DBus)
+    target_link_libraries(kdenlive_render Qt::DBus)
 endif()
 
 install(TARGETS kdenlive_render DESTINATION ${BIN_INSTALL_DIR})
