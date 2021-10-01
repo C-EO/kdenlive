@@ -526,11 +526,7 @@ void CustomLabel::mouseReleaseEvent(QMouseEvent *e)
 
 void CustomLabel::wheelEvent(QWheelEvent *e)
 {
-#if QT_VERSION < QT_VERSION_CHECK(5,15,0)
-    if (e->delta() > 0) {
-#else
     if (e->angleDelta().y() > 0) {
-#endif
         if (e->modifiers() == Qt::ControlModifier) {
             slotValueInc(10);
         } else if (e->modifiers() == Qt::AltModifier) {
