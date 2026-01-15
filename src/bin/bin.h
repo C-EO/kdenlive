@@ -282,6 +282,9 @@ public:
     void blockBin(bool block);
     void doMoveFolder(const QString &id, const QString &newParentId);
     void setupGeneratorMenu();
+    QMenu *addClipMenu() const;
+    void setReadyCallBack(const std::function<void(const QString &)> &cb);
+    void setSuggestedDuration(int duration);
     void clearMonitor();
 
     /** @brief Set focus to the Bin view. */
@@ -406,8 +409,10 @@ public:
     void expandAll();
     bool isMainBin() const;
     void buildPropertiesDock(KDDockWidgets::QtWidgets::DockWidget *parentDock);
+    const QString slotAddClipToProject(const QUrl &url);
 
-private Q_SLOTS:
+public Q_SLOTS:
+    const QString slotUrlsDropped(const QList<QUrl> urls, const QModelIndex parent);
     void slotAddClip();
     /** @brief Reload clip from disk */
     void slotReloadClip();
@@ -495,7 +500,6 @@ public Q_SLOTS:
     void slotStartFilterJob(/*const ItemInfo &info,*/ const QString &id, QMap<QString, QString> &filterParams, QMap<QString, QString> &consumerParams,
                             QMap<QString, QString> &extraParams);
     void slotItemDropped(const QStringList ids, const QModelIndex parent, bool dropFromSameSource);
-    const QString slotUrlsDropped(const QList<QUrl> urls, const QModelIndex parent);
     void slotEffectDropped(const QStringList &effectData, const QModelIndex &parent);
     void slotTagDropped(const QString &tag, const QModelIndex &parent);
     void slotItemEdited(const QModelIndex &, const QModelIndex &, const QVector<int> &);
@@ -517,7 +521,6 @@ public Q_SLOTS:
     void doDisplayMessage(const QString &text, KMessageWidget::MessageType type, const QString logInfo);
     /** @brief Select a clip in the Bin from its id. */
     void selectClipById(const QString &id, int frame = -1, const QPoint &zone = QPoint(), bool activateMonitor = true);
-    const QString slotAddClipToProject(const QUrl &url);
     void droppedUrls(const QList<QUrl> &urls, const QString &folderInfo = QString());
     /** @brief Adjust project profile to current clip. */
     void adjustProjectProfileToItem();
@@ -640,6 +643,8 @@ private:
     long m_processedAudio;
     /** @brief Indicates whether audio thumbnail creation is running. */
     QFuture<void> m_audioThumbsThread;
+    std::function<void(const QString &)> m_readyCallBack;
+    int m_suggestedDuration{-1};
     QAction *addBinAction(const QString &name, const QString &text, const QIcon &icon, const QString &category = {});
     void setupAddClipAction(QMenu *addClipMenu, ClipType::ProducerType type, const QString &name, const QString &text, const QIcon &icon);
     /** @brief Get the QModelIndex value for an item in the Bin. */
@@ -682,6 +687,7 @@ Q_SIGNALS:
     void requestBinClose();
     /** @brief Update a timeline tab name on clip rename. */
     void updateTabName(const QUuid &, const QString &);
+    void requestAddClipReset();
     /** @brief Some timeline sequence producers have been updated, refresh their occurrences. */
     void requestUpdateSequences(QMap<QUuid, std::pair<int, int>> seqs);
 };
