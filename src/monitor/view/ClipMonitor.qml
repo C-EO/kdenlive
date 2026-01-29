@@ -60,14 +60,19 @@ Item {
     property bool isClipMonitor: true
     property int dragType: 0
     property string baseThumbPath
+    property bool alwaysShowAudio: K.KdenliveSettings.alwaysShowMonitorAudio
     property int overlayMargin: (audioView.state === 'showAudio' && !audioView.isAudioClip && audioView.visible) ? (audioView.height + root.zoomOffset) : root.zoomOffset
     Component.onCompleted: {
         // adjust monitor image size if audio thumb is displayed
-        if (K.KdenliveSettings.alwaysShowMonitorAudio && audioView.visible) {
+        if (alwaysShowAudio && audioView.visible) {
             controller.rulerHeight = audioView.height + root.zoomOffset
         } else {
             controller.rulerHeight = root.zoomOffset
         }
+    }
+
+    onAlwaysShowAudioChanged: {
+        audioView.refreshView()
     }
 
     function updateClickCapture() {
@@ -101,7 +106,7 @@ Item {
         }
 
         // adjust monitor image size if audio thumb is displayed
-        if (K.KdenliveSettings.alwaysShowMonitorAudio && audioView.visible) {
+        if (alwaysShowAudio && audioView.visible) {
             controller.rulerHeight = audioView.height + root.zoomOffset
         } else {
             controller.rulerHeight = root.zoomOffset
@@ -109,7 +114,7 @@ Item {
     }
 
     onZoomOffsetChanged: {
-        if (K.KdenliveSettings.alwaysShowMonitorAudio && audioView.visible) {
+        if (alwaysShowAudio && audioView.visible) {
             controller.rulerHeight = audioView.height + root.zoomOffset
         } else {
             controller.rulerHeight = root.zoomOffset
@@ -117,7 +122,7 @@ Item {
     }
 
     onHeightChanged: {
-        if (K.KdenliveSettings.alwaysShowMonitorAudio && audioView.visible) {
+        if (alwaysShowAudio && audioView.visible) {
             controller.rulerHeight = (audioView.isAudioClip ? (root.height - controller.rulerHeight) : (root.height - controller.rulerHeight) / 6) + root.zoomOffset
         } else {
             controller.rulerHeight = root.zoomOffset
@@ -232,7 +237,7 @@ Item {
                 height: isAudioClip ? parent.height : parent.height / 5
                 width: parent.width
                 dragButtonsVisible: dragZone.opacity > 0
-                visible: isAudioClip || ((K.KdenliveSettings.alwaysShowMonitorAudio || root.showAudiothumb) && (controller.clipType === K.ClipType.AV || controller.clipHasAV))
+                visible: isAudioClip || ((alwaysShowAudio || root.showAudiothumb) && (controller.clipType === K.ClipType.AV || controller.clipHasAV))
             }
             Menu {
                 id: contextMenu
