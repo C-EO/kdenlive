@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Frameworks 5 Applications\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-26 02:34+0000\n"
+"POT-Creation-Date: 2026-01-30 03:01+0000\n"
 "PO-Revision-Date: 2024-10-03 20:43+0700\n"
 "Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
 "Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
@@ -19034,12 +19034,12 @@ msgid ""
 "or click %1 to import media"
 msgstr ""
 
-#: src/bin/bin.cpp:322 src/bin/bin.cpp:680 src/monitor/view/ClipMonitor.qml:597
+#: src/bin/bin.cpp:322 src/bin/bin.cpp:680 src/monitor/view/ClipMonitor.qml:602
 #, kde-format
 msgid "Drag to add only audio to timeline"
 msgstr ""
 
-#: src/bin/bin.cpp:326 src/bin/bin.cpp:684 src/monitor/view/ClipMonitor.qml:551
+#: src/bin/bin.cpp:326 src/bin/bin.cpp:684 src/monitor/view/ClipMonitor.qml:556
 #, kde-format
 msgid "Drag to add only video to timeline"
 msgstr ""
@@ -29759,7 +29759,7 @@ msgstr ""
 "Tidak dapat membuat jendela pratinjau video. Ada sesuatu yang salah dengan "
 "pemasangan Kdenlive Anda atau pengaturan driver Anda, silakan memperbaikinya."
 
-#: src/monitor/view/ClipMonitor.qml:165
+#: src/monitor/view/ClipMonitor.qml:170
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -29773,27 +29773,27 @@ msgstr ""
 "<shortcut>Roda gulir</shortcut> atau <shortcut>panah</shortcut> untuk "
 "menjangka, <shortcut>Ctrl roda</shortcut> untuk memperbesar atau memperkecil"
 
-#: src/monitor/view/ClipMonitor.qml:363 src/monitor/view/ProjectMonitor.qml:195
+#: src/monitor/view/ClipMonitor.qml:368 src/monitor/view/ProjectMonitor.qml:195
 #, kde-format
 msgid "%1fps"
 msgstr "%1fps"
 
-#: src/monitor/view/ClipMonitor.qml:402 src/monitor/view/ProjectMonitor.qml:228
+#: src/monitor/view/ClipMonitor.qml:407 src/monitor/view/ProjectMonitor.qml:228
 #, kde-format
 msgid "In Point"
 msgstr "Titik Awal"
 
-#: src/monitor/view/ClipMonitor.qml:402
+#: src/monitor/view/ClipMonitor.qml:407
 #, kde-format
 msgid "In/Out Point"
 msgstr "Titik Awal/Akhir"
 
-#: src/monitor/view/ClipMonitor.qml:425 src/monitor/view/ProjectMonitor.qml:245
+#: src/monitor/view/ClipMonitor.qml:430 src/monitor/view/ProjectMonitor.qml:245
 #, kde-format
 msgid "Out Point"
 msgstr "Titik Akhir"
 
-#: src/monitor/view/ClipMonitor.qml:643
+#: src/monitor/view/ClipMonitor.qml:648
 #, kde-format
 msgid "Terminate Job"
 msgstr "Matikan Tugas"

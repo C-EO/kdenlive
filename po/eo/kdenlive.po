@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-26 02:34+0000\n"
+"POT-Creation-Date: 2026-01-30 03:01+0000\n"
 "PO-Revision-Date: 2025-03-22 22:36+0100\n"
 "Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
 "Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
@@ -19148,12 +19148,12 @@ msgid ""
 "or click %1 to import media"
 msgstr ""
 
-#: src/bin/bin.cpp:322 src/bin/bin.cpp:680 src/monitor/view/ClipMonitor.qml:597
+#: src/bin/bin.cpp:322 src/bin/bin.cpp:680 src/monitor/view/ClipMonitor.qml:602
 #, kde-format
 msgid "Drag to add only audio to timeline"
 msgstr ""
 
-#: src/bin/bin.cpp:326 src/bin/bin.cpp:684 src/monitor/view/ClipMonitor.qml:551
+#: src/bin/bin.cpp:326 src/bin/bin.cpp:684 src/monitor/view/ClipMonitor.qml:556
 #, kde-format
 msgid "Drag to add only video to timeline"
 msgstr ""
@@ -29869,7 +29869,7 @@ msgstr ""
 "Estas io malĝusta kun via instalado de Kdenlive aŭ viaj pelilaj agordoj, "
 "bonvolu ripari ĝin."
 
-#: src/monitor/view/ClipMonitor.qml:165
+#: src/monitor/view/ClipMonitor.qml:170
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -29883,27 +29883,27 @@ msgstr ""
 "<shortcut>Rado</shortcut> aŭ <shortcut>sagoj</shortcut> por serĉi, "
 "<shortcut>Ktrl-rado</shortcut> por zomi"
 
-#: src/monitor/view/ClipMonitor.qml:363 src/monitor/view/ProjectMonitor.qml:195
+#: src/monitor/view/ClipMonitor.qml:368 src/monitor/view/ProjectMonitor.qml:195
 #, kde-format
 msgid "%1fps"
 msgstr "%1fps"
 
-#: src/monitor/view/ClipMonitor.qml:402 src/monitor/view/ProjectMonitor.qml:228
+#: src/monitor/view/ClipMonitor.qml:407 src/monitor/view/ProjectMonitor.qml:228
 #, kde-format
 msgid "In Point"
 msgstr "En Punkto"
 
-#: src/monitor/view/ClipMonitor.qml:402
+#: src/monitor/view/ClipMonitor.qml:407
 #, kde-format
 msgid "In/Out Point"
 msgstr "En/Elira Punkto"
 
-#: src/monitor/view/ClipMonitor.qml:425 src/monitor/view/ProjectMonitor.qml:245
+#: src/monitor/view/ClipMonitor.qml:430 src/monitor/view/ProjectMonitor.qml:245
 #, kde-format
 msgid "Out Point"
 msgstr "Eksterpunkto"
 
-#: src/monitor/view/ClipMonitor.qml:643
+#: src/monitor/view/ClipMonitor.qml:648
 #, kde-format
 msgid "Terminate Job"
 msgstr "Termini Ijobon"

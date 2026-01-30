@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-26 02:34+0000\n"
+"POT-Creation-Date: 2026-01-30 03:01+0000\n"
 "PO-Revision-Date: 2026-01-17 03:25+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -18300,12 +18300,12 @@ msgstr ""
 "ორი წკაპი, დაყარეთ ფაილები, ან \n"
 "უბრალოდ დააწკაპუნეთ %1-ზე მედიის შემოსატანად"
 
-#: src/bin/bin.cpp:322 src/bin/bin.cpp:680 src/monitor/view/ClipMonitor.qml:597
+#: src/bin/bin.cpp:322 src/bin/bin.cpp:680 src/monitor/view/ClipMonitor.qml:602
 #, kde-format
 msgid "Drag to add only audio to timeline"
 msgstr "გადაათრიეთ დროის ხაზზე, მხოლოდ, აუდიოს დასამატებლად"
 
-#: src/bin/bin.cpp:326 src/bin/bin.cpp:684 src/monitor/view/ClipMonitor.qml:551
+#: src/bin/bin.cpp:326 src/bin/bin.cpp:684 src/monitor/view/ClipMonitor.qml:556
 #, kde-format
 msgid "Drag to add only video to timeline"
 msgstr "გადაათრიეთ დროის ხაზზე, მხოლოდ, ვიდეოს დასამატებლად"
@@ -28829,7 +28829,7 @@ msgstr ""
 "ვიდეოს მინიატურის ფანჯარა ვერ შევქმენი.\n"
 "თქვენს Kdenlive-ის ფაილებს ან დრაივერის პარამეტრებს რაღაც სჭირს. გაასწორეთ."
 
-#: src/monitor/view/ClipMonitor.qml:165
+#: src/monitor/view/ClipMonitor.qml:170
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -28843,27 +28843,27 @@ msgstr ""
 "ხელსაწყოების პანელისთვის, <shortcut>ბორბალი</shortcut> ან <shortcut>ისრები</"
 "shortcut> გადასახვევად, <shortcut>Ctrl+ბორბალი</shortcut> გასადიდებლად"
 
-#: src/monitor/view/ClipMonitor.qml:363 src/monitor/view/ProjectMonitor.qml:195
+#: src/monitor/view/ClipMonitor.qml:368 src/monitor/view/ProjectMonitor.qml:195
 #, kde-format
 msgid "%1fps"
 msgstr "%1კადრი/წმ"
 
-#: src/monitor/view/ClipMonitor.qml:402 src/monitor/view/ProjectMonitor.qml:228
+#: src/monitor/view/ClipMonitor.qml:407 src/monitor/view/ProjectMonitor.qml:228
 #, kde-format
 msgid "In Point"
 msgstr "შესვლის წერტილი"
 
-#: src/monitor/view/ClipMonitor.qml:402
+#: src/monitor/view/ClipMonitor.qml:407
 #, kde-format
 msgid "In/Out Point"
 msgstr "შესვლის/გამოსვლის წერტილი"
 
-#: src/monitor/view/ClipMonitor.qml:425 src/monitor/view/ProjectMonitor.qml:245
+#: src/monitor/view/ClipMonitor.qml:430 src/monitor/view/ProjectMonitor.qml:245
 #, kde-format
 msgid "Out Point"
 msgstr "გამოსვლის წერტილი"
 
-#: src/monitor/view/ClipMonitor.qml:643
+#: src/monitor/view/ClipMonitor.qml:648
 #, kde-format
 msgid "Terminate Job"
 msgstr "დავალების შეწყვეტა"
