@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-28 00:44+0000\n"
+"POT-Creation-Date: 2026-01-30 00:43+0000\n"
 "PO-Revision-Date: 2024-12-15 19:32+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
@@ -33575,8 +33575,9 @@ msgid "Could not add bin clip"
 msgstr "बिन क्लिप नहीं जोड़ा जा सका"
 
 #: src/timeline2/model/timelinefunctions.cpp:2571
-#, kde-format
-msgid "All clips were not successfully copied"
+#, fuzzy, kde-format
+#| msgid "All clips were not successfully copied"
+msgid "Not all clips were copied successfully"
 msgstr "सभी क्लिप सफलतापूर्वक कॉपी नहीं की गईं"
 
 #: src/timeline2/model/timelinefunctions.cpp:2627

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-28 00:44+0000\n"
+"POT-Creation-Date: 2026-01-30 00:43+0000\n"
 "PO-Revision-Date: 2025-05-16 15:05+0200\n"
 "Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -31549,9 +31549,10 @@ msgid "Could not add bin clip"
 msgstr ""
 
 #: src/timeline2/model/timelinefunctions.cpp:2571
-#, kde-format
-msgid "All clips were not successfully copied"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Document shared successfully"
+msgid "Not all clips were copied successfully"
+msgstr "Obrázek byl úspěšně sdílen"
 
 #: src/timeline2/model/timelinefunctions.cpp:2627
 #: src/timeline2/model/timelinefunctions.cpp:2808

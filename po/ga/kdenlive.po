@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-28 00:44+0000\n"
+"POT-Creation-Date: 2026-01-30 00:43+0000\n"
 "PO-Revision-Date: 2026-01-16 09:07+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Irish <http://weblate.amgelocalnet.duckdns.org/projects/"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
-"3 : 4;\n"
+"3 : 4\n"
 "X-Generator: Weblate 5.15.1\n"
 
 #, kde-format
@@ -33485,8 +33485,9 @@ msgid "Could not add bin clip"
 msgstr "Níorbh fhéidir gearrthóg bruscair a chur leis"
 
 #: src/timeline2/model/timelinefunctions.cpp:2571
-#, kde-format
-msgid "All clips were not successfully copied"
+#, fuzzy, kde-format
+#| msgid "All clips were not successfully copied"
+msgid "Not all clips were copied successfully"
 msgstr "Níor cóipeáladh na gearrthóga go léir go rathúil"
 
 #: src/timeline2/model/timelinefunctions.cpp:2627

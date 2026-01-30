@@ -1,19 +1,19 @@
 # Kristóf Kiszel <ulysses@kubuntu.org>, 2011, 2012.
 # Balázs Úr <urbalazs@gmail.com>, 2012, 2013, 2014.
-# SPDX-FileCopyrightText: 2024, 2025 Kristof Kiszel <ulysses@fsf.hu>
+# SPDX-FileCopyrightText: 2024, 2025, 2026 Kristof Kiszel <ulysses@fsf.hu>
 msgid ""
 msgstr ""
 "Project-Id-Version: hu\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-28 00:44+0000\n"
-"PO-Revision-Date: 2025-11-24 22:03+0100\n"
+"POT-Creation-Date: 2026-01-30 00:43+0000\n"
+"PO-Revision-Date: 2026-01-29 22:59+0100\n"
 "Last-Translator: Kristof Kiszel <ulysses@fsf.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 25.08.3\n"
+"X-Generator: Lokalize 25.12.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #, kde-format
@@ -10111,7 +10111,7 @@ msgstr "Halszem korrekció"
 #: data/effects/frei0r/frei0r_defish0r.xml:5
 #, kde-format
 msgid "Non rectilinear lens mappings"
-msgstr "Nem téglalap alakú lencseleképzés"
+msgstr "Nem téglalap alakú lencseleképezés"
 
 #: data/effects/frei0r/frei0r_defish0r.xml:11
 #, fuzzy, kde-format
@@ -17134,7 +17134,7 @@ msgstr "Kompozit"
 #: data/transitions/composite.xml:35 data/transitions/region.xml:36
 #, kde-format
 msgid "Force Progressive Rendering"
-msgstr "Progresszív leképzés erőltetése"
+msgstr "Progresszív leképezés erőltetése"
 
 #: data/transitions/dissolve.xml:4
 #, fuzzy, kde-format
@@ -22239,10 +22239,9 @@ msgstr ""
 
 #: src/dialogs/renderpresetdialog.cpp:117
 #: src/dialogs/renderpresetdialog.cpp:421
-#, fuzzy, kde-format
-#| msgid "Render Project"
+#, kde-format
 msgid "Edit Render Preset"
-msgstr "Projekt leképzése"
+msgstr "Leképezési beállítás szerkesztése"
 
 #: src/dialogs/renderpresetdialog.cpp:166
 #, fuzzy, kde-format
@@ -22310,17 +22309,17 @@ msgstr "Várakozás…"
 #: src/dialogs/renderwidget.cpp:257
 #, kde-format
 msgid "Rendering finished"
-msgstr "Leképzés befejeződött"
+msgstr "A leképezés befejeződött"
 
 #: src/dialogs/renderwidget.cpp:262
 #, kde-format
 msgid "Rendering crashed"
-msgstr "A leképzés összeomlott"
+msgstr "A leképezés összeomlott"
 
 #: src/dialogs/renderwidget.cpp:267
 #, kde-format
 msgid "Rendering aborted"
-msgstr "Leképzés megszakítva"
+msgstr "Leképezés megszakítva"
 
 #: src/dialogs/renderwidget.cpp:372
 #, fuzzy, kde-format
@@ -22498,8 +22497,7 @@ msgstr "Klip hozzáadása az idővonalhoz"
 #, kde-format
 msgid "Cannot find the melt program required for rendering (part of Mlt)"
 msgstr ""
-"A leképzéshez szüksége melt program nem található. A melt program az MLT "
-"csomag része."
+"A leképezéshez szüksége melt program nem található (az MLT csomag része)"
 
 #: src/dialogs/renderwidget.cpp:913
 #, kde-format
@@ -22573,10 +22571,9 @@ msgid "Audio without video track"
 msgstr "Video hangsáv nélkül"
 
 #: src/dialogs/renderwidget.cpp:1183 src/main.cpp:462
-#, fuzzy, kde-format
-#| msgid "Rendering <i>%1</i> started"
+#, kde-format
 msgid "Rendering %1 started"
-msgstr "<i>%1</i> leképzése elkezdődött"
+msgstr "%1 leképezése elkezdődött"
 
 #: src/dialogs/renderwidget.cpp:1248 src/monitor/monitor.cpp:1413
 #, kde-format
@@ -22635,18 +22632,17 @@ msgstr ""
 #: src/dialogs/renderwidget.cpp:1754
 #, kde-format
 msgid "Rendering finished in %1"
-msgstr "Leképzés befejeződött %1 idő alatt"
+msgstr "Leképezés befejeződött %1 idő alatt"
 
 #: src/dialogs/renderwidget.cpp:1765
 #, kde-format
 msgid "Rendering of %1 finished in %2"
-msgstr "%1 leképzése, hátralévő idő: %2"
+msgstr "%1 leképezése, hátralévő idő: %2"
 
 #: src/dialogs/renderwidget.cpp:1768
-#, fuzzy, kde-format
-#| msgid "Rendering of %1 finished in %2"
+#, kde-format
 msgid "First pass rendering of %1 finished"
-msgstr "%1 leképzése, hátralévő idő: %2"
+msgstr "A(z) %1 leképezésének első átfutása befejeződött"
 
 #: src/dialogs/renderwidget.cpp:1788
 #, fuzzy, kde-format
@@ -22696,10 +22692,9 @@ msgid "Your disk space is limited (%1)"
 msgstr ""
 
 #: src/dialogs/renderwidget.cpp:2341
-#, fuzzy, kde-format
-#| msgid "Rendering %1"
+#, kde-format
 msgid "Rendered File Length: %1"
-msgstr "%1 leképzése"
+msgstr "Leképezett fájl hossza: %1"
 
 #: src/dialogs/renderwidget.cpp:2344
 #: src/mltcontroller/clippropertiescontroller.cpp:644
@@ -24038,10 +24033,9 @@ msgid "Open Recent"
 msgstr "Dokumentum megnyitása"
 
 #: src/dialogs/Splash.qml:285
-#, fuzzy, kde-format
-#| msgid "Render Project"
+#, kde-format
 msgid "Clear History of Recent Projects"
-msgstr "Projekt leképzése"
+msgstr "Legutóbbi projektek előzményeinek törlése"
 
 #: src/dialogs/Splash.qml:390
 #, fuzzy, kde-format
@@ -27616,19 +27610,17 @@ msgid ""
 msgstr ""
 
 #: src/mainwindow.cpp:594 src/mainwindow.cpp:1658
-#, fuzzy, kde-format
-#| msgid "Render"
+#, kde-format
 msgid "Render…"
-msgstr "Leképzés"
+msgstr "Leképezés…"
 
 #: src/mainwindow.cpp:599
-#, fuzzy, kde-format
-#| msgid "Render to File"
+#, kde-format
 msgctxt ""
 "@intoolbar the name of the action to place an export/render button in a "
 "toolbar"
 msgid "Render Button"
-msgstr "Leképzés fájlba"
+msgstr "Leképezés gomb"
 
 #: src/mainwindow.cpp:605
 #, fuzzy, kde-format
@@ -27716,13 +27708,7 @@ msgid "Loading Project"
 msgstr "Projekt betöltése"
 
 #: src/mainwindow.cpp:1041
-#, fuzzy, kde-format
-#| msgid ""
-#| "You have 1 rendering job waiting in the queue.\n"
-#| "What do you want to do with this job?"
-#| msgid_plural ""
-#| "You have %1 rendering jobs waiting in the queue.\n"
-#| "What do you want to do with these jobs?"
+#, kde-format
 msgid ""
 "You have 1 rendering job running.\n"
 "What do you want to do with this job?"
@@ -27730,11 +27716,11 @@ msgid_plural ""
 "You have %1 rendering jobs running.\n"
 "What do you want to do with these jobs?"
 msgstr[0] ""
-"1 leképzési feladat van a feladatsorban.\n"
+"1 leképezési feladat fut.\n"
 "Mit kíván tenni ezzel a feladattal?"
 msgstr[1] ""
-"%1 leképzési feladat van a feladatsorban.\n"
-"Mit kíván tenni ezekkel a feladatokkal?"
+"%1 leképezési feladat fut.\n"
+"Mit kíván tenni ezzel a feladattal?"
 
 #: src/mainwindow.cpp:1043
 #, fuzzy, kde-format
@@ -27743,10 +27729,9 @@ msgid "Continue rendering in the background"
 msgstr "Menüháttér létrehozása"
 
 #: src/mainwindow.cpp:1043
-#, fuzzy, kde-format
-#| msgid "Rendering"
+#, kde-format
 msgid "Abort rendering"
-msgstr "Leképzés"
+msgstr "Leképezés megszakítása"
 
 #: src/mainwindow.cpp:1060
 #, kde-format
@@ -27757,10 +27742,10 @@ msgid_plural ""
 "You have %1 rendering jobs waiting in the queue.\n"
 "What do you want to do with these jobs?"
 msgstr[0] ""
-"1 leképzési feladat van a feladatsorban.\n"
+"1 leképezési feladat van a feladatsorban.\n"
 "Mit kíván tenni ezzel a feladattal?"
 msgstr[1] ""
-"%1 leképzési feladat van a feladatsorban.\n"
+"%1 leképezési feladat van a feladatsorban.\n"
 "Mit kíván tenni ezekkel a feladatokkal?"
 
 #: src/mainwindow.cpp:1063
@@ -28157,10 +28142,9 @@ msgid "Project Settings…"
 msgstr "Projekt beállítások"
 
 #: src/mainwindow.cpp:1661
-#, fuzzy, kde-format
-#| msgid "Start Rendering"
+#, kde-format
 msgid "Stop Render"
-msgstr "Leképzés indítása"
+msgstr "Leképezés leállítása"
 
 #: src/mainwindow.cpp:1666
 #, fuzzy, kde-format
@@ -28459,10 +28443,9 @@ msgid "Remove all preview render zones."
 msgstr "Hanghullám előnézet:"
 
 #: src/mainwindow.cpp:1850
-#, fuzzy, kde-format
-#| msgid "Start Rendering"
+#, kde-format
 msgid "Start Preview Render"
-msgstr "Leképzés indítása"
+msgstr "Előnézet-leképezés indítása"
 
 #: src/mainwindow.cpp:1853
 #, kde-kuit-format
@@ -28474,10 +28457,9 @@ msgid ""
 msgstr ""
 
 #: src/mainwindow.cpp:1855
-#, fuzzy, kde-format
-#| msgid "Start Rendering"
+#, kde-format
 msgid "Stop Preview Render"
-msgstr "Leképzés indítása"
+msgstr "Előnézet-leképezés leállítása"
 
 #: src/mainwindow.cpp:1858
 #, fuzzy, kde-format
@@ -29460,7 +29442,7 @@ msgstr "Kiválasztott klip törlése"
 #, kde-format
 msgid "Cannot find the melt program required for rendering (part of MLT)"
 msgstr ""
-"A leképzéshez szüksége melt program nem található (az MLT csomag része)"
+"A leképezéshez szüksége melt program nem található (az MLT csomag része)"
 
 #: src/mltconnection.cpp:239
 #, kde-format
@@ -31161,11 +31143,10 @@ msgid "Rendering video"
 msgstr "Rögzítési előzetes"
 
 #: src/powermanagementinterface.cpp:354
-#, fuzzy, kde-format
-#| msgid "Play after render"
+#, kde-format
 msgctxt "@info:status explanation for sleep inhibit during rendering"
 msgid "Playing or rendering video"
-msgstr "Videó lejátszása leképzés után"
+msgstr "Videolejátszás vagy -leképezés"
 
 #: src/profiles/profileinfo.cpp:103
 #, fuzzy, kde-format
@@ -33000,10 +32981,9 @@ msgid "Project to import"
 msgstr "Projekt Monitor"
 
 #: src/pythoninterfaces/otioconvertions.cpp:166
-#, fuzzy, kde-format
-#| msgid "Render Project"
+#, kde-format
 msgid "Imported Project"
-msgstr "Projekt leképzése"
+msgstr "Importált projekt"
 
 #: src/pythoninterfaces/otioconvertions.cpp:167
 #, fuzzy, kde-format
@@ -33291,11 +33271,10 @@ msgid "export"
 msgstr "Importálás"
 
 #: src/render/renderrequest.cpp:372
-#, fuzzy, kde-format
-#| msgid "File rendering"
+#, kde-format
 msgctxt "@title:window"
 msgid "Delayed Rendering"
-msgstr "Fájl leképzés"
+msgstr "Késleltetett leképezés"
 
 #: src/render/renderrequest.cpp:372
 #, fuzzy, kde-format
@@ -34259,7 +34238,7 @@ msgstr "Klipek hozzáadása"
 
 #: src/timeline2/model/timelinefunctions.cpp:2571
 #, kde-format
-msgid "All clips were not successfully copied"
+msgid "Not all clips were copied successfully"
 msgstr ""
 
 #: src/timeline2/model/timelinefunctions.cpp:2627
@@ -36272,10 +36251,9 @@ msgstr "Felé"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, before_select)
 #: src/ui/addtrack_ui.ui:27
-#, fuzzy, kde-format
-#| msgid "Render"
+#, kde-format
 msgid "Under"
-msgstr "Leképzés"
+msgstr "Alatt"
 
 #. i18n: ectx: property (text), widget (QLabel, name_label)
 #: src/ui/addtrack_ui.ui:50
@@ -38354,10 +38332,9 @@ msgstr "Feladat beállítása"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, EditRenderPreset_UI)
 #: src/ui/editrenderpreset_ui.ui:18
-#, fuzzy, kde-format
-#| msgid "Render Project"
+#, kde-format
 msgid "Save Render Preset"
-msgstr "Projekt leképzése"
+msgstr "Leképezési beállítás mentése"
 
 #. i18n: ectx: property (text), widget (QLabel, groupLabel)
 #: src/ui/editrenderpreset_ui.ui:45
@@ -39444,10 +39421,9 @@ msgstr "Jelölő törlése"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonImport)
 #: src/ui/maskmanage_ui.ui:121
-#, fuzzy, kde-format
-#| msgid "Render Project"
+#, kde-format
 msgid "Import Mask in Project"
-msgstr "Projekt leképzése"
+msgstr "Maszk importálása a projektbe"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/ui/maskmanage_ui.ui:165
@@ -39823,16 +39799,15 @@ msgstr "Kitöltés:"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, RenderWidget_UI)
 #: src/ui/renderwidget_ui.ui:18
-#, fuzzy, kde-format
-#| msgid "Rendering"
+#, kde-format
 msgid "Rendering"
-msgstr "Leképzés"
+msgstr "Leképezés"
 
 #. i18n: ectx: attribute (title), widget (QWidget, renderTab)
 #: src/ui/renderwidget_ui.ui:43
 #, kde-format
 msgid "Render Project"
-msgstr "Projekt leképzése"
+msgstr "Projekt leképezése"
 
 #. i18n: ectx: property (text), widget (QLabel, toLabel)
 #: src/ui/renderwidget_ui.ui:80
@@ -39921,7 +39896,7 @@ msgstr "&Törlés"
 #: src/ui/renderwidget_ui.ui:335
 #, kde-format
 msgid "Render to File"
-msgstr "Leképzés fájlba"
+msgstr "Leképezés fájlba"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonGenerateScript)
 #: src/ui/renderwidget_ui.ui:342
@@ -40130,7 +40105,7 @@ msgstr "Mappa megnyitása exportálás után"
 #: src/ui/renderwidget_ui.ui:872
 #, kde-format
 msgid "Play after render"
-msgstr "Videó lejátszása leképzés után"
+msgstr "Lejátszás leképezés után"
 
 #. i18n: ectx: property (text), widget (QCheckBox, keep_log_files)
 #: src/ui/renderwidget_ui.ui:879
@@ -40166,7 +40141,7 @@ msgstr "Hibanapló"
 #: src/ui/renderwidget_ui.ui:1040
 #, kde-format
 msgid "Shutdown computer after renderings"
-msgstr "A számítógép leállítása a leképzés befejezése után"
+msgstr "Számítógép leállítása a leképezés befejezése után"
 
 #. i18n: ectx: attribute (title), widget (QWidget, scriptsTab)
 #: src/ui/renderwidget_ui.ui:1055

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-28 00:44+0000\n"
-"PO-Revision-Date: 2026-01-27 12:18+0300\n"
+"POT-Creation-Date: 2026-01-30 00:43+0000\n"
+"PO-Revision-Date: 2026-01-29 16:21+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -26147,17 +26147,13 @@ msgid "This layout contains horizontal and vertical profiles"
 msgstr "Bu yerleşim, yatay ve dikey profiller içeriyor."
 
 #: src/layouts/layoutmanagerdialog.cpp:335
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "This layout contains an horizontal profile"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "This layout contains a horizontal profile"
 msgstr "Bu yerleşim, bir yatay profil içeriyor."
 
 #: src/layouts/layoutmanagerdialog.cpp:339
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "This layout contains an vertical profile"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "This layout contains a vertical profile"
 msgstr "Bu yerleşim, bir dikey profil içeriyor."
@@ -33091,8 +33087,9 @@ msgid "Could not add bin clip"
 msgstr "Kova klibi eklenemedi"
 
 #: src/timeline2/model/timelinefunctions.cpp:2571
-#, kde-format
-msgid "All clips were not successfully copied"
+#, fuzzy, kde-format
+#| msgid "All clips were not successfully copied"
+msgid "Not all clips were copied successfully"
 msgstr "Tüm klipler başarıyla kopyalandı"
 
 #: src/timeline2/model/timelinefunctions.cpp:2627
