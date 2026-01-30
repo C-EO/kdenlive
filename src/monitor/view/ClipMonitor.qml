@@ -539,10 +539,12 @@ Item {
                 onPressed: mouse => {
                     root.captureRightClick = true
                     controller.dragType = leftSide ? 'V' : 'A'
+                    mouse.accepted = false
                 }
                 onReleased: mouse => {
                     controller.dragType = ''
                     root.captureRightClick = false
+                    mouse.accepted = false
                 }
             }
             ToolTip {
