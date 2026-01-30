@@ -47,6 +47,7 @@ class MonitorProxy : public QObject
     Q_PROPERTY(MaskModeType::MaskCreationMode maskMode MEMBER m_maskMode NOTIFY maskModeChanged)
     Q_PROPERTY(double speed MEMBER m_speed NOTIFY speedChanged)
     Q_PROPERTY(QStringList lastClips MEMBER m_lastClips NOTIFY lastClipsChanged)
+    Q_PROPERTY(QString dragType MEMBER m_dragType NOTIFY dragTypeChanged)
     /** @brief Returns true if current clip in monitor has Audio and Video
      * */
     Q_PROPERTY(bool clipHasAV MEMBER m_hasAV NOTIFY clipHasAVChanged)
@@ -158,6 +159,8 @@ public:
     bool isKeyframe() const;
     void setCursorOutsideEffect(bool isOutside);
     bool cursorOutsideEffect() const;
+    const QString dragType();
+    void setDragType(QString dragType);
 
 Q_SIGNALS:
     void positionChanged(int);
@@ -209,6 +212,7 @@ Q_SIGNALS:
     void activeMonitorChanged();
     void isKeyframeChanged();
     void cursorOutsideEffectChanged();
+    void dragTypeChanged();
 
 private:
     VideoWidget *q;
@@ -236,6 +240,7 @@ private:
     QList<int> m_jobsProgress;
     QStringList m_jobsUuids;
     QVector<std::pair<int, QString>> m_lastClipsIds;
+    QString m_dragType;
     QStringList m_lastClips;
     bool m_switchFlag{false};
     bool m_isKeyframe{false};

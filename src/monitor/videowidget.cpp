@@ -13,6 +13,7 @@
 */
 
 #include "monitor/monitor.h"
+#include "monitor/view/qmliconprovider.hpp"
 #include <QApplication>
 #include <QFontDatabase>
 #include <QOpenGLContext>
@@ -24,6 +25,7 @@
 #include <QPainter>
 #include <QQmlContext>
 #include <QQuickItem>
+#include <QStyle>
 #include <QtGlobal>
 #include <memory>
 
@@ -132,6 +134,8 @@ VideoWidget::VideoWidget(int id, QObject *parent)
     m_proxy = new MonitorProxy(this);
     rootContext()->setContextProperty("controller", m_proxy);
     engine()->addImageProvider(QStringLiteral("thumbnail"), new ThumbnailProvider);
+    int iconSize = style()->pixelMetric(QStyle::PM_SmallIconSize);
+    engine()->addImageProvider(QStringLiteral("icon"), new QmlIconProvider(QSize(iconSize, iconSize), this));
 }
 
 VideoWidget::~VideoWidget()
@@ -409,15 +413,10 @@ bool VideoWidget::checkFrameNumber(int pos, bool isPlaying)
 
 void VideoWidget::mousePressEvent(QMouseEvent *event)
 {
-    if ((rootObject() != nullptr) && rootObject()->property("captureRightClick").toBool() && !(event->modifiers() & Qt::ControlModifier) &&
-        !(event->buttons() & Qt::MiddleButton)) {
-        event->ignore();
-        QQuickWidget::mousePressEvent(event);
-        return;
-    }
     QQuickWidget::mousePressEvent(event);
     // For some reason, on Qt6 in mouseReleaseEvent, the event is always accepted, so use this m_qmlEvent bool to track if the event is accepted in qml
     m_qmlEvent = event->isAccepted();
+    m_dragStart = QPoint();
     if (rootObject() != nullptr && rootObject()->property("captureRightClick").toBool()) {
         // The event has been handled in qml
         m_swallowDrop = true;
@@ -429,7 +428,7 @@ void VideoWidget::mousePressEvent(QMouseEvent *event)
             // Pan view
             m_panStart = event->pos();
             setCursor(Qt::ClosedHandCursor);
-        } else {
+        } else if (getControllerProxy()->dragType() != QLatin1String("-")) {
             m_dragStart = event->pos();
         }
     } else if ((event->button() & Qt::RightButton) != 0u) {
@@ -443,12 +442,15 @@ void VideoWidget::mousePressEvent(QMouseEvent *event)
 void VideoWidget::mouseReleaseEvent(QMouseEvent *event)
 {
     QQuickWidget::mouseReleaseEvent(event);
-    bool playMonitor = KdenliveSettings::play_monitor_on_click() && !m_dragStart.isNull() && m_panStart.isNull();
+    bool playMonitor = KdenliveSettings::play_monitor_on_click() &&
+                       (m_dragStart.isNull() || (event->pos() - m_dragStart).manhattanLength() < QApplication::startDragDistance()) && m_panStart.isNull();
+
     m_dragStart = QPoint();
     m_panStart = QPoint();
     setCursor(Qt::ArrowCursor);
     if (event->modifiers() & Qt::ControlModifier || m_qmlEvent) {
         event->accept();
+        m_swallowDrop = false;
         return;
     }
     if (playMonitor && ((event->button() & Qt::LeftButton) != 0u) && !m_swallowDrop) {
@@ -478,7 +480,7 @@ void VideoWidget::mouseMoveEvent(QMouseEvent *event)
         return;
     }
 
-    if (!event->isAccepted() && !m_dragStart.isNull() && (event->pos() - m_dragStart).manhattanLength() >= QApplication::startDragDistance()) {
+    if (!m_dragStart.isNull() && (event->pos() - m_dragStart).manhattanLength() >= QApplication::startDragDistance()) {
         m_dragStart = QPoint();
         Q_EMIT startDrag();
     }

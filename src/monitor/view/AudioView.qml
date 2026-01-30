@@ -16,17 +16,13 @@ Item {
     property int audioZoomHeightRef: isAudioClip ? height / 5 : height / 3.5
     property bool displayAudioZoom: true
     property bool dragButtonsVisible: false
-    property bool containsMouse: thumbMouseArea.containsMouse || audioZoom.containsMouse || clipMonitorRuler.containsMouse || thumbMouseArea.pressed
+    property bool containsMyMouse: thumbMouseArea.containsMouse || audioZoom.containsMouse || clipMonitorRuler.containsMouse || thumbMouseArea.pressed
     property int clipId: controller.clipId
     state: stateVisible ? "showAudio" : "hideAudio"
     onDragButtonsVisibleChanged: {
-        if (containsMouse) {
-            return
-        }
-
-        if (!K.KdenliveSettings.alwaysShowMonitorAudio) {
+        if (!root.alwaysShowAudio) {
             if (dragButtonsVisible) {
-               zoomCollapseTimer.stop()
+                zoomCollapseTimer.stop()
                 state = "showAudio"
             } else if (controller.clipHasAV) {
                 zoomCollapseTimer.start()
@@ -44,17 +40,22 @@ Item {
 
     onClipIdChanged:
     {
+        refreshView()
+    }
+
+    function refreshView()
+    {
         audioThumb.isAudioClip = controller.clipType === K.ClipType.Audio
-        audioThumb.stateVisible = (K.KdenliveSettings.alwaysShowMonitorAudio && controller.clipHasAV) || audioThumb.isAudioClip
+        audioThumb.stateVisible = (root.alwaysShowAudio && controller.clipHasAV) || audioThumb.isAudioClip
         checkAudioThumbState()
     }
 
-    onContainsMouseChanged: {
-        if (dragButtonsVisible) {
-            return
+    onContainsMyMouseChanged: {
+        if (containsMyMouse) {
+            controller.dragType = '-'
         }
-        if (!K.KdenliveSettings.alwaysShowMonitorAudio) {
-            if (containsMouse) {
+        if (!root.alwaysShowAudio) {
+            if (containsMyMouse) {
                 zoomCollapseTimer.stop()
                 state = "showAudio"
             } else if (controller.clipHasAV) {
@@ -65,8 +66,9 @@ Item {
 
     function checkAudioThumbState()
     {
-        if (!K.KdenliveSettings.alwaysShowMonitorAudio) {
+        if (!root.alwaysShowAudio) {
             zoomCollapseTimer.stop()
+            controller.rulerHeight = root.zoomOffset
             if (audioThumb.stateVisible) {
                 state = "showAudio"
             } else {
@@ -141,7 +143,7 @@ Item {
             // Audio monitor background
             id: audioBg
             color: Utils.mixColors(activePalette.base, K.KdenliveSettings.thumbColor1, 0.3)
-            opacity: audioThumb.isAudioClip || K.KdenliveSettings.alwaysShowMonitorAudio ? 1 : 0.6
+            opacity: audioThumb.isAudioClip || root.alwaysShowAudio ? 1 : 0.6
             anchors.fill: parent
         }
         Repeater {

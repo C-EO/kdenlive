@@ -1243,7 +1243,8 @@ void Monitor::slotStartDrag()
     }
     auto *drag = new QDrag(this);
     auto *mimeData = new QMimeData;
-    QByteArray prodData;
+    const QString dragType = m_glMonitor->getControllerProxy()->dragType();
+    QByteArray prodData = dragType.toLatin1();
     QPoint p = m_glMonitor->getControllerProxy()->zone();
     if (p.x() == -1 || p.y() == -1) {
         prodData = m_controller->AbstractProjectItem::clipId().toUtf8();
@@ -1257,6 +1258,16 @@ void Monitor::slotStartDrag()
     mimeData->setData(QStringLiteral("text/producerslist"), prodData);
     mimeData->setData(QStringLiteral("text/dragid"), QUuid::createUuid().toByteArray());
     drag->setMimeData(mimeData);
+    if (dragType.isEmpty()) {
+        int size = style()->pixelMetric(QStyle::PM_SmallIconSize) * 4;
+        drag->setPixmap(m_controller->thumbnail(size, size));
+    } else {
+        if (dragType == QLatin1String("A")) {
+            drag->setPixmap(QIcon::fromTheme("audio-volume-medium").pixmap(32, 32));
+        } else {
+            drag->setPixmap(QIcon::fromTheme("kdenlive-show-video").pixmap(32, 32));
+        }
+    }
     drag->exec(Qt::CopyAction);
     Q_EMIT pCore->processDragEnd();
 }
