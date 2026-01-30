@@ -16,17 +16,13 @@ Item {
     property int audioZoomHeightRef: isAudioClip ? height / 5 : height / 3.5
     property bool displayAudioZoom: true
     property bool dragButtonsVisible: false
-    property bool containsMouse: thumbMouseArea.containsMouse || audioZoom.containsMouse || clipMonitorRuler.containsMouse || thumbMouseArea.pressed
+    property bool containsMyMouse: thumbMouseArea.containsMouse || audioZoom.containsMouse || clipMonitorRuler.containsMouse || thumbMouseArea.pressed
     property int clipId: controller.clipId
     state: stateVisible ? "showAudio" : "hideAudio"
     onDragButtonsVisibleChanged: {
-        if (containsMouse) {
-            return
-        }
-
         if (!root.alwaysShowAudio) {
             if (dragButtonsVisible) {
-               zoomCollapseTimer.stop()
+                zoomCollapseTimer.stop()
                 state = "showAudio"
             } else if (controller.clipHasAV) {
                 zoomCollapseTimer.start()
@@ -54,12 +50,12 @@ Item {
         checkAudioThumbState()
     }
 
-    onContainsMouseChanged: {
-        if (dragButtonsVisible) {
-            return
+    onContainsMyMouseChanged: {
+        if (containsMyMouse) {
+            controller.dragType = '-'
         }
         if (!root.alwaysShowAudio) {
-            if (containsMouse) {
+            if (containsMyMouse) {
                 zoomCollapseTimer.stop()
                 state = "showAudio"
             } else if (controller.clipHasAV) {

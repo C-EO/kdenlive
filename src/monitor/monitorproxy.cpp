@@ -773,3 +773,14 @@ void MonitorProxy::setCursorOutsideEffect(bool isOutside)
     m_cursorOutsideEffect = isOutside;
     Q_EMIT cursorOutsideEffectChanged();
 }
+
+const QString MonitorProxy::dragType()
+{
+    return m_dragType;
+}
+
+void MonitorProxy::setDragType(const QString dragType)
+{
+    m_dragType = dragType;
+    Q_EMIT dragTypeChanged();
+}
