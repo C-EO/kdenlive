@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-30 00:43+0000\n"
+"POT-Creation-Date: 2026-01-31 00:42+0000\n"
 "PO-Revision-Date: 2024-11-16 12:52+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English\n"
@@ -7612,8 +7612,9 @@ msgstr "FROM"
 
 #: data/effects/copychannelstostereo.xml:9
 #: data/effects/copychannelstostereo.xml:13
-#, kde-format
-msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+#, fuzzy, kde-format
+#| msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16"
 msgstr "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
 
 #: data/effects/copychannelstostereo.xml:12
@@ -19431,13 +19432,13 @@ msgid ""
 "or click %1 to import media"
 msgstr ""
 
-#: src/bin/bin.cpp:322 src/bin/bin.cpp:680 src/monitor/view/ClipMonitor.qml:597
+#: src/bin/bin.cpp:322 src/bin/bin.cpp:680 src/monitor/view/ClipMonitor.qml:553
 #, fuzzy, kde-format
 #| msgid "Cannot add an audio effect to this clip"
 msgid "Drag to add only audio to timeline"
 msgstr "Cannot add an audio effect to this clip"
 
-#: src/bin/bin.cpp:326 src/bin/bin.cpp:684 src/monitor/view/ClipMonitor.qml:551
+#: src/bin/bin.cpp:326 src/bin/bin.cpp:684 src/monitor/view/ClipMonitor.qml:553
 #, kde-format
 msgid "Drag to add only video to timeline"
 msgstr ""
@@ -22557,7 +22558,7 @@ msgstr "Audio without video track"
 msgid "Rendering %1 started"
 msgstr "Rendering <i>%1</i> started"
 
-#: src/dialogs/renderwidget.cpp:1248 src/monitor/monitor.cpp:1413
+#: src/dialogs/renderwidget.cpp:1248 src/monitor/monitor.cpp:1424
 #, kde-format
 msgid "untitled"
 msgstr "untitled"
@@ -29402,7 +29403,7 @@ msgid "Audio streams"
 msgstr "Audio streams"
 
 #: src/mltcontroller/clippropertiescontroller.cpp:878
-#: src/monitor/monitor.cpp:2096
+#: src/monitor/monitor.cpp:2107
 #, kde-format
 msgid "Merge all streams"
 msgstr "Merge all streams"
@@ -29829,42 +29830,42 @@ msgstr "Cannot change grouped clips"
 msgid "Set Zone"
 msgstr "Set Zone"
 
-#: src/monitor/monitor.cpp:1426
+#: src/monitor/monitor.cpp:1437
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Image to Project"
 msgstr "Save Image to Project"
 
-#: src/monitor/monitor.cpp:1426
+#: src/monitor/monitor.cpp:1437
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Image"
 msgstr "Save Image"
 
-#: src/monitor/monitor.cpp:1433
+#: src/monitor/monitor.cpp:1444
 #, kde-format
 msgid "Export image using source resolution"
 msgstr "Export image using source resolution"
 
-#: src/monitor/monitor.cpp:1973
+#: src/monitor/monitor.cpp:1984
 #, fuzzy, kde-format
 #| msgid "Edit Duration"
 msgid "Exit Mask Mode ?"
 msgstr "Edit Duration"
 
-#: src/monitor/monitor.cpp:2081 src/monitor/monitor.cpp:2210
+#: src/monitor/monitor.cpp:2092 src/monitor/monitor.cpp:2221
 #, kde-format
 msgid "%1 audio stream"
 msgid_plural "%1 audio streams"
 msgstr[0] "%1 audio stream"
 msgstr[1] "%1 audio streams"
 
-#: src/monitor/monitor.cpp:2532
+#: src/monitor/monitor.cpp:2543
 #, kde-format
 msgid "Cannot initialize Movit's GLSL manager, please disable Movit"
 msgstr "Cannot initialise Movit's GLSL manager, please disable Movit"
 
-#: src/monitor/monitor.cpp:2574 src/monitor/monitor.cpp:2631
+#: src/monitor/monitor.cpp:2585 src/monitor/monitor.cpp:2642
 #, kde-format
 msgid ""
 "The alphagrad filter is required for that feature, please install frei0r and "
@@ -29873,17 +29874,17 @@ msgstr ""
 "The alphagrad filter is required for that feature, please install frei0r and "
 "restart Kdenlive"
 
-#: src/monitor/monitor.cpp:2594
+#: src/monitor/monitor.cpp:2605
 #, kde-format
 msgid "Clip has no effects"
 msgstr "Clip has no effects"
 
-#: src/monitor/monitor.cpp:2596
+#: src/monitor/monitor.cpp:2607
 #, kde-format
 msgid "Select a clip in project bin to compare effect"
 msgstr "Select a clip in project bin to compare effect"
 
-#: src/monitor/monitor.cpp:2638
+#: src/monitor/monitor.cpp:2649
 #, kde-format
 msgid ""
 "The cairoblend transition is required for that feature, please install "
@@ -29892,41 +29893,41 @@ msgstr ""
 "The cairoblend transition is required for that feature, please install "
 "frei0r and restart Kdenlive"
 
-#: src/monitor/monitor.cpp:2718
+#: src/monitor/monitor.cpp:2729
 #, kde-format
 msgid "Enable edit mode in monitor to edit effect"
 msgstr "Enable edit mode in monitor to edit effect"
 
-#: src/monitor/monitor.cpp:3225
+#: src/monitor/monitor.cpp:3236
 #, fuzzy, kde-format
 #| msgid "No clip selected in project bin"
 msgid "No clip selected in Clip Monitor"
 msgstr "No clip selected in project bin"
 
-#: src/monitor/monitor.cpp:3246
+#: src/monitor/monitor.cpp:3257
 #, fuzzy, kde-format
 #| msgid "Cannot get duration for file %1"
 msgid "Cannot get producer for Clip Monitor"
 msgstr "Cannot get duration for file %1"
 
-#: src/monitor/monitor.cpp:3328 src/monitor/monitor.cpp:3359
+#: src/monitor/monitor.cpp:3339 src/monitor/monitor.cpp:3370
 #: src/timeline2/view/timelinecontroller.cpp:5770
 #, kde-format
 msgid "No valid zone defined. Please set in/out points first."
 msgstr ""
 
-#: src/monitor/monitor.cpp:3338
+#: src/monitor/monitor.cpp:3349
 #, kde-format
 msgid "Create Range Marker from Zone"
 msgstr ""
 
-#: src/monitor/monitor.cpp:3344 src/monitor/monitor.cpp:3365
+#: src/monitor/monitor.cpp:3355 src/monitor/monitor.cpp:3376
 #: src/timeline2/view/timelinecontroller.cpp:5785
 #, kde-format
 msgid "Range marker created from zone"
 msgstr ""
 
-#: src/monitor/monitor.cpp:3346 src/monitor/monitor.cpp:3367
+#: src/monitor/monitor.cpp:3357 src/monitor/monitor.cpp:3378
 #: src/timeline2/view/timelinecontroller.cpp:5788
 #, fuzzy, kde-format
 #| msgid "Failed to create file."
@@ -30141,17 +30142,17 @@ msgstr "MLT must be compiled with libfftw3 to enable Audio Spectrum"
 msgid "Enable Audio Spectrum"
 msgstr "Enable Audio Spectrum"
 
-#: src/monitor/videowidget.cpp:1144
+#: src/monitor/videowidget.cpp:1148
 #, kde-format
 msgid "Select a zone to play"
 msgstr "Select a zone to play"
 
-#: src/monitor/videowidget.cpp:1153
+#: src/monitor/videowidget.cpp:1157
 #, kde-format
 msgid "Select a clip to play"
 msgstr "Select a clip to play"
 
-#: src/monitor/videowidget.cpp:1258
+#: src/monitor/videowidget.cpp:1262
 #, kde-format
 msgid ""
 "Could not create the video preview window.\n"
@@ -30162,41 +30163,27 @@ msgstr ""
 "There is something wrong with your Kdenlive install or your driver settings, "
 "please fix it."
 
-#: src/monitor/view/ClipMonitor.qml:165
-#, kde-kuit-format
-msgctxt "@info:whatsthis"
-msgid ""
-"<shortcut>Click</shortcut> to play, <shortcut>Double click</shortcut> for "
-"fullscreen, <shortcut>Hover right</shortcut> for toolbar, <shortcut>Wheel</"
-"shortcut> or <shortcut>arrows</shortcut> to seek, <shortcut>Ctrl wheel</"
-"shortcut> to zoom"
-msgstr ""
-"<shortcut>Click</shortcut> to play, <shortcut>Double click</shortcut> for "
-"fullscreen, <shortcut>Hover right</shortcut> for toolbar, <shortcut>Wheel</"
-"shortcut> or <shortcut>arrows</shortcut> to seek, <shortcut>Ctrl wheel</"
-"shortcut> to zoom"
-
-#: src/monitor/view/ClipMonitor.qml:363 src/monitor/view/ProjectMonitor.qml:195
+#: src/monitor/view/ClipMonitor.qml:364 src/monitor/view/ProjectMonitor.qml:195
 #, kde-format
 msgid "%1fps"
 msgstr "%1fps"
 
-#: src/monitor/view/ClipMonitor.qml:402 src/monitor/view/ProjectMonitor.qml:228
+#: src/monitor/view/ClipMonitor.qml:403 src/monitor/view/ProjectMonitor.qml:228
 #, kde-format
 msgid "In Point"
 msgstr "In Point"
 
-#: src/monitor/view/ClipMonitor.qml:402
+#: src/monitor/view/ClipMonitor.qml:403
 #, kde-format
 msgid "In/Out Point"
 msgstr "In/Out Point"
 
-#: src/monitor/view/ClipMonitor.qml:425 src/monitor/view/ProjectMonitor.qml:245
+#: src/monitor/view/ClipMonitor.qml:426 src/monitor/view/ProjectMonitor.qml:245
 #, kde-format
 msgid "Out Point"
 msgstr "Out Point"
 
-#: src/monitor/view/ClipMonitor.qml:643
+#: src/monitor/view/ClipMonitor.qml:614
 #, kde-format
 msgid "Terminate Job"
 msgstr "Terminate Job"
@@ -40321,6 +40308,18 @@ msgstr "%1m"
 msgctxt "h as hours"
 msgid "%1h"
 msgstr "%1h"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<shortcut>Click</shortcut> to play, <shortcut>Double click</shortcut> for "
+#~ "fullscreen, <shortcut>Hover right</shortcut> for toolbar, "
+#~ "<shortcut>Wheel</shortcut> or <shortcut>arrows</shortcut> to seek, "
+#~ "<shortcut>Ctrl wheel</shortcut> to zoom"
+#~ msgstr ""
+#~ "<shortcut>Click</shortcut> to play, <shortcut>Double click</shortcut> for "
+#~ "fullscreen, <shortcut>Hover right</shortcut> for toolbar, "
+#~ "<shortcut>Wheel</shortcut> or <shortcut>arrows</shortcut> to seek, "
+#~ "<shortcut>Ctrl wheel</shortcut> to zoom"
 
 #, fuzzy
 #~| msgid "Center"

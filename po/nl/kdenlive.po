@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nl\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-30 00:43+0000\n"
-"PO-Revision-Date: 2026-01-28 15:48+0100\n"
+"POT-Creation-Date: 2026-01-31 00:42+0000\n"
+"PO-Revision-Date: 2026-01-30 12:58+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -7554,8 +7554,9 @@ msgstr "VAN"
 
 #: data/effects/copychannelstostereo.xml:9
 #: data/effects/copychannelstostereo.xml:13
-#, kde-format
-msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+#, fuzzy, kde-format
+#| msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16"
 msgstr "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
 
 #: data/effects/copychannelstostereo.xml:12
@@ -19030,12 +19031,12 @@ msgstr ""
 "Dubbelklik, laat bestanden los\n"
 "of klik op %1 om media te importeren"
 
-#: src/bin/bin.cpp:322 src/bin/bin.cpp:680 src/monitor/view/ClipMonitor.qml:597
+#: src/bin/bin.cpp:322 src/bin/bin.cpp:680 src/monitor/view/ClipMonitor.qml:553
 #, kde-format
 msgid "Drag to add only audio to timeline"
 msgstr "Sleep om alleen audio aan de tijdlijn toe te voegen"
 
-#: src/bin/bin.cpp:326 src/bin/bin.cpp:684 src/monitor/view/ClipMonitor.qml:551
+#: src/bin/bin.cpp:326 src/bin/bin.cpp:684 src/monitor/view/ClipMonitor.qml:553
 #, kde-format
 msgid "Drag to add only video to timeline"
 msgstr "Sleep om alleen video aan de tijdlijn toe te voegen"
@@ -22136,7 +22137,7 @@ msgstr "Audio zonder videotrack"
 msgid "Rendering %1 started"
 msgstr "Renderen %1 gestart"
 
-#: src/dialogs/renderwidget.cpp:1248 src/monitor/monitor.cpp:1413
+#: src/dialogs/renderwidget.cpp:1248 src/monitor/monitor.cpp:1424
 #, kde-format
 msgid "untitled"
 msgstr "naamloos"
@@ -28877,7 +28878,7 @@ msgid "Audio streams"
 msgstr "Audiostreams"
 
 #: src/mltcontroller/clippropertiescontroller.cpp:878
-#: src/monitor/monitor.cpp:2096
+#: src/monitor/monitor.cpp:2107
 #, kde-format
 msgid "Merge all streams"
 msgstr "Alle streams samenvoegen"
@@ -29296,41 +29297,41 @@ msgstr "Kan zone niet veranderen bij aanmaken van een masker"
 msgid "Set Zone"
 msgstr "Zone instellen"
 
-#: src/monitor/monitor.cpp:1426
+#: src/monitor/monitor.cpp:1437
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Image to Project"
 msgstr "Image naar project opslaan"
 
-#: src/monitor/monitor.cpp:1426
+#: src/monitor/monitor.cpp:1437
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Image"
 msgstr "Afbeelding opslaan"
 
-#: src/monitor/monitor.cpp:1433
+#: src/monitor/monitor.cpp:1444
 #, kde-format
 msgid "Export image using source resolution"
 msgstr "Afbeelding exporteren met resolutie van bron"
 
-#: src/monitor/monitor.cpp:1973
+#: src/monitor/monitor.cpp:1984
 #, kde-format
 msgid "Exit Mask Mode ?"
 msgstr "Modus Masker verlaten ?"
 
-#: src/monitor/monitor.cpp:2081 src/monitor/monitor.cpp:2210
+#: src/monitor/monitor.cpp:2092 src/monitor/monitor.cpp:2221
 #, kde-format
 msgid "%1 audio stream"
 msgid_plural "%1 audio streams"
 msgstr[0] "Audiostream"
 msgstr[1] "%1 audiostreams"
 
-#: src/monitor/monitor.cpp:2532
+#: src/monitor/monitor.cpp:2543
 #, kde-format
 msgid "Cannot initialize Movit's GLSL manager, please disable Movit"
 msgstr "Initialiseren van GLSL-manager van Movit kan niet, schakel Movit uit"
 
-#: src/monitor/monitor.cpp:2574 src/monitor/monitor.cpp:2631
+#: src/monitor/monitor.cpp:2585 src/monitor/monitor.cpp:2642
 #, kde-format
 msgid ""
 "The alphagrad filter is required for that feature, please install frei0r and "
@@ -29339,17 +29340,17 @@ msgstr ""
 "Het filter alphagrad is vereist voor die functie, installeer frei0r en start "
 "Kdenlive opnieuw"
 
-#: src/monitor/monitor.cpp:2594
+#: src/monitor/monitor.cpp:2605
 #, kde-format
 msgid "Clip has no effects"
 msgstr "Clip heeft geen effecten"
 
-#: src/monitor/monitor.cpp:2596
+#: src/monitor/monitor.cpp:2607
 #, kde-format
 msgid "Select a clip in project bin to compare effect"
 msgstr "Selecteer een clip in de projectmap om effect te vergelijken"
 
-#: src/monitor/monitor.cpp:2638
+#: src/monitor/monitor.cpp:2649
 #, kde-format
 msgid ""
 "The cairoblend transition is required for that feature, please install "
@@ -29358,39 +29359,39 @@ msgstr ""
 "De transitie cairoblend is vereist voor die functie, installeer frei0r en "
 "start Kdenlive opnieuw"
 
-#: src/monitor/monitor.cpp:2718
+#: src/monitor/monitor.cpp:2729
 #, kde-format
 msgid "Enable edit mode in monitor to edit effect"
 msgstr "Modus Bewerken in monitor inschakelen om effect te bewerken"
 
-#: src/monitor/monitor.cpp:3225
+#: src/monitor/monitor.cpp:3236
 #, kde-format
 msgid "No clip selected in Clip Monitor"
 msgstr "Geen clip geselecteerd in Clipmonitor"
 
-#: src/monitor/monitor.cpp:3246
+#: src/monitor/monitor.cpp:3257
 #, kde-format
 msgid "Cannot get producer for Clip Monitor"
 msgstr "Kan geen produceerder krijgen voor Clipmonitor"
 
-#: src/monitor/monitor.cpp:3328 src/monitor/monitor.cpp:3359
+#: src/monitor/monitor.cpp:3339 src/monitor/monitor.cpp:3370
 #: src/timeline2/view/timelinecontroller.cpp:5770
 #, kde-format
 msgid "No valid zone defined. Please set in/out points first."
 msgstr "Geen geldige zone gedefinieerd. Zet eerst in/uitpunten."
 
-#: src/monitor/monitor.cpp:3338
+#: src/monitor/monitor.cpp:3349
 #, kde-format
 msgid "Create Range Marker from Zone"
 msgstr "Reeksmarkering uit zone aanmaken"
 
-#: src/monitor/monitor.cpp:3344 src/monitor/monitor.cpp:3365
+#: src/monitor/monitor.cpp:3355 src/monitor/monitor.cpp:3376
 #: src/timeline2/view/timelinecontroller.cpp:5785
 #, kde-format
 msgid "Range marker created from zone"
 msgstr "Reeksmarkering aangemaakt uit zone"
 
-#: src/monitor/monitor.cpp:3346 src/monitor/monitor.cpp:3367
+#: src/monitor/monitor.cpp:3357 src/monitor/monitor.cpp:3378
 #: src/timeline2/view/timelinecontroller.cpp:5788
 #, kde-format
 msgid "Failed to create range marker from zone"
@@ -29602,17 +29603,17 @@ msgstr ""
 msgid "Enable Audio Spectrum"
 msgstr "Audiospectrum inschakelen"
 
-#: src/monitor/videowidget.cpp:1144
+#: src/monitor/videowidget.cpp:1148
 #, kde-format
 msgid "Select a zone to play"
 msgstr "Een af te spelen zone selecteren"
 
-#: src/monitor/videowidget.cpp:1153
+#: src/monitor/videowidget.cpp:1157
 #, kde-format
 msgid "Select a clip to play"
 msgstr "Een af te spelen clip selecteren"
 
-#: src/monitor/videowidget.cpp:1258
+#: src/monitor/videowidget.cpp:1262
 #, kde-format
 msgid ""
 "Could not create the video preview window.\n"
@@ -29623,41 +29624,27 @@ msgstr ""
 "Er is iets mis met de installatie van kdenlive of met de instellingen van de "
 "aansturing van het/de appara(a)t(en), herstel dit eerst."
 
-#: src/monitor/view/ClipMonitor.qml:165
-#, kde-kuit-format
-msgctxt "@info:whatsthis"
-msgid ""
-"<shortcut>Click</shortcut> to play, <shortcut>Double click</shortcut> for "
-"fullscreen, <shortcut>Hover right</shortcut> for toolbar, <shortcut>Wheel</"
-"shortcut> or <shortcut>arrows</shortcut> to seek, <shortcut>Ctrl wheel</"
-"shortcut> to zoom"
-msgstr ""
-"<shortcut>Klik</shortcut> om af te spelen, <shortcut>Dubbelklik</shortcut> "
-"voor volledig scherm, <shortcut>Rechts zweven</shortcut> voor werkbalk, "
-"<shortcut>Wiel</shortcut> of <shortcut>pijltjestoetsen</shortcut> om te "
-"zoeken, <shortcut>Ctrl wiel</shortcut> om te zoomen"
-
-#: src/monitor/view/ClipMonitor.qml:363 src/monitor/view/ProjectMonitor.qml:195
+#: src/monitor/view/ClipMonitor.qml:364 src/monitor/view/ProjectMonitor.qml:195
 #, kde-format
 msgid "%1fps"
 msgstr "%1 fps"
 
-#: src/monitor/view/ClipMonitor.qml:402 src/monitor/view/ProjectMonitor.qml:228
+#: src/monitor/view/ClipMonitor.qml:403 src/monitor/view/ProjectMonitor.qml:228
 #, kde-format
 msgid "In Point"
 msgstr "Beginpunt"
 
-#: src/monitor/view/ClipMonitor.qml:402
+#: src/monitor/view/ClipMonitor.qml:403
 #, kde-format
 msgid "In/Out Point"
 msgstr "In/uitpunt"
 
-#: src/monitor/view/ClipMonitor.qml:425 src/monitor/view/ProjectMonitor.qml:245
+#: src/monitor/view/ClipMonitor.qml:426 src/monitor/view/ProjectMonitor.qml:245
 #, kde-format
 msgid "Out Point"
 msgstr "Eindpunt"
 
-#: src/monitor/view/ClipMonitor.qml:643
+#: src/monitor/view/ClipMonitor.qml:614
 #, kde-format
 msgid "Terminate Job"
 msgstr "Taak beëindigen"
@@ -33254,8 +33241,7 @@ msgid "Could not add bin clip"
 msgstr "Kon bin-clip niet toevoegen"
 
 #: src/timeline2/model/timelinefunctions.cpp:2571
-#, fuzzy, kde-format
-#| msgid "All clips were not successfully copied"
+#, kde-format
 msgid "Not all clips were copied successfully"
 msgstr "Niet alle clips zijn met succes gekopieerd"
 
@@ -39728,6 +39714,18 @@ msgstr "%1m"
 msgctxt "h as hours"
 msgid "%1h"
 msgstr "%1u"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<shortcut>Click</shortcut> to play, <shortcut>Double click</shortcut> for "
+#~ "fullscreen, <shortcut>Hover right</shortcut> for toolbar, "
+#~ "<shortcut>Wheel</shortcut> or <shortcut>arrows</shortcut> to seek, "
+#~ "<shortcut>Ctrl wheel</shortcut> to zoom"
+#~ msgstr ""
+#~ "<shortcut>Klik</shortcut> om af te spelen, <shortcut>Dubbelklik</"
+#~ "shortcut> voor volledig scherm, <shortcut>Rechts zweven</shortcut> voor "
+#~ "werkbalk, <shortcut>Wiel</shortcut> of <shortcut>pijltjestoetsen</"
+#~ "shortcut> om te zoeken, <shortcut>Ctrl wiel</shortcut> om te zoomen"
 
 #~ msgid "Center X"
 #~ msgstr "Centrum X"

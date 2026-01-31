@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-30 00:43+0000\n"
+"POT-Creation-Date: 2026-01-31 00:42+0000\n"
 "PO-Revision-Date: 2026-01-16 09:07+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Irish <http://weblate.amgelocalnet.duckdns.org/projects/"
@@ -7562,8 +7562,9 @@ msgstr "Ó"
 
 #: data/effects/copychannelstostereo.xml:9
 #: data/effects/copychannelstostereo.xml:13
-#, kde-format
-msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+#, fuzzy, kde-format
+#| msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16"
 msgstr "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
 
 #: data/effects/copychannelstostereo.xml:12
@@ -19067,12 +19068,12 @@ msgstr ""
 "Cliceáil faoi dhó, scaoil comhaid \n"
 "nó cliceáil %1 chun meáin a allmhairiú"
 
-#: src/bin/bin.cpp:322 src/bin/bin.cpp:680 src/monitor/view/ClipMonitor.qml:597
+#: src/bin/bin.cpp:322 src/bin/bin.cpp:680 src/monitor/view/ClipMonitor.qml:553
 #, kde-format
 msgid "Drag to add only audio to timeline"
 msgstr "Tarraing chun fuaim amháin a chur leis an amlíne"
 
-#: src/bin/bin.cpp:326 src/bin/bin.cpp:684 src/monitor/view/ClipMonitor.qml:551
+#: src/bin/bin.cpp:326 src/bin/bin.cpp:684 src/monitor/view/ClipMonitor.qml:553
 #, kde-format
 msgid "Drag to add only video to timeline"
 msgstr "Tarraing chun físeán amháin a chur leis an amlíne"
@@ -22208,7 +22209,7 @@ msgstr "Fuaim gan rian físe"
 msgid "Rendering %1 started"
 msgstr "Tosaíodh ag rindreáil %1"
 
-#: src/dialogs/renderwidget.cpp:1248 src/monitor/monitor.cpp:1413
+#: src/dialogs/renderwidget.cpp:1248 src/monitor/monitor.cpp:1424
 #, kde-format
 msgid "untitled"
 msgstr "gan teideal"
@@ -29048,7 +29049,7 @@ msgid "Audio streams"
 msgstr "Sruthanna fuaime"
 
 #: src/mltcontroller/clippropertiescontroller.cpp:878
-#: src/monitor/monitor.cpp:2096
+#: src/monitor/monitor.cpp:2107
 #, kde-format
 msgid "Merge all streams"
 msgstr "Cumaisc na sruthanna go léir"
@@ -29468,29 +29469,29 @@ msgstr "Ní féidir crios a athrú agus masc á chruthú"
 msgid "Set Zone"
 msgstr "Socraigh Crios"
 
-#: src/monitor/monitor.cpp:1426
+#: src/monitor/monitor.cpp:1437
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Image to Project"
 msgstr "Sábháil Íomhá chuig an Tionscadal"
 
-#: src/monitor/monitor.cpp:1426
+#: src/monitor/monitor.cpp:1437
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Image"
 msgstr "Sábháil Íomhá"
 
-#: src/monitor/monitor.cpp:1433
+#: src/monitor/monitor.cpp:1444
 #, kde-format
 msgid "Export image using source resolution"
 msgstr "Easpórtáil íomhá ag baint úsáide as rún an fhoinse"
 
-#: src/monitor/monitor.cpp:1973
+#: src/monitor/monitor.cpp:1984
 #, kde-format
 msgid "Exit Mask Mode ?"
 msgstr "Mód Masc a Scoir?"
 
-#: src/monitor/monitor.cpp:2081 src/monitor/monitor.cpp:2210
+#: src/monitor/monitor.cpp:2092 src/monitor/monitor.cpp:2221
 #, kde-format
 msgid "%1 audio stream"
 msgid_plural "%1 audio streams"
@@ -29500,13 +29501,13 @@ msgstr[2] "%1 sruthanna fuaime"
 msgstr[3] "%1 sruthanna fuaime"
 msgstr[4] "%1 sruthanna fuaime"
 
-#: src/monitor/monitor.cpp:2532
+#: src/monitor/monitor.cpp:2543
 #, kde-format
 msgid "Cannot initialize Movit's GLSL manager, please disable Movit"
 msgstr ""
 "Ní féidir bainisteoir GLSL Movit a thosú, díchumasaigh Movit le do thoil"
 
-#: src/monitor/monitor.cpp:2574 src/monitor/monitor.cpp:2631
+#: src/monitor/monitor.cpp:2585 src/monitor/monitor.cpp:2642
 #, kde-format
 msgid ""
 "The alphagrad filter is required for that feature, please install frei0r and "
@@ -29515,19 +29516,19 @@ msgstr ""
 "Tá an scagaire alphagrad riachtanach don ghné sin, suiteáil frei0r agus "
 "atosú Kdenlive le do thoil"
 
-#: src/monitor/monitor.cpp:2594
+#: src/monitor/monitor.cpp:2605
 #, kde-format
 msgid "Clip has no effects"
 msgstr "Níl aon éifeachtaí ag an ghearrthóg"
 
-#: src/monitor/monitor.cpp:2596
+#: src/monitor/monitor.cpp:2607
 #, kde-format
 msgid "Select a clip in project bin to compare effect"
 msgstr ""
 "Roghnaigh gearrthóg sa bhosca tionscadail chun an éifeacht a chur i "
 "gcomparáid"
 
-#: src/monitor/monitor.cpp:2638
+#: src/monitor/monitor.cpp:2649
 #, kde-format
 msgid ""
 "The cairoblend transition is required for that feature, please install "
@@ -29536,24 +29537,24 @@ msgstr ""
 "Tá an t-aistriú cairoblend riachtanach don ghné sin, suiteáil frei0r agus "
 "atosú Kdenlive le do thoil"
 
-#: src/monitor/monitor.cpp:2718
+#: src/monitor/monitor.cpp:2729
 #, kde-format
 msgid "Enable edit mode in monitor to edit effect"
 msgstr ""
 "Cumasaigh mód eagarthóireachta sa mhonatóir chun éifeacht eagarthóireachta a "
 "dhéanamh"
 
-#: src/monitor/monitor.cpp:3225
+#: src/monitor/monitor.cpp:3236
 #, kde-format
 msgid "No clip selected in Clip Monitor"
 msgstr "Níl aon ghearrthóg roghnaithe i Monatóir na Gearrthóg"
 
-#: src/monitor/monitor.cpp:3246
+#: src/monitor/monitor.cpp:3257
 #, kde-format
 msgid "Cannot get producer for Clip Monitor"
 msgstr "Ní féidir léiritheoir a fháil do Clip Monitor"
 
-#: src/monitor/monitor.cpp:3328 src/monitor/monitor.cpp:3359
+#: src/monitor/monitor.cpp:3339 src/monitor/monitor.cpp:3370
 #: src/timeline2/view/timelinecontroller.cpp:5770
 #, kde-format
 msgid "No valid zone defined. Please set in/out points first."
@@ -29561,18 +29562,18 @@ msgstr ""
 "Níl crios bailí sainmhínithe. Socraigh pointí isteach/amach ar dtús le do "
 "thoil."
 
-#: src/monitor/monitor.cpp:3338
+#: src/monitor/monitor.cpp:3349
 #, kde-format
 msgid "Create Range Marker from Zone"
 msgstr "Cruthaigh Marcóir Raoin ón gCrios"
 
-#: src/monitor/monitor.cpp:3344 src/monitor/monitor.cpp:3365
+#: src/monitor/monitor.cpp:3355 src/monitor/monitor.cpp:3376
 #: src/timeline2/view/timelinecontroller.cpp:5785
 #, kde-format
 msgid "Range marker created from zone"
 msgstr "Marcóir raoin cruthaithe ón gcrios"
 
-#: src/monitor/monitor.cpp:3346 src/monitor/monitor.cpp:3367
+#: src/monitor/monitor.cpp:3357 src/monitor/monitor.cpp:3378
 #: src/timeline2/view/timelinecontroller.cpp:5788
 #, kde-format
 msgid "Failed to create range marker from zone"
@@ -29784,17 +29785,17 @@ msgstr "Ní mór MLT a thiomsú le libfftw3 chun Speictream Fuaime a chumasú"
 msgid "Enable Audio Spectrum"
 msgstr "Cumasaigh Speictream Fuaime"
 
-#: src/monitor/videowidget.cpp:1144
+#: src/monitor/videowidget.cpp:1148
 #, kde-format
 msgid "Select a zone to play"
 msgstr "Roghnaigh crios le himirt"
 
-#: src/monitor/videowidget.cpp:1153
+#: src/monitor/videowidget.cpp:1157
 #, kde-format
 msgid "Select a clip to play"
 msgstr "Roghnaigh gearrthóg le seinm"
 
-#: src/monitor/videowidget.cpp:1258
+#: src/monitor/videowidget.cpp:1262
 #, kde-format
 msgid ""
 "Could not create the video preview window.\n"
@@ -29805,41 +29806,27 @@ msgstr ""
 "Tá rud éigin cearr le do shuiteáil Kdenlive nó le do shocruithe tiománaí, le "
 "do thoil socraigh é."
 
-#: src/monitor/view/ClipMonitor.qml:165
-#, kde-kuit-format
-msgctxt "@info:whatsthis"
-msgid ""
-"<shortcut>Click</shortcut> to play, <shortcut>Double click</shortcut> for "
-"fullscreen, <shortcut>Hover right</shortcut> for toolbar, <shortcut>Wheel</"
-"shortcut> or <shortcut>arrows</shortcut> to seek, <shortcut>Ctrl wheel</"
-"shortcut> to zoom"
-msgstr ""
-"<shortcut>Cliceáil</shortcut> le himirt, <shortcut>Cliceáil faoi dhó</"
-"shortcut> le haghaidh lánscáileáin, <shortcut>Bog ar dheis</shortcut> don "
-"bharra uirlisí, <shortcut>Roth</shortcut> nó <shortcut>saigheada</shortcut> "
-"le cuardach, <shortcut>Roth Ctrl</shortcut> le súmáil isteach"
-
-#: src/monitor/view/ClipMonitor.qml:363 src/monitor/view/ProjectMonitor.qml:195
+#: src/monitor/view/ClipMonitor.qml:364 src/monitor/view/ProjectMonitor.qml:195
 #, kde-format
 msgid "%1fps"
 msgstr "%1fps"
 
-#: src/monitor/view/ClipMonitor.qml:402 src/monitor/view/ProjectMonitor.qml:228
+#: src/monitor/view/ClipMonitor.qml:403 src/monitor/view/ProjectMonitor.qml:228
 #, kde-format
 msgid "In Point"
 msgstr "I bPointe"
 
-#: src/monitor/view/ClipMonitor.qml:402
+#: src/monitor/view/ClipMonitor.qml:403
 #, kde-format
 msgid "In/Out Point"
 msgstr "Pointe Isteach/Amach"
 
-#: src/monitor/view/ClipMonitor.qml:425 src/monitor/view/ProjectMonitor.qml:245
+#: src/monitor/view/ClipMonitor.qml:426 src/monitor/view/ProjectMonitor.qml:245
 #, kde-format
 msgid "Out Point"
 msgstr "Pointe Amach"
 
-#: src/monitor/view/ClipMonitor.qml:643
+#: src/monitor/view/ClipMonitor.qml:614
 #, kde-format
 msgid "Terminate Job"
 msgstr "Foirceannadh Poist"
@@ -39989,6 +39976,18 @@ msgstr "%1n"
 msgctxt "h as hours"
 msgid "%1h"
 msgstr "%1u"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<shortcut>Click</shortcut> to play, <shortcut>Double click</shortcut> for "
+#~ "fullscreen, <shortcut>Hover right</shortcut> for toolbar, "
+#~ "<shortcut>Wheel</shortcut> or <shortcut>arrows</shortcut> to seek, "
+#~ "<shortcut>Ctrl wheel</shortcut> to zoom"
+#~ msgstr ""
+#~ "<shortcut>Cliceáil</shortcut> le himirt, <shortcut>Cliceáil faoi dhó</"
+#~ "shortcut> le haghaidh lánscáileáin, <shortcut>Bog ar dheis</shortcut> don "
+#~ "bharra uirlisí, <shortcut>Roth</shortcut> nó <shortcut>saigheada</"
+#~ "shortcut> le cuardach, <shortcut>Roth Ctrl</shortcut> le súmáil isteach"
 
 #~ msgid "Center X"
 #~ msgstr "Lár X"

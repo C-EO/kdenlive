@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-30 00:43+0000\n"
+"POT-Creation-Date: 2026-01-31 00:42+0000\n"
 "PO-Revision-Date: 2026-01-28 17:47+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -7393,8 +7393,9 @@ msgstr "من"
 
 #: data/effects/copychannelstostereo.xml:9
 #: data/effects/copychannelstostereo.xml:13
-#, kde-format
-msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+#, fuzzy, kde-format
+#| msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16"
 msgstr "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
 
 #: data/effects/copychannelstostereo.xml:12
@@ -18655,12 +18656,12 @@ msgstr ""
 "انقر نقرًا مزدوجًا، أسقط الملفات\n"
 "أو انقر على %1 لاستيراد الوسائط"
 
-#: src/bin/bin.cpp:322 src/bin/bin.cpp:680 src/monitor/view/ClipMonitor.qml:597
+#: src/bin/bin.cpp:322 src/bin/bin.cpp:680 src/monitor/view/ClipMonitor.qml:553
 #, kde-format
 msgid "Drag to add only audio to timeline"
 msgstr "اسحب لإضافة الصوت فقط إلى الخط الزمني"
 
-#: src/bin/bin.cpp:326 src/bin/bin.cpp:684 src/monitor/view/ClipMonitor.qml:551
+#: src/bin/bin.cpp:326 src/bin/bin.cpp:684 src/monitor/view/ClipMonitor.qml:553
 #, kde-format
 msgid "Drag to add only video to timeline"
 msgstr "اسحب لإضافة الفيديو فقط إلى الخط الزمني"
@@ -21747,7 +21748,7 @@ msgstr "صوت بلا مسار فيديو"
 msgid "Rendering %1 started"
 msgstr "بدأ تصيير %1"
 
-#: src/dialogs/renderwidget.cpp:1248 src/monitor/monitor.cpp:1413
+#: src/dialogs/renderwidget.cpp:1248 src/monitor/monitor.cpp:1424
 #, kde-format
 msgid "untitled"
 msgstr "بلا عنوان"
@@ -28445,7 +28446,7 @@ msgid "Audio streams"
 msgstr "التدفقات الصوتية"
 
 #: src/mltcontroller/clippropertiescontroller.cpp:878
-#: src/monitor/monitor.cpp:2096
+#: src/monitor/monitor.cpp:2107
 #, kde-format
 msgid "Merge all streams"
 msgstr "ادمج كل التدفقات"
@@ -28857,29 +28858,29 @@ msgstr "لا يمكن تغيير المنطقة عند إنشاء قناع"
 msgid "Set Zone"
 msgstr "عين المنطقة"
 
-#: src/monitor/monitor.cpp:1426
+#: src/monitor/monitor.cpp:1437
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Image to Project"
 msgstr "احفظ الصّورة في المشروع"
 
-#: src/monitor/monitor.cpp:1426
+#: src/monitor/monitor.cpp:1437
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Image"
 msgstr "احفظ الصّورة"
 
-#: src/monitor/monitor.cpp:1433
+#: src/monitor/monitor.cpp:1444
 #, kde-format
 msgid "Export image using source resolution"
 msgstr "صدر الصورة باستعمال دقة المصدر"
 
-#: src/monitor/monitor.cpp:1973
+#: src/monitor/monitor.cpp:1984
 #, kde-format
 msgid "Exit Mask Mode ?"
 msgstr "هل اخرج من نمط القناع؟"
 
-#: src/monitor/monitor.cpp:2081 src/monitor/monitor.cpp:2210
+#: src/monitor/monitor.cpp:2092 src/monitor/monitor.cpp:2221
 #, kde-format
 msgid "%1 audio stream"
 msgid_plural "%1 audio streams"
@@ -28890,12 +28891,12 @@ msgstr[3] "%1 دفق صوتية"
 msgstr[4] "%1 دفق صوتية"
 msgstr[5] "%1 دفق صوتية"
 
-#: src/monitor/monitor.cpp:2532
+#: src/monitor/monitor.cpp:2543
 #, kde-format
 msgid "Cannot initialize Movit's GLSL manager, please disable Movit"
 msgstr "لا يمكن بدء مدير GLSL لـMovit، الرجاء تعطيل Movit"
 
-#: src/monitor/monitor.cpp:2574 src/monitor/monitor.cpp:2631
+#: src/monitor/monitor.cpp:2585 src/monitor/monitor.cpp:2642
 #, kde-format
 msgid ""
 "The alphagrad filter is required for that feature, please install frei0r and "
@@ -28903,17 +28904,17 @@ msgid ""
 msgstr ""
 "مطلوب مرشح alphagrad لتلك الميزة، يرجى تثبيت frei0r وإعادة تشغيل كدنلايف"
 
-#: src/monitor/monitor.cpp:2594
+#: src/monitor/monitor.cpp:2605
 #, kde-format
 msgid "Clip has no effects"
 msgstr "المقطع لا يحوي تأثيرات"
 
-#: src/monitor/monitor.cpp:2596
+#: src/monitor/monitor.cpp:2607
 #, kde-format
 msgid "Select a clip in project bin to compare effect"
 msgstr "اختر مقطع في سلة المشروع لتقاران التأثير"
 
-#: src/monitor/monitor.cpp:2638
+#: src/monitor/monitor.cpp:2649
 #, kde-format
 msgid ""
 "The cairoblend transition is required for that feature, please install "
@@ -28921,39 +28922,39 @@ msgid ""
 msgstr ""
 "مطلوب مرشح cairoblend لتلك الميزة، يرجى تثبيت frei0r وإعادة تشغيل كدنلايف"
 
-#: src/monitor/monitor.cpp:2718
+#: src/monitor/monitor.cpp:2729
 #, kde-format
 msgid "Enable edit mode in monitor to edit effect"
 msgstr "مكّن نمط التحرير في الشاشة لتحرر التأثير"
 
-#: src/monitor/monitor.cpp:3225
+#: src/monitor/monitor.cpp:3236
 #, kde-format
 msgid "No clip selected in Clip Monitor"
 msgstr "لا يوجد مقطع محدد في شاشة المقاطع"
 
-#: src/monitor/monitor.cpp:3246
+#: src/monitor/monitor.cpp:3257
 #, kde-format
 msgid "Cannot get producer for Clip Monitor"
 msgstr "لا يمكن الحصول على منتج لشاشة المقاطع"
 
-#: src/monitor/monitor.cpp:3328 src/monitor/monitor.cpp:3359
+#: src/monitor/monitor.cpp:3339 src/monitor/monitor.cpp:3370
 #: src/timeline2/view/timelinecontroller.cpp:5770
 #, kde-format
 msgid "No valid zone defined. Please set in/out points first."
 msgstr "لا يوجد نطاق صالح محدد. رجاء اضبط نقاط الدخول/الخروج أولا."
 
-#: src/monitor/monitor.cpp:3338
+#: src/monitor/monitor.cpp:3349
 #, kde-format
 msgid "Create Range Marker from Zone"
 msgstr "أنشئ علامة نطاق من المنطقة"
 
-#: src/monitor/monitor.cpp:3344 src/monitor/monitor.cpp:3365
+#: src/monitor/monitor.cpp:3355 src/monitor/monitor.cpp:3376
 #: src/timeline2/view/timelinecontroller.cpp:5785
 #, kde-format
 msgid "Range marker created from zone"
 msgstr "علامة النطاق التي تُنشئ من المنطقة"
 
-#: src/monitor/monitor.cpp:3346 src/monitor/monitor.cpp:3367
+#: src/monitor/monitor.cpp:3357 src/monitor/monitor.cpp:3378
 #: src/timeline2/view/timelinecontroller.cpp:5788
 #, kde-format
 msgid "Failed to create range marker from zone"
@@ -29163,17 +29164,17 @@ msgstr "يجب أن يكون MLT مصرّفًا بـ libfftw3 لتفعيل طي�
 msgid "Enable Audio Spectrum"
 msgstr "مكّن طيف الصّوت"
 
-#: src/monitor/videowidget.cpp:1144
+#: src/monitor/videowidget.cpp:1148
 #, kde-format
 msgid "Select a zone to play"
 msgstr "حدد منطقة لتشغيلها"
 
-#: src/monitor/videowidget.cpp:1153
+#: src/monitor/videowidget.cpp:1157
 #, kde-format
 msgid "Select a clip to play"
 msgstr "حدد مقطع لتشغيله"
 
-#: src/monitor/videowidget.cpp:1258
+#: src/monitor/videowidget.cpp:1262
 #, kde-format
 msgid ""
 "Could not create the video preview window.\n"
@@ -29184,40 +29185,27 @@ msgstr ""
 "هناك شيء خاطئ في تثبيت كدنلايف الخاص بك أو إعدادات برنامج التشغيل الثابتة "
 "الخاص بك، يرجى إصلاحه."
 
-#: src/monitor/view/ClipMonitor.qml:165
-#, kde-kuit-format
-msgctxt "@info:whatsthis"
-msgid ""
-"<shortcut>Click</shortcut> to play, <shortcut>Double click</shortcut> for "
-"fullscreen, <shortcut>Hover right</shortcut> for toolbar, <shortcut>Wheel</"
-"shortcut> or <shortcut>arrows</shortcut> to seek, <shortcut>Ctrl wheel</"
-"shortcut> to zoom"
-msgstr ""
-"<shortcut> النقر</shortcut> للتشغيل، <shortcut> النقر المزدوج</shortcut> "
-"للحصول على ملء الشاشة، <shortcut> تحوم اليمين </shortcut> للبحث، <shortcut> "
-"Ctrl مع العجلة </shortcut> للتكبير"
-
-#: src/monitor/view/ClipMonitor.qml:363 src/monitor/view/ProjectMonitor.qml:195
+#: src/monitor/view/ClipMonitor.qml:364 src/monitor/view/ProjectMonitor.qml:195
 #, kde-format
 msgid "%1fps"
 msgstr "%1 إطار/ثا"
 
-#: src/monitor/view/ClipMonitor.qml:402 src/monitor/view/ProjectMonitor.qml:228
+#: src/monitor/view/ClipMonitor.qml:403 src/monitor/view/ProjectMonitor.qml:228
 #, kde-format
 msgid "In Point"
 msgstr "نقطة الدخول"
 
-#: src/monitor/view/ClipMonitor.qml:402
+#: src/monitor/view/ClipMonitor.qml:403
 #, kde-format
 msgid "In/Out Point"
 msgstr "نقطة الدخول/الخروج"
 
-#: src/monitor/view/ClipMonitor.qml:425 src/monitor/view/ProjectMonitor.qml:245
+#: src/monitor/view/ClipMonitor.qml:426 src/monitor/view/ProjectMonitor.qml:245
 #, kde-format
 msgid "Out Point"
 msgstr "نقطة الخروج"
 
-#: src/monitor/view/ClipMonitor.qml:643
+#: src/monitor/view/ClipMonitor.qml:614
 #, kde-format
 msgid "Terminate Job"
 msgstr "أنهِ المهمّة"
@@ -39227,6 +39215,17 @@ msgstr "%1د"
 msgctxt "h as hours"
 msgid "%1h"
 msgstr "%1س"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "<shortcut>Click</shortcut> to play, <shortcut>Double click</shortcut> for "
+#~ "fullscreen, <shortcut>Hover right</shortcut> for toolbar, "
+#~ "<shortcut>Wheel</shortcut> or <shortcut>arrows</shortcut> to seek, "
+#~ "<shortcut>Ctrl wheel</shortcut> to zoom"
+#~ msgstr ""
+#~ "<shortcut> النقر</shortcut> للتشغيل، <shortcut> النقر المزدوج</shortcut> "
+#~ "للحصول على ملء الشاشة، <shortcut> تحوم اليمين </shortcut> للبحث، "
+#~ "<shortcut> Ctrl مع العجلة </shortcut> للتكبير"
 
 #~ msgid "Center X"
 #~ msgstr "مركز س"
