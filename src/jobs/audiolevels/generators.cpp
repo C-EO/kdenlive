@@ -76,24 +76,24 @@ QVector<int16_t> generateMLT(const size_t streamIdx, const QString &service, con
     timer.start();
 
     // Create a new, separate producer for this clip. It will have the same fps as the current project profile
-    const auto aProd = std::make_unique<Mlt::Producer>(pCore->getProjectProfile(), service.toUtf8().constData(), resource.toUtf8().constData());
-    if (!aProd->is_valid()) {
+    Mlt::Producer aProd(pCore->getProjectProfile(), service.toUtf8().constData(), resource.toUtf8().constData());
+    if (!aProd.is_valid()) {
         qWarning() << "Could not create producer for" << service << ":" << resource;
         return {};
     }
-    aProd->set("video_index", -1); // disable video
-    aProd->set("audio_index", static_cast<int>(streamIdx));
-    aProd->set("cache", 0); // disable caching, should help with performance
+    aProd.set("video_index", -1); // disable video
+    aProd.set("audio_index", static_cast<int>(streamIdx));
+    aProd.set("cache", 0); // disable caching, should help with performance
     if (duration > 0) {
-        aProd->set("length", duration);
+        aProd.set("length", duration);
     }
 
     int sampleRate = 44100;                                                // Request this sample rate (MLT will resample under the hood)
     Mlt::Filter convertFilter(pCore->getProjectProfile(), "audioconvert"); // add a filter to convert the sample format
-    aProd->attach(convertFilter);
+    aProd.attach(convertFilter);
 
-    const double framesPerSecond = aProd->get_fps();
-    const int lengthInFrames = aProd->get_length();
+    const double framesPerSecond = aProd.get_fps();
+    const int lengthInFrames = aProd.get_length();
     mlt_audio_format audioFormat = mlt_audio_s16; // target sample format == interleaved uint16_t
 
     QVector<int16_t> levels(lengthInFrames * AUDIOLEVELS_POINTS_PER_FRAME * channels);
@@ -103,7 +103,7 @@ QVector<int16_t> generateMLT(const size_t streamIdx, const QString &service, con
             break;
         }
 
-        auto mltFrame = std::unique_ptr<Mlt::Frame>(aProd->get_frame());
+        auto mltFrame = std::unique_ptr<Mlt::Frame>(aProd.get_frame());
         if (mltFrame && mltFrame->is_valid()) {
             int samples = mlt_audio_calculate_frame_samples(static_cast<float>(framesPerSecond), sampleRate, f);
             const auto buf = static_cast<int16_t *>(mltFrame->get_audio(audioFormat, sampleRate, channels, samples));

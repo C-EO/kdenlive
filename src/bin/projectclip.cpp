@@ -2060,7 +2060,7 @@ int ProjectClip::audioChannels(int stream) const
 
 void ProjectClip::discardAudioThumb(bool recreate)
 {
-    if (!m_audioInfo) {
+    if (!m_audioInfo || pCore->projectItemModel()->closing) {
         return;
     }
     pCore->taskManager.discardJobs(ObjectId(KdenliveObjectType::BinClip, m_binId.toInt(), QUuid()), AbstractTask::AUDIOTHUMBJOB);

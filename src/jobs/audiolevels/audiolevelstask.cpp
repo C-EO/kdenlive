@@ -146,7 +146,7 @@ void AudioLevelsTask::run()
         return;
     }
 
-    QString service = producer->get("mlt_service");
+    QString service = qstrdup(producer->get("mlt_service"));
     if (service == QLatin1String("avformat-novalidate")) {
         service = QStringLiteral("avformat");
     } else if (service.startsWith(QLatin1String("xml"))) {
@@ -168,7 +168,7 @@ void AudioLevelsTask::run()
         const QString cachePath = binClip->getAudioThumbPath(streamIdx.key());
         QVector<int16_t> levels;
         bool skipSaving = false;
-        if (!m_isCanceled && !m_isForce && QFile::exists(cachePath)) {
+        if (!m_isCanceled && !m_isForce && !cachePath.isEmpty() && QFile::exists(cachePath)) {
             // load from cache
             levels = getLevelsFromCache(cachePath);
             skipSaving = true;
