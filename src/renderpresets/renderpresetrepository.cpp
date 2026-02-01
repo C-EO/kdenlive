@@ -96,7 +96,7 @@ void RenderPresetRepository::refresh(bool fullRefresh)
         m_profileCategories.clear();
     }
     // Ensure MLT presets categories exist
-    m_profileCategories = {{QStringLiteral("custom"), i18nc("Custom render preset catagory", "Custom")},
+    m_profileCategories = {{QStringLiteral("custom"), i18nc("Custom render preset category", "Custom")},
                            {QStringLiteral("10bit"), i18nc("10 Bit color depth category", "10 Bit")},
                            {QStringLiteral("lossless"), i18nc("Lossless rendering category", "Lossless/HQ")}};
 
