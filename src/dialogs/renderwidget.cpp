@@ -567,6 +567,8 @@ RenderWidget::RenderWidget(bool enableProxy, QWidget *parent)
         if (str.isEmpty()) {
             // focus last selected item when clearing search line
             focusItem(m_currentProfile);
+        } else {
+            m_view.profileTree->expandAll();
         }
     });
 
