@@ -1416,6 +1416,13 @@ Bin::Bin(std::shared_ptr<ProjectItemModel> model, QWidget *parent, bool isMainBi
             if (current.isValid()) {
                 m_itemView->scrollTo(current, QAbstractItemView::EnsureVisible);
             }
+        } else {
+            if (m_listType == BinTreeView) {
+                auto *tView = static_cast<QTreeView *>(m_itemView);
+                if (tView) {
+                    tView->expandAll();
+                }
+            }
         }
     });
 
