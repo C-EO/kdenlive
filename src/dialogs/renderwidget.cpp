@@ -2125,7 +2125,7 @@ void RenderWidget::saveRenderProfile()
     // Save rendering profile to document
     QMap<QString, QString> renderProps;
     std::unique_ptr<RenderPresetModel> &preset = RenderPresetRepository::get()->getPreset(m_currentProfile);
-    renderProps.insert(QStringLiteral("rendercategory"), preset->groupName());
+    renderProps.insert(QStringLiteral("rendercategory"), preset->groupId());
     renderProps.insert(QStringLiteral("renderprofile"), preset->name());
     renderProps.insert(QStringLiteral("renderurl"), m_view.out_file->url().toLocalFile());
     int mode = 0; // 0 = full project
