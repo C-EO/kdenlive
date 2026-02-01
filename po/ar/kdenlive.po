@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-31 00:42+0000\n"
-"PO-Revision-Date: 2026-01-28 17:47+0400\n"
+"PO-Revision-Date: 2026-01-31 20:25+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -7393,10 +7393,9 @@ msgstr "من"
 
 #: data/effects/copychannelstostereo.xml:9
 #: data/effects/copychannelstostereo.xml:13
-#, fuzzy, kde-format
-#| msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+#, kde-format
 msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16"
-msgstr "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+msgstr "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16"
 
 #: data/effects/copychannelstostereo.xml:12
 #, kde-format
@@ -32773,8 +32772,7 @@ msgid "Could not add bin clip"
 msgstr "لا يمكن إضافة سلة المقاطع"
 
 #: src/timeline2/model/timelinefunctions.cpp:2571
-#, fuzzy, kde-format
-#| msgid "All clips were not successfully copied"
+#, kde-format
 msgid "Not all clips were copied successfully"
 msgstr "لم ينسخ كل المقاطع بنجاح"
 

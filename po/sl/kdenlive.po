@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Trunk\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-01-31 00:42+0000\n"
-"PO-Revision-Date: 2026-01-28 17:53+0100\n"
+"PO-Revision-Date: 2026-01-31 14:12+0100\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -7515,10 +7515,9 @@ msgstr "OD"
 
 #: data/effects/copychannelstostereo.xml:9
 #: data/effects/copychannelstostereo.xml:13
-#, fuzzy, kde-format
-#| msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+#, kde-format
 msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16"
-msgstr "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+msgstr "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16"
 
 #: data/effects/copychannelstostereo.xml:12
 #, kde-format
@@ -33144,8 +33143,7 @@ msgid "Could not add bin clip"
 msgstr "Ni možno dodati posnetka iz posode"
 
 #: src/timeline2/model/timelinefunctions.cpp:2571
-#, fuzzy, kde-format
-#| msgid "All clips were not successfully copied"
+#, kde-format
 msgid "Not all clips were copied successfully"
 msgstr "Vsi posnetki niso bili uspešno kopirani"
 
@@ -39613,15 +39611,3 @@ msgstr "%1m"
 msgctxt "h as hours"
 msgid "%1h"
 msgstr "%1u"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid ""
-#~ "<shortcut>Click</shortcut> to play, <shortcut>Double click</shortcut> for "
-#~ "fullscreen, <shortcut>Hover right</shortcut> for toolbar, "
-#~ "<shortcut>Wheel</shortcut> or <shortcut>arrows</shortcut> to seek, "
-#~ "<shortcut>Ctrl wheel</shortcut> to zoom"
-#~ msgstr ""
-#~ "<shortcut>Klik</shortcut> za predvajanje, <shortcut>dvoklik</shortcut> za "
-#~ "celozaslonsko, <shortcut>desni postoj</shortcut> za orodno vrstico, "
-#~ "<shortcut>kolešček miške</shortcut> ali <shortcut>smerne tipke</shortcut> "
-#~ "za iskanje, <shortcut>krmilka+kolešček</shortcut> za povečavo"

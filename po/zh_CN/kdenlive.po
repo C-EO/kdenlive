@@ -7291,10 +7291,9 @@ msgstr "来源"
 
 #: data/effects/copychannelstostereo.xml:9
 #: data/effects/copychannelstostereo.xml:13
-#, fuzzy, kde-format
-#| msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+#, kde-format
 msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16"
-msgstr "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+msgstr ""
 
 #: data/effects/copychannelstostereo.xml:12
 #, kde-format
@@ -7464,7 +7463,7 @@ msgstr "Normalize - 标准化"
 msgid ""
 "Designed for live streams. Dynamically correct audio loudness as recommended "
 "by EBU R128"
-msgstr ""
+msgstr "用于直播，动态校正音频响度 ( EBU R128 建议)"
 
 #: data/effects/dynamic_loudness.xml:8 data/effects/loudness.xml:8
 #, kde-format
@@ -10439,12 +10438,12 @@ msgstr "创建炫目的发光效果"
 #: data/effects/frei0r/frei0r_heatmap0r.xml:4
 #, kde-format
 msgid "Heatmap0r"
-msgstr ""
+msgstr "热力图0r"
 
 #: data/effects/frei0r/frei0r_heatmap0r.xml:5
 #, kde-format
 msgid "Performs a continuous trichromatic tinting based on luminance"
-msgstr ""
+msgstr "根据亮度进行连续的三色着色"
 
 #: data/effects/frei0r/frei0r_heatmap0r.xml:8
 #: data/effects/frei0r/frei0r_tint0r.xml:8
@@ -10455,17 +10454,17 @@ msgstr "映射黑色到"
 #: data/effects/frei0r/frei0r_heatmap0r.xml:9
 #, kde-format
 msgid "The color to map source color with zero luminance"
-msgstr ""
+msgstr "映射源数据中亮度为零的颜色到此颜色"
 
 #: data/effects/frei0r/frei0r_heatmap0r.xml:12
 #, kde-format
 msgid "Map grey to"
-msgstr ""
+msgstr "映射灰色到"
 
 #: data/effects/frei0r/frei0r_heatmap0r.xml:13
 #, kde-format
 msgid "The color to map source color with mid luminance"
-msgstr ""
+msgstr "映射源数据中等亮度的颜色到此颜色"
 
 #: data/effects/frei0r/frei0r_heatmap0r.xml:16
 #: data/effects/frei0r/frei0r_tint0r.xml:11
@@ -10476,17 +10475,17 @@ msgstr "映射白色到"
 #: data/effects/frei0r/frei0r_heatmap0r.xml:17
 #, kde-format
 msgid "The color to map source color with full luminance"
-msgstr ""
+msgstr "映射源数据中全亮度的颜色到此颜色"
 
 #: data/effects/frei0r/frei0r_heatmap0r.xml:20
 #, kde-format
 msgid "Grey point"
-msgstr ""
+msgstr "灰点"
 
 #: data/effects/frei0r/frei0r_heatmap0r.xml:21
 #, kde-format
 msgid "Point in the luminance axis grey color is located"
-msgstr ""
+msgstr "灰点在亮度轴上的位置"
 
 #: data/effects/frei0r/frei0r_hqdn3d.xml:4
 #, kde-format
@@ -12602,6 +12601,9 @@ msgid ""
 "fields (speed, distance, etc), it also interpolates missing values for heart "
 "rate and altitude."
 msgstr ""
+"参与平滑和消除 GPS 误差的定位点数量。<br>\n"
+"    \t值为 1 时不会对位置进行平滑处理，仅计算额外字段 (速度、距离等) ，并对缺"
+"失的心率和海拔数据进行插值。"
 
 #: data/effects/gpsgraphic.xml:22
 #, kde-format
@@ -12615,6 +12617,8 @@ msgid ""
 "speed up/slow down ratio.<br>\n"
 "        Sample values: 30 for 30x timelapse, 0.25 for 4x slow motion footage."
 msgstr ""
+"若视频文件是延时摄影 (或慢动作)，请使用此选项设置加/减速比例。<br>\n"
+"        示例值：30 表示 30 倍速延时摄影，0.25 表示 4 倍慢动作视频。"
 
 #: data/effects/gpsgraphic.xml:27
 #, kde-format
@@ -12649,6 +12653,13 @@ msgid ""
 "(it will statically keep\n"
 "the same min/max limit allowing the Now dot to move up and down)."
 msgstr ""
+"<b>速度计</b>适用于所有数据源，但仅推荐用于速度；在地图类型中，它表示从裁剪后"
+"的起点到终点所完成的“百分比”。<br>\n"
+"注意：对于类型 1（缩放并居中，即“跟随圆点”）：<br>\n"
+"* 裁剪值仅以百分比形式有效，且仅会考虑底部（或左侧）的值，因为要保持圆点居"
+"中，底部/顶部（或左侧/右侧）的值必须相等。<br>\n"
+"* 如果数据源不是 GPS 位置，则仅在水平轴（时间轴）上进行居中；垂直轴的裁剪行为"
+"将与基础 2D 地图线相同（即保持固定的最小/最大值，使“当前”圆点可上下移动）。"
 
 #: data/effects/gpsgraphic.xml:41
 #, kde-format
@@ -12672,6 +12683,9 @@ msgid ""
 "the total file, so trimming 50% start and 50% end will result in trimming "
 "the entire file."
 msgstr ""
+"从 GPS 文件的开头裁剪数据 (以总长度的百分比表示)。<br>\n"
+"    \t注意：<em>裁剪起点</em> 和 <em>裁剪终点</em> 都是基于整个文件的长度百分"
+"比计算的，如果起点和终点各裁剪 50% 将导致整个文件都被裁剪。"
 
 #: data/effects/gpsgraphic.xml:49
 #, no-c-format, kde-format
@@ -12686,6 +12700,9 @@ msgid ""
 "the total file, so trimming 50% start and 50% end will result in trimming "
 "the entire file."
 msgstr ""
+"从 GPS 文件的结尾裁剪数据 (以总长度的百分比表示)。<br>\n"
+"    \t注意：<em>裁剪起点</em> 和 <em>裁剪终点</em> 都是基于整个文件的长度百分"
+"比计算的，如果起点和终点各裁剪 50% 将导致整个文件都被裁剪。"
 
 #: data/effects/gpsgraphic.xml:54
 #, kde-format
@@ -12702,6 +12719,9 @@ msgid ""
 "source type) and time (in milliseconds since epoch) for the rest of the data "
 "source types)"
 msgstr ""
+"用于确定如何解析 <em>裁剪左侧</em> 和 <em>裁剪右侧</em> 的数值。<br>\n"
+"    \t注意：对于水平类型，绝对值是位置经度 (对于位置来源类型)，对于其他数据来"
+"源类型则是时间 (自历元以来的微秒数)"
 
 #: data/effects/gpsgraphic.xml:58 data/effects/gpsgraphic.xml:78
 #, kde-format
@@ -12725,6 +12745,11 @@ msgid ""
 "Type</em> is set to <b>Speedometer</b>, all crop left/right values are "
 "ignored."
 msgstr ""
+"从图表左侧裁剪数据 (相当于放大)。<br>\n"
+"    \t此数值根据水平裁剪模式可以解析为整体的百分比或者绝对值。在百分比模式"
+"下，数值并不限于 0-100 区间以允许“缩小”行为 (例如裁剪左侧 -50 将添加一半长度"
+"的总水平距离)。数值超过 100 (百分比模式) 时将不显示任何内容。如果 <em>图表类"
+"型</em> 设置为 <b>速度计</b>，所有裁剪左侧/右侧的数值将被忽略。"
 
 #: data/effects/gpsgraphic.xml:66
 #, kde-format
@@ -12738,6 +12763,8 @@ msgid ""
 "interpreted as an inverse percentage (ie: 100 = do not crop anything). "
 "Values under 0 will effectively not display anything."
 msgstr ""
+"与 <em>裁剪左侧</em> 相同，但应用在右侧，且百分比类型被解析为相反的百分数 (例"
+"如：100 = 不裁剪任何内容)。数值低于 0 时将不显示任何内容。"
 
 #: data/effects/gpsgraphic.xml:70
 #, kde-format
@@ -12760,6 +12787,12 @@ msgid ""
 "meters by default\n"
 "but if changing <em>Legend unit</em> to feet it will mean 10 feet)."
 msgstr ""
+"用于确定如何解析 <em>裁剪底部</em> 和 <em>裁剪顶部</em> 的数值。<br/>\n"
+"    \t使用绝对值时，此值可以放大到 100 到 150m 之间的海拔以更清晰地显示此区间"
+"数值的微小变化。<br/>\n"
+"注意：对于垂直类型，绝对值是纬度 (对于位置来源类型)，对于其他类型则是海拔、心"
+"率、速度，按照对应的 <em>图例单位</em> 进行解析 (例如：海拔为 10 的数值将默认"
+"被视作 10 米，但如果更改 <em>图例单位</em> 为英尺，它将表示 10 英尺)。"
 
 #: data/effects/gpsgraphic.xml:81
 #, kde-format
@@ -12778,6 +12811,12 @@ msgid ""
 "If <em>Graph type</em> is <b>Speedometer</b>, this will set the minimum "
 "needle position which will clamp all values that are lower."
 msgstr ""
+"从图表底部裁剪数据 (相当于放大)。<br>\n"
+"    \t此数值根据垂直裁剪模式可以解析为整体的百分比或者绝对值。在百分比模式"
+"下，数值并不限于 0-100 区间以允许“缩小”行为 (例如裁剪底部 -50 将在底部添加一"
+"半长度的总水平距离)。数值超过 100 (百分比模式) 时将不显示任何内容。如果 <em>"
+"图表类型</em> 设置为 <b>速度计</b>，此数值将设置最小指针位置，并截断所有低于"
+"它的数值。"
 
 #: data/effects/gpsgraphic.xml:86
 #, kde-format
@@ -12791,6 +12830,9 @@ msgid ""
 "interpreted as an inverse percentage (ie: 100 = do not crop anything).<br>\n"
 "    \tValues under 0 will effectively not display anything."
 msgstr ""
+"与 <em>裁剪左侧</em> 相同，但应用在顶部，且百分比类型被解析为相反的百分数 (例"
+"如：100 = 不裁剪任何内容)。<br>\n"
+"    \t数值低于 0 时将不显示任何内容。"
 
 #: data/effects/gpsgraphic.xml:91
 #, kde-format
@@ -12851,6 +12893,8 @@ msgid ""
 "<br>\n"
 "    \tIf graph type is speedometer, this affects the needle."
 msgstr ""
+"启用此项将在当前位置/时间的图表线条上绘制一个圆盘。<br>\n"
+"    \t如果图表类型设置为速度计，此值将影响指针。"
 
 #: data/effects/gpsgraphic.xml:121
 #, kde-format
@@ -12876,6 +12920,9 @@ msgid ""
 "be used as the current unit (if a valid unit is found ie: kilometers if \"km"
 "\" is found anywhere in the <em>Legend unit</em> string)."
 msgstr ""
+"启用此项将使用白色加粗大字体在矩形的右下角绘制当前值。<br>\n"
+"    \t<em>图例单位</em> 数值将被附加在数值后方，且被用作当前单位 (如果找到有"
+"效单位，例如在 <em>图例单位</em> 字符串中找到了“km”则使用千米)。"
 
 #: data/effects/gpsgraphic.xml:131
 #, kde-format
@@ -12909,6 +12956,10 @@ msgid ""
 "value. For speedometer type this shows division values (but without "
 "appending unit)."
 msgstr ""
+"如果启用此项将绘制 5 条水平线 (地图类型则是垂直线) <br>\n"
+"    \t这些线带有小数值，对应当前数据的来源数值在当前显示的图表的 0%、25%、"
+"50%、75% 和 100%，这些数值受 <em>图例单位</em> 类型影响 (如果可用)，并将其单"
+"位字符串附加在数值之后。对于速度计类型这将显示细分数值 (但不附加单位)。"
 
 #: data/effects/gpsgraphic.xml:143
 #, kde-format
@@ -12923,6 +12974,9 @@ msgid ""
 "        Default is meters and km/h respectively. The unit is matched "
 "anywhere in the string so extra spaces can be used to tweak displaying."
 msgstr ""
+"设置用于显示海拔和速度值的单位。<br>\n"
+"        默认值分别是米和千米/小时。单位可以在字符串的任意位置进行匹配，因此可"
+"以使用额外的空格来调整显示效果。"
 
 #: data/effects/gpsgraphic.xml:146
 #, kde-format
@@ -12950,6 +13004,10 @@ msgid ""
 "is 1) and can either be used as a cool effect when zoomed in enough or to "
 "debug unexpected line jumps."
 msgstr ""
+"如果启用，图表将使用独立的点绘制而不是用线条绘制。<br>\n"
+"    \t这将有效地反映每个数据点受到平滑处理的影响 (例如：对于位置数据，如果平"
+"滑度为 1，则会显示每个 GPS 定位点)。它既可以在放大到一定程度时作为一种酷炫的"
+"效果，也可以用于调试意外的线条跳跃问题。"
 
 #: data/effects/gpsgraphic.xml:154
 #, kde-format
@@ -12963,6 +13021,8 @@ msgid ""
 "        Format is: \"X Y W H\". X, Y, W, H are assumed to be pixel units "
 "unless they have the suffix '%'."
 msgstr ""
+"定义图表要在其中绘制的矩形框。<br>\n"
+"        格式：X Y 宽 高。X、Y、宽、高的默认单位为像素，除非它们带有“%”后缀。"
 
 #: data/effects/gpsgraphic.xml:159
 #, kde-format
@@ -12977,6 +13037,9 @@ msgid ""
 "      \tPaths starting with the \"!\" character are ignored. TIP: use a map "
 "image to add context to the GPS track."
 msgstr ""
+"如果选择了有效的图像，它将被用作矩形区域的背景。<br>\n"
+"      \t以“!”字符开头的路径将被忽略。提示：您可以使用一张地图的图像来为 GPS "
+"轨迹增加背景信息。"
 
 #: data/effects/gpsgraphic.xml:164
 #, kde-format
@@ -12991,6 +13054,8 @@ msgid ""
 "    \tValues smaller than 100 zoom into the image, values larger than 100 "
 "zoom out. 0 hides it."
 msgstr ""
+"缩放背景图像 (相对于中心)，使其与上方的 GPS 轨迹匹配。<br>\n"
+"    \t数值小于 100 时将放大图像，大于 100 时将缩小图像。0 将隐藏图像。"
 
 #: data/effects/gpsgraphic.xml:169 src/titler/titlewidget.cpp:385
 #, kde-format
@@ -13000,7 +13065,7 @@ msgstr "背景不透明度"
 #: data/effects/gpsgraphic.xml:170
 #, kde-format
 msgid "Sets the opacity for the background image"
-msgstr ""
+msgstr "设置背景图像不透明度"
 
 #: data/effects/gpsgraphic.xml:173
 #, kde-format
@@ -13170,7 +13235,7 @@ msgstr "原色之间的重叠或混合量"
 #: data/effects/hsl_primaries.xml:12
 #, kde-format
 msgid "<b><u>Hue Shift</u></b> Red"
-msgstr ""
+msgstr "<b><u>色相偏移</u></b> 红色"
 
 #: data/effects/hsl_primaries.xml:15 data/effects/hsl_primaries.xml:33
 #: data/effects/hsl_primaries.xml:51 src/doc/kdenlivedoc.cpp:2530
@@ -13194,12 +13259,12 @@ msgstr "品红"
 #: data/effects/hsl_primaries.xml:30
 #, kde-format
 msgid "<b><u>Saturation</u></b> Red"
-msgstr ""
+msgstr "<b><u>饱和度</u></b> 红色"
 
 #: data/effects/hsl_primaries.xml:48
 #, kde-format
 msgid "<b><u>Lightness</u></b> Red"
-msgstr ""
+msgstr "<b><u>亮度</u></b> 红色"
 
 #: data/effects/hsl_range.xml:4
 #, kde-format
@@ -13286,53 +13351,55 @@ msgid ""
 "TAP Equalizer (LADSPA 2141)<br>\n"
 "    8-band equalizer with adjustable band center frequencies."
 msgstr ""
+"TAP 均衡器 (LADSPA 2141)<br>\n"
+"    8 段均衡器，可调节各频段的中心频率。"
 
 #: data/effects/ladspa/ladspa_2141.xml:9 data/effects/ladspa/ladspa_2151.xml:9
 #, kde-format
 msgid "<u><b>Band 1</b></u> Freq"
-msgstr ""
+msgstr "<u><b>频段 1</b></u> 频率"
 
 #: data/effects/ladspa/ladspa_2141.xml:15
 #: data/effects/ladspa/ladspa_2151.xml:18
 #, kde-format
 msgid "<u><b>Band 2</b></u> Freq"
-msgstr ""
+msgstr "<u><b>频段 2</b></u> 频率"
 
 #: data/effects/ladspa/ladspa_2141.xml:21
 #: data/effects/ladspa/ladspa_2151.xml:27
 #, kde-format
 msgid "<u><b>Band 3</b></u> Freq"
-msgstr ""
+msgstr "<u><b>频段 3</b></u> 频率"
 
 #: data/effects/ladspa/ladspa_2141.xml:27
 #: data/effects/ladspa/ladspa_2151.xml:36
 #, kde-format
 msgid "<u><b>Band 4</b></u> Freq"
-msgstr ""
+msgstr "<u><b>频段 4</b></u> 频率"
 
 #: data/effects/ladspa/ladspa_2141.xml:33
 #: data/effects/ladspa/ladspa_2151.xml:45
 #, kde-format
 msgid "<u><b>Band 5</b></u> Freq"
-msgstr ""
+msgstr "<u><b>频段 5</b></u> 频率"
 
 #: data/effects/ladspa/ladspa_2141.xml:39
 #: data/effects/ladspa/ladspa_2151.xml:54
 #, kde-format
 msgid "<u><b>Band 6</b></u> Freq"
-msgstr ""
+msgstr "<u><b>频段 6</b></u> 频率"
 
 #: data/effects/ladspa/ladspa_2141.xml:45
 #: data/effects/ladspa/ladspa_2151.xml:63
 #, kde-format
 msgid "<u><b>Band 7</b></u> Freq"
-msgstr ""
+msgstr "<u><b>频段 7</b></u> 频率"
 
 #: data/effects/ladspa/ladspa_2141.xml:51
 #: data/effects/ladspa/ladspa_2151.xml:72
 #, kde-format
 msgid "<u><b>Band 8</b></u> Freq"
-msgstr ""
+msgstr "<u><b>频段 8</b></u> 频率"
 
 #: data/effects/ladspa/ladspa_2141.xml:57
 #: data/effects/ladspa/ladspa_2142.xml:36
@@ -13370,6 +13437,9 @@ msgid ""
 "recommended decay times for reverb types refer to the effect documentation "
 "linked below."
 msgstr ""
+"TAP 混响器 (LADSPA 2142)<br>\n"
+"   基于梳状/全通滤波器模型的多功能混响效果器。有关各类混响推荐的衰减时间，请"
+"参阅下方链接的效果器文档。"
 
 #: data/effects/ladspa/ladspa_2142.xml:12
 #: data/effects/ladspa/ladspa_2143.xml:36
@@ -13424,6 +13494,8 @@ msgid ""
 "      Reverb types with HD are enhanced versions of the other types and "
 "usually result in an even smoother reverb effect."
 msgstr ""
+"HD 代表<i>高密度</i> (High Density) 。<br>\n"
+"      带有 HD 的混响类型是其他类型的增强版本，通常能产生更加平滑的混响效果。"
 
 #: data/effects/ladspa/ladspa_2142.xml:33
 #, kde-format
@@ -13452,6 +13524,9 @@ msgid ""
 "   Supports conventional mono and stereo delays, ping-pong delays and the "
 "Haas effect (also known as Cross Delay Stereo)."
 msgstr ""
+"TAP 立体声回声 (LADSPA 2143)<br>\n"
+"   支持传统的单声道和立体声延迟、乒乓延迟以及哈斯效应 (也称为交叉延迟立体"
+"声) 。"
 
 #: data/effects/ladspa/ladspa_2143.xml:9
 #, kde-format
@@ -13509,6 +13584,8 @@ msgid ""
 "TAP Tremolo (LADSPA 2144)<br>\n"
 "   Sounds good mainly on acoustic or electric guitar tracks."
 msgstr ""
+"TAP 颤音 (LADSPA 2144)<br>\n"
+"   主要适用于原声或电吉他音轨。"
 
 #: data/effects/ladspa/ladspa_2145.xml:4
 #, kde-format
@@ -13521,6 +13598,8 @@ msgid ""
 "TAP Scaling Limiter (LADSPA 2145)<br>\n"
 "   Achieves signal level limiting without audible artifacts."
 msgstr ""
+"TAP 动态范围限制器 (LADSPA 2145)<br>\n"
+"   在不产生可闻失真的情况下实现信号电平限制。"
 
 #: data/effects/ladspa/ladspa_2145.xml:9
 #, kde-format
@@ -13543,6 +13622,8 @@ msgid ""
 "TAP AutoPanner (LADSPA 2146)<br>\n"
 "   Main use is to liven up synth tracks in the mix"
 msgstr ""
+"TAP 自动声像器 (LADSPA 2146)<br>\n"
+"   主要用于在混音中为合成器音轨增添动感。"
 
 #: data/effects/ladspa/ladspa_2146.xml:14
 #, no-c-format, kde-format
@@ -13551,6 +13632,8 @@ msgid ""
 "      A setting of 100% means that mono input signal is panned between the "
 "extreme left and right positions"
 msgstr ""
+"设置声像摆动的宽度。<br>\n"
+"      100% 的设置表示单声道输入信号将在最左和最右位置之间来回摆动。"
 
 #: data/effects/ladspa/ladspa_2147.xml:4
 #, kde-format
@@ -13564,6 +13647,8 @@ msgid ""
 "   Used for attenuating higher pitched frequencies in vocals such as those "
 "found in 'ess', 'shh' and 'chh' sounds."
 msgstr ""
+"TAP 去齿音器 (LADSPA 2147)<br>\n"
+"   用于衰减人声中较高频率的成分，例如“s”、“sh”和“ch”等发音中的刺耳高频。"
 
 #: data/effects/ladspa/ladspa_2147.xml:9
 #, kde-format
@@ -13581,6 +13666,8 @@ msgid ""
 "The chosen filter's frequency<br>\n"
 "      is set by the <b>Frequency</b> parameter"
 msgstr ""
+"所选滤波器的频率<br>\n"
+"      由<b>频率</b>参数设定"
 
 #: data/effects/ladspa/ladspa_2147.xml:18
 #, kde-format
@@ -13605,16 +13692,19 @@ msgid ""
 "signal. It is useful for guitar and synth tracks, and it can also come handy "
 "if a strange effect is needed."
 msgstr ""
+"TAP 震音 (LADSPA 2148)<br>\n"
+"   使用低频正弦波信号调制输入信号的音高。适用于吉他和合成器音轨，也可在需要制"
+"造奇特效果时使用。"
 
 #: data/effects/ladspa/ladspa_2148.xml:10
 #, kde-format
 msgid "Determines how fast the pitch is modulated up-down"
-msgstr ""
+msgstr "决定音高上下调制的速度"
 
 #: data/effects/ladspa/ladspa_2148.xml:14
 #, kde-format
 msgid "Sets the amount of pitch modulation"
-msgstr ""
+msgstr "设置音高调制的强度"
 
 #: data/effects/ladspa/ladspa_2149.xml:4
 #, kde-format
@@ -13627,6 +13717,8 @@ msgid ""
 "TAP Rotary Speaker (LADSPA 2149)<br>\n"
 "   Simulates the sound of rotating speakers."
 msgstr ""
+"TAP 旋转扬声器 (LADSPA 2149)<br>\n"
+"   模拟旋转扬声器的声音效果。"
 
 #: data/effects/ladspa/ladspa_2149.xml:9
 #, kde-format
@@ -13659,6 +13751,8 @@ msgid ""
 "TAP Pitch Shifter (LADSPA 2150)<br>\n"
 "   Change the pitch in the range of plus/minus one octave."
 msgstr ""
+"TAP 音高移调器 (LADSPA 2150)<br>\n"
+"   可在正负一个八度范围内改变音高。"
 
 #: data/effects/ladspa/ladspa_2150.xml:9
 #, kde-format
@@ -13671,6 +13765,8 @@ msgid ""
 "Does the same thing as <b>Rate Shift</b></br>\n"
 "      but allows to set musically sensible pitch shift rates."
 msgstr ""
+"功能与<b>速率偏移</b>相同</br>\n"
+"      但允许设置符合音乐操作逻辑的音高移调速率。"
 
 #: data/effects/ladspa/ladspa_2150.xml:14
 #, kde-format
@@ -13684,6 +13780,8 @@ msgid ""
 "      but in percentage of the original pitch, so that is closer to a "
 "\"physical\", non-musical approach"
 msgstr ""
+"功能与<b>半音移调</b>相同<br>\n"
+"      但以原始音高的百分比表示，因此更接近“物理”而非音乐的处理方式。"
 
 #: data/effects/ladspa/ladspa_2151.xml:4
 #, kde-format
@@ -13696,6 +13794,8 @@ msgid ""
 "TAP Equalizer (LADSPA (2151)<br>\n"
 "    8-band equalizer with adjustable band center frequencies and bandwidth."
 msgstr ""
+"TAP 均衡器 (LADSPA 2151)<br>\n"
+"    可调节各频段中心频率和带宽的 8 段均衡器。"
 
 #: data/effects/ladspa/ladspa_2151.xml:15
 #: data/effects/ladspa/ladspa_2151.xml:24
@@ -13707,12 +13807,12 @@ msgstr ""
 #: data/effects/ladspa/ladspa_2151.xml:78
 #, kde-format
 msgid "BW"
-msgstr ""
+msgstr "BW"
 
 #: data/effects/ladspa/ladspa_2151.xml:30
 #, kde-format
 msgid "<Gain"
-msgstr ""
+msgstr "<增益"
 
 #: data/effects/ladspa/ladspa_2152.xml:4
 #, kde-format
@@ -25298,20 +25398,16 @@ msgid "This layout contains horizontal and vertical profiles"
 msgstr "此布局包含横向和纵向配置文件"
 
 #: src/layouts/layoutmanagerdialog.cpp:335
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "This layout contains an horizontal profile"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "This layout contains a horizontal profile"
-msgstr "此布局包含横向配置文件"
+msgstr ""
 
 #: src/layouts/layoutmanagerdialog.cpp:339
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "This layout contains an vertical profile"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "This layout contains a vertical profile"
-msgstr "此布局包含纵向配置文件"
+msgstr ""
 
 #: src/lib/audio/audioCorrelation.cpp:37 src/lib/audio/audioEnvelope.cpp:136
 #, kde-format
@@ -32086,10 +32182,9 @@ msgid "Could not add bin clip"
 msgstr "无法添加项目素材箱剪辑"
 
 #: src/timeline2/model/timelinefunctions.cpp:2571
-#, fuzzy, kde-format
-#| msgid "All clips were not successfully copied"
+#, kde-format
 msgid "Not all clips were copied successfully"
-msgstr "未成功复制所有素材"
+msgstr ""
 
 #: src/timeline2/model/timelinefunctions.cpp:2627
 #: src/timeline2/model/timelinefunctions.cpp:2808
@@ -38472,14 +38567,3 @@ msgstr "%1 分"
 msgctxt "h as hours"
 msgid "%1h"
 msgstr "%1 小时"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid ""
-#~ "<shortcut>Click</shortcut> to play, <shortcut>Double click</shortcut> for "
-#~ "fullscreen, <shortcut>Hover right</shortcut> for toolbar, "
-#~ "<shortcut>Wheel</shortcut> or <shortcut>arrows</shortcut> to seek, "
-#~ "<shortcut>Ctrl wheel</shortcut> to zoom"
-#~ msgstr ""
-#~ "<shortcut>点击</shortcut>播放，<shortcut>双击</shortcut>全屏，<shortcut>右"
-#~ "侧悬停</shortcut>显示工具栏，<shortcut>鼠标滚轮</shortcut>或<shortcut>方向"
-#~ "键</shortcut>进行时移，<shortcut>Ctrl 鼠标滚轮</shortcut>进行缩放"
