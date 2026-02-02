@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-31 00:42+0000\n"
+"POT-Creation-Date: 2026-02-02 00:43+0000\n"
 "PO-Revision-Date: 2026-01-31 05:31+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
@@ -3254,7 +3254,7 @@ msgstr ""
 #: data/effects/avfilter/avfilter_drawgrid.xml:24
 #: data/effects/avfilter/avfilter_fillborders.xml:12
 #: data/effects/dropshadow.xml:20
-#: data/effects/frei0r/frei0r_bluescreen0r.xml:11 src/bin/bin.cpp:2752
+#: data/effects/frei0r/frei0r_bluescreen0r.xml:11 src/bin/bin.cpp:2759
 #: src/mltcontroller/clippropertiescontroller.cpp:679
 #, kde-format
 msgid "Color"
@@ -4202,7 +4202,7 @@ msgstr ""
 #: data/effects/frei0r/frei0r_colortap.xml:8
 #: data/effects/frei0r/frei0r_defish0r.xml:14
 #: data/effects/frei0r/frei0r_iirblur.xml:12
-#: data/effects/frei0r/frei0r_medians.xml:8 src/bin/bin.cpp:1505
+#: data/effects/frei0r/frei0r_medians.xml:8 src/bin/bin.cpp:1512
 #: src/bin/projectitemmodel.cpp:334
 #, kde-format
 msgid "Type"
@@ -6842,8 +6842,8 @@ msgstr "კონვერტის რეჟიმის დაყენებ�
 #: data/effects/mask_start_frei0r_select0r.xml:8
 #: data/effects/mask_start_rotoscoping.xml:8
 #: data/effects/mask_start_shape.xml:8
-#: src/assets/assetlist/view/assetlistwidget.cpp:148 src/bin/bin.cpp:1606
-#: src/bin/bin.cpp:1611 src/bin/bin.cpp:2608
+#: src/assets/assetlist/view/assetlistwidget.cpp:148 src/bin/bin.cpp:1613
+#: src/bin/bin.cpp:1618 src/bin/bin.cpp:2615
 #, kde-format
 msgid "Filter"
 msgstr "ფილტრი"
@@ -7046,7 +7046,7 @@ msgstr "ი"
 #: data/effects/fade_from_black.xml:8 data/effects/fade_to_black.xml:8
 #: data/effects/fadein.xml:11 data/effects/fadeout.xml:8
 #: data/effects/timer.xml:55 src/assets/view/widgets/keyframeimport.cpp:172
-#: src/bin/bin.cpp:1509 src/bin/projectitemmodel.cpp:340
+#: src/bin/bin.cpp:1516 src/bin/projectitemmodel.cpp:340
 #: src/timeline2/view/dialogs/speeddialog.cpp:57
 #: src/timeline2/view/qml/Track.qml:55 src/timeline2/view/qml/Track.qml:81
 #: src/timeline2/view/qml/Track.qml:89 src/ui/clipdurationdialog_ui.ui:18
@@ -8224,7 +8224,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QTreeWidget, eventList)
 #: data/effects/frei0r/frei0r_bigsh0t_eq_cap.xml:22
 #: data/effects/frei0r/frei0r_bigsh0t_eq_cap.xml:63
-#: src/dialogs/renderwidget.cpp:776 src/ui/managesubtitles_ui.ui:206
+#: src/dialogs/renderwidget.cpp:778 src/ui/managesubtitles_ui.ui:206
 #: src/ui/wipeval_ui.ui:172
 #, kde-format
 msgid "End"
@@ -16330,6 +16330,1072 @@ msgstr "MLT LADSPA"
 msgid "Deprecated"
 msgstr "მოძველებულია"
 
+#: data/org.kde.kdenlive.appdata.xml:11 data/org.kde.kdenlive.appdata.xml:13
+#: data/org.kde.kdenlive.appdata.xml:14 data/org.kde.kdenlive.appdata.xml:15
+#: data/org.kde.kdenlive.appdata.xml:16 data/org.kde.kdenlive.appdata.xml:17
+#: data/org.kde.kdenlive.appdata.xml:18 data/org.kde.kdenlive.appdata.xml:19
+#: data/org.kde.kdenlive.appdata.xml:20 data/org.kde.kdenlive.appdata.xml:21
+#: data/org.kde.kdenlive.appdata.xml:22 data/org.kde.kdenlive.appdata.xml:23
+#: data/org.kde.kdenlive.appdata.xml:24 data/org.kde.kdenlive.appdata.xml:25
+#: data/org.kde.kdenlive.appdata.xml:26 data/org.kde.kdenlive.appdata.xml:27
+#: data/org.kde.kdenlive.appdata.xml:28 data/org.kde.kdenlive.appdata.xml:29
+#: data/org.kde.kdenlive.appdata.xml:30 data/org.kde.kdenlive.appdata.xml:31
+#: data/org.kde.kdenlive.appdata.xml:33 data/org.kde.kdenlive.appdata.xml:34
+#: data/org.kde.kdenlive.appdata.xml:35 data/org.kde.kdenlive.appdata.xml:36
+#: data/org.kde.kdenlive.appdata.xml:37 data/org.kde.kdenlive.appdata.xml:38
+#: data/org.kde.kdenlive.appdata.xml:39 data/org.kde.kdenlive.appdata.xml:40
+#: data/org.kde.kdenlive.appdata.xml:41 data/org.kde.kdenlive.appdata.xml:42
+#: data/org.kde.kdenlive.appdata.xml:43 data/org.kde.kdenlive.appdata.xml:44
+#: data/org.kde.kdenlive.appdata.xml:46 data/org.kde.kdenlive.appdata.xml:47
+#: data/org.kde.kdenlive.appdata.xml:48 data/org.kde.kdenlive.appdata.xml:49
+#: data/org.kde.kdenlive.appdata.xml:50 data/org.kde.kdenlive.appdata.xml:51
+#: data/org.kde.kdenlive.appdata.xml:52 src/dialogs/Simplesplash.qml:148
+#: src/dialogs/Splash.qml:592 src/main.cpp:274
+#, kde-format
+msgid "Kdenlive"
+msgstr "Kdenlive"
+
+#: data/org.kde.kdenlive.appdata.xml:12
+#, kde-format
+msgid "كدنلايف"
+msgstr ""
+
+#: data/org.kde.kdenlive.appdata.xml:32
+#, kde-format
+msgid "केडेनलाइव"
+msgstr ""
+
+#: data/org.kde.kdenlive.appdata.xml:45
+#, kde-format
+msgid "क्डेन्लिव्"
+msgstr ""
+
+#: data/org.kde.kdenlive.appdata.xml:367
+#, kde-format
+msgid ""
+"\n"
+"    <p>Kdenlive is a video editing application with support for many audio "
+"and video formats. It offers advanced editing features, a variety of effects "
+"and transitions, color correction, audio post-production and subtitling "
+"tools. Additionally, it provides the flexibility to render into practically "
+"any format of your choice.</p>\n"
+"    <p xml:lang=\"ar\">كدنلايف هو تطبيق لتحرير الفيديو يدعم العديد من "
+"تنسيقات الصوت والفيديو. فهو يوفر ميزات تحرير متقدمة، ومجموعة متنوعة من "
+"التأثيرات والانتقالات، وتصحيح الألوان، وأدوات ما بعد الإنتاج الصوتي وترجمة "
+"الأفلام.بالإضافة إلى ذلك، فهو يوفر المرونة اللازمة للتصيير  إلى أي تنسيق من "
+"اختيارك.</p>\n"
+"    <p xml:lang=\"ca\">El Kdenlive és una aplicació d'edició de vídeo amb "
+"suport per a molts formats d'àudio i vídeo. Ofereix funcions avançades "
+"d'edició, una gran varietat d'efectes i transicions, correcció de color, "
+"postproducció d'àudio i eines de subtitulació. A més, proporciona la "
+"flexibilitat per a convertir pràcticament a qualsevol format de la vostra "
+"elecció.</p>\n"
+"    <p xml:lang=\"ca-valencia\">Kdenlive és una aplicació d'edició de vídeo "
+"amb suport per a molts formats d'àudio i vídeo. Oferix característiques "
+"avançades d'edició, una gran varietat d'efectes i transicions, correcció de "
+"color, postproducció d'àudio i eines de subtitulació. A més, proporciona la "
+"flexibilitat per a convertir pràcticament a qualsevol format de la vostra "
+"elecció.</p>\n"
+"    <p xml:lang=\"de\">Kdenlive ist ein Videobearbeitungsprogramm, das viele "
+"Audio- und Videoformate unterstützt. Es bietet erweiterte "
+"Bearbeitungsfunktionen, eine Vielzahl von Effekten und Übergängen, "
+"Farbkorrektur, Audio-Nachbearbeitung und Untertitelungswerkzeuge. Darüber "
+"hinaus bietet es die Flexibilität, ein Video in praktisch jedes Format Ihrer "
+"Wahl zu rendern.</p>\n"
+"    <p xml:lang=\"en-GB\">Kdenlive is a video editing application with "
+"support for many audio and video formats. It offers advanced editing "
+"features, a variety of effects and transitions, colour correction, audio "
+"post-production and subtitling tools. Additionally, it provides the "
+"flexibility to render into practically any format of your choice.</p>\n"
+"    <p xml:lang=\"eo\">Kdenlive estas videoredakta aplikaĵo kun subteno por "
+"multaj audaĵaj kaj vidaĵaj formatoj. Ĝi ofertas altnivelajn redaktajn "
+"funkciojn, diversajn efektojn kaj transirojn, kolorkorektado, aŭda "
+"postproduktado kaj subtitolaj iloj. Aldone, ĝi provizas la flekseblecon por "
+"redoni en preskaŭ ajna formato de via elekto.</p>\n"
+"    <p xml:lang=\"es\">Kdenlive es una aplicación de edición de video con "
+"soporte para una variedad de formatos de audio y video. Ofrece "
+"características avanzadas de edición, múltiples efectos y transiciones, "
+"corrección de color, posproducción de audio y herramientas de subtitulado. "
+"Adicionalmente, permite la exportación a prácticamente cualquier formato de "
+"audio y video existente.</p>\n"
+"    <p xml:lang=\"eu\">Kdenlive, audio- eta bideo-formatu askorako euskarria "
+"duen bideoa editatzeko tresna bat da. Edizio-funtzio aurreratuak eskaintzen "
+"ditu, efektu eta trantsizio ezberdinak, kolore-zuzenketa, audio post-"
+"produkzioa eta azpidatzietarako tresnak. Gainera, aukeratzen duzun ia "
+"edozein formatutan errendatzeko malgutasuna ematen du.</p>\n"
+"    <p xml:lang=\"fi\">Kdenlive on videomuokkaussovellus, joka tukee monia "
+"ääni- ja videomuotoja. Se työkalut tarjoavat edistyneet "
+"muokkausominaisuudet, joukon tehosteita ja siirtymiä, värinkorjauksen, äänen "
+"jälkituotannon sekä tekstityksen. Lisäksi se tarjoaa joustoa hahmontaa "
+"tuloksen lähes mihin tahansa haluamaasi muotoon.</p>\n"
+"    <p xml:lang=\"fr\">Kdenlive est une application de montage vidéo prenant "
+"en charge de nombreux formats audio et vidéo. Il offre des fonctionnalités "
+"d'édition avancées, une variété d'effets et de transitions, une correction "
+"des couleurs, une post-production audio et des outils de sous-titrage. En "
+"outre, il offre la flexibilité de faire un rendu dans pratiquement n'importe "
+"quel format de votre choix.</p>\n"
+"    <p xml:lang=\"ga\">Is feidhmchlár eagarthóireachta físe é Kdenlive a "
+"thacaíonn le go leor formáidí fuaime agus físe. Cuireann sé gnéithe "
+"eagarthóireachta chun cinn, réimse éifeachtaí agus aistrithe, ceartú datha, "
+"iarléiriú fuaime agus uirlisí fotheidealaithe ar fáil. Ina theannta sin, "
+"cuireann sé an tsolúbthacht ar fáil chun rindreáil i mbeagnach aon fhormáid "
+"is rogha leat.</p>\n"
+"    <p xml:lang=\"gl\">Kdenlive é unha aplicación de edición de vídeo para "
+"moitos formatos de son e de vídeo. Fornece funcionalidades avanzadas de "
+"edición, varios efectos e transicións, corrección de cor, post-produción de "
+"son e ferramentas de subtítulos. Ademais, fornece a flexibilidade de "
+"renderizar en calquera formato da súa escolla.</p>\n"
+"    <p xml:lang=\"he\">Kdenlive הוא יישום לעריכת וידאו עם תמיכה במגוון סוגים "
+"של וידאו ושמע. הוא מציע יכולות עריכה מתקדמות, שלל אפקטים ומעברונים, תיקון "
+"צבע, הפקת פוסט של שמע וכלי כתוביות. בנוסף, הוא מספק את הגמישות לעבד לכמעט כל "
+"סוג אפשרי שיש לבחירתך.</p>\n"
+"    <p xml:lang=\"hi\">Kdenlive एक वीडियो संपादन एप्लिकेशन है जो कई ऑडियो और "
+"वीडियो प्रारूपों के लिए समर्थन प्रदान करता है। यह उन्नत संपादन सुविधाएँ, विभिन्न प्रकार के "
+"प्रभाव और संक्रमण, रंग सुधार, ऑडियो पोस्ट-प्रोडक्शन और उपशीर्षक उपकरण प्रदान करता है। "
+"इसके अतिरिक्त, यह आपकी पसंद के व्यावहारिक रूप से किसी भी प्रारूप में रेंडर करने की सुविधा "
+"प्रदान करता है।</p>\n"
+"    <p xml:lang=\"id\">Kdenlive adalah aplikasi pengeditan video yang "
+"mendukung banyak format audio dan video. Aplikasi ini menawarkan fitur "
+"pengeditan tingkat lanjut, berbagai efek dan transisi, koreksi warna, "
+"pascaproduksi audio, dan alat subtitel. Selain itu, aplikasi ini menyediakan "
+"fleksibilitas untuk melakukan render ke hampir semua format pilihan Anda.</"
+"p>\n"
+"    <p xml:lang=\"it\">Kdenlive è un'applicazione di editing video che "
+"supporta molti formati audio e video. Offre funzionalità avanzate di "
+"modifica, un assortimento di effetti e transizioni, correzione del colore, "
+"strumenti per la post-produzione audio e la sottotitolazione. In aggiunta, "
+"fornisce la flessibilità di produrre praticamente in qualsiasi formato tu "
+"desideri.</p>\n"
+"    <p xml:lang=\"ka\">Kdenlive ვიდეორედაქტორია ბევრი აუდიო და "
+"ვიდეოფორმატების მხარდაჭერით. ის გთავაზობთ დამატებითი ჩასწორების ფუნქციებს, "
+"მრავალ ეფექტსა და გადასვლას, ფერის შესწორებას, აუდიოს პოსტ-პროდაქშენს და "
+"სუბტიტრების მორგებას. დამატებით, ის გაძლევთ საშუალებას, დაარენდეროთ "
+"პრაქტიკულად ნებისმიერ ფორმატში, რომელსაც აირჩევთ.</p>\n"
+"    <p xml:lang=\"lv\">„Kdenlive“ ir video rediģēšanas programma ar daudzu "
+"audio un video formātu atbalstu. Tā sniedz plašas rediģēšanas iespējas, "
+"dažādus efektus un pārejas, krāsu korekcijas iespējas, skaņas pēcapstrādes "
+"un subtitru rīkus. Turklāt „Kdenlive“ ļauj renderēt praktiski jebkurā "
+"formātā pēc jūsu izvēles.</p>\n"
+"    <p xml:lang=\"nl\">Kdenlive is een toepassing voor video bewerken met "
+"ondersteuning voor vele audio- en videoformaten. Het biedt geavanceerde "
+"bewerkingsfuncties, een verscheidenheid aan effecten en transities, "
+"kleurcorrectie, audio nabewerking en hulpmiddelen voor ondertiteling. "
+"Bovendien levert het de flexibiliteit om te renderen in praktisch elk "
+"formaat van uw keuze.</p>\n"
+"    <p xml:lang=\"pl\">Kdenlive jest aplikacją do edytowania wideo z obsługą "
+"wielu formatów dźwięku i obrazu. Daje rozbudowane możliwości, wiele efektów "
+"i przejść, poprawianie barw, po-produkcję dźwięki oraz narzędzia do napisów. "
+"Dodatkowo, zapewnia możliwość zapisania do właściwie dowolnego formatu jaki "
+"sobie wybierzesz.</p>\n"
+"    <p xml:lang=\"pt-BR\">Kdenlive é um aplicativo de edição de vídeo com "
+"suporte para vários formatos de áudio e vídeo. Ele oferece recursos "
+"avançados de edição, uma variedade de efeitos e transições, correção de "
+"cores, pós-produção de áudio e ferramentas de legenda. Além disso, fornece a "
+"flexibilidade para renderizar em praticamente qualquer formato que você "
+"escolher.</p>\n"
+"    <p xml:lang=\"ru\">Kdenlive — видеоредактор, поддерживающий различные "
+"форматы аудио- и видеозаписей. Программа предоставляет расширенные "
+"возможности редактирования, широкий ряд эффектов и переходов, инструменты "
+"цветокоррекции, окончательного монтажа аудио и наложения субтитров. Кроме "
+"того, гибкость настройки программы позволяет получить на выходе файл "
+"практически любого формата.</p>\n"
+"    <p xml:lang=\"sa\">Kdenlive इति एकः विडियो सम्पादन-अनुप्रयोगः अस्ति यस्य "
+"समर्थनं बहुषु श्रव्य-वीडियो-स्वरूपेषु भवति । अस्मिन् उन्नतसम्पादनविशेषताः, विविधाः प्रभावाः "
+"संक्रमणाः च, वर्णशुद्धिः, श्रव्य-उत्तरनिर्माणं, उपशीर्षकसाधनं च प्राप्यते । तदतिरिक्तं, भवतः "
+"पसन्दस्य व्यावहारिकरूपेण कस्मिन् अपि प्रारूपे प्रतिपादयितुं लचीलापनं प्रदाति ।</p>\n"
+"    <p xml:lang=\"sl\">Kdenlive je program za montažo videoposnetkov s "
+"podporo za številne zvokovne in video zapise. Ponuja napredne funkcije "
+"montaže, urejanja, različne učinke in prehode, korekcijo barv, poprodukcijo "
+"zvoka in orodja za podnaslavljanje. Poleg tega zagotavlja prilagodljivost za "
+"izrisovanje v praktično poljuben zapis po vašem izboru.</p>\n"
+"    <p xml:lang=\"sv\">Kdenlive är ett videoredigeringsprogram med stöd för "
+"många ljud- och videoformat. Det erbjuder avancerade redigeringsfunktioner, "
+"en mängd olika effekter och övergångar, färgkorrigering, efterproduktion av "
+"ljud och textningsverktyg. Dessutom ger det flexibiliteten att återge till "
+"praktiskt taget vilket format som helst.</p>\n"
+"    <p xml:lang=\"tr\">Kdenlive, birçok ses ve video biçimini destekleyen "
+"bir video düzenleme uygulamasıdır. Gelişmiş düzenleme özellikleri, çeşitli "
+"efektler ve geçişler, renk düzeltme, ses post prodüksiyon ve altyazı "
+"araçları sunar. Ek olarak, neredeyse seçtiğiniz herhangi bir biçime "
+"dönüştürme esnekliği de sağlar.</p>\n"
+"    <p xml:lang=\"uk\">Kdenlive — програма для редагування відео із "
+"підтримкою багатьох форматів даних відео та звуку. У ній реалізовано широкі "
+"можливості з редагування, спектр ефектів та переходів, виправлення кольорів, "
+"остаточну обробку звуку та засоби субтитрування. Крім того, програма здатна "
+"гнучко обробляти дані практично до будь-якого вибраного вами формату.</p>\n"
+"    <p xml:lang=\"zh-CN\">Kdenlive 是一款视频编辑应用程序，支持多种音视频格"
+"式。它提供了各种高级编辑功能、种类丰富的效果和转场、色彩校正、音频后处理和字"
+"幕工具。它还能灵活地将视频输出为您需要的任意格式。</p>\n"
+"    <p xml:lang=\"zh-TW\">Kdenlive 是支援許多音訊與影片格式的影片編輯軟體。它"
+"提供進階的剪輯功能、許多的效果、轉場特效、顏色校正、音效後製與字幕工具等等。"
+"它也支援輸出到基本上任何您所想要使用的格式。</p>\n"
+"    <p>Features:</p>\n"
+"    <p xml:lang=\"ar\">الميزات:</p>\n"
+"    <p xml:lang=\"az\">İmkanlar:</p>\n"
+"    <p xml:lang=\"bs\">Svojstva:</p>\n"
+"    <p xml:lang=\"ca\">Característiques:</p>\n"
+"    <p xml:lang=\"ca-valencia\">Característiques:</p>\n"
+"    <p xml:lang=\"cs\">Vlastnosti:</p>\n"
+"    <p xml:lang=\"da\">Funktioner:</p>\n"
+"    <p xml:lang=\"de\">Funktionen:</p>\n"
+"    <p xml:lang=\"el\">Χαρακτηριστικά:</p>\n"
+"    <p xml:lang=\"en-GB\">Features:</p>\n"
+"    <p xml:lang=\"eo\">Trajtoj:</p>\n"
+"    <p xml:lang=\"es\">Características:</p>\n"
+"    <p xml:lang=\"et\">Omadused:</p>\n"
+"    <p xml:lang=\"eu\">Ezaugarriak:</p>\n"
+"    <p xml:lang=\"fi\">Ominaisuuksia:</p>\n"
+"    <p xml:lang=\"fr\">Fonctionnalités :</p>\n"
+"    <p xml:lang=\"ga\">Gnéithe:</p>\n"
+"    <p xml:lang=\"gl\">Funcionalidades:</p>\n"
+"    <p xml:lang=\"he\">יכולות:</p>\n"
+"    <p xml:lang=\"hi\">विशेषताएँ:</p>\n"
+"    <p xml:lang=\"id\">Fitur:</p>\n"
+"    <p xml:lang=\"it\">Funzionalità:</p>\n"
+"    <p xml:lang=\"ja\">特徴:</p>\n"
+"    <p xml:lang=\"ka\">თვისებები:</p>\n"
+"    <p xml:lang=\"ko\">기능:</p>\n"
+"    <p xml:lang=\"lv\">Iespējas:</p>\n"
+"    <p xml:lang=\"nl\">Mogelijkheden:</p>\n"
+"    <p xml:lang=\"nn\">Funksjonar:</p>\n"
+"    <p xml:lang=\"pl\">Możliwości:</p>\n"
+"    <p xml:lang=\"pt\">Funcionalidades:</p>\n"
+"    <p xml:lang=\"pt-BR\">Funcionalidades:</p>\n"
+"    <p xml:lang=\"ru\">Возможности:</p>\n"
+"    <p xml:lang=\"sa\">गुणाः:</p>\n"
+"    <p xml:lang=\"sk\">Funkcie:</p>\n"
+"    <p xml:lang=\"sl\">Zmožnosti:</p>\n"
+"    <p xml:lang=\"sv\">Funktioner:</p>\n"
+"    <p xml:lang=\"tr\">Özellikler:</p>\n"
+"    <p xml:lang=\"uk\">Можливості:</p>\n"
+"    <p xml:lang=\"zh-CN\">程序功能：</p>\n"
+"    <p xml:lang=\"zh-TW\">功能：</p>\n"
+"    <ul>\n"
+"      <li>Nested Sequences</li>\n"
+"      <li xml:lang=\"ar\">تسلسلات متداخلة</li>\n"
+"      <li xml:lang=\"ca\">Seqüències imbricades</li>\n"
+"      <li xml:lang=\"ca-valencia\">Seqüències imbricades</li>\n"
+"      <li xml:lang=\"de\">Verschachtelte Sequenzen</li>\n"
+"      <li xml:lang=\"en-GB\">Nested Sequences</li>\n"
+"      <li xml:lang=\"eo\">Ingitaj Sinsekvoj</li>\n"
+"      <li xml:lang=\"es\">Secuencias anidadas</li>\n"
+"      <li xml:lang=\"eu\">Habiaratutako sekuentziak</li>\n"
+"      <li xml:lang=\"fi\">Sisäkkäiset sekvenssit</li>\n"
+"      <li xml:lang=\"fr\">Séquences imbriquées</li>\n"
+"      <li xml:lang=\"ga\">Seichimh Neadaithe</li>\n"
+"      <li xml:lang=\"gl\">Secuencias aniñadas.</li>\n"
+"      <li xml:lang=\"he\">רצפים מקוננים</li>\n"
+"      <li xml:lang=\"hi\">नेस्टेड अनुक्रम</li>\n"
+"      <li xml:lang=\"id\">Urutan Bersarang</li>\n"
+"      <li xml:lang=\"it\">Sequenze annidate</li>\n"
+"      <li xml:lang=\"ka\">ერთმანეთში ჩალაგებული მიმდევრობები</li>\n"
+"      <li xml:lang=\"lv\">Ievietotas sekvences</li>\n"
+"      <li xml:lang=\"nl\">Geneste sequenties</li>\n"
+"      <li xml:lang=\"pl\">Osadzone odcinki</li>\n"
+"      <li xml:lang=\"pt-BR\">Sequências aninhadas</li>\n"
+"      <li xml:lang=\"ru\">Вложенные последовательности</li>\n"
+"      <li xml:lang=\"sa\">नेस्टेड अनुक्रम</li>\n"
+"      <li xml:lang=\"sl\">Ugnezdena zaporedja</li>\n"
+"      <li xml:lang=\"sv\">Nästlade sekvenser</li>\n"
+"      <li xml:lang=\"tr\">İç içe geçmiş sekanslar</li>\n"
+"      <li xml:lang=\"uk\">Вкладені послідовності</li>\n"
+"      <li xml:lang=\"zh-CN\">嵌套序列</li>\n"
+"      <li xml:lang=\"zh-TW\">巢狀序列</li>\n"
+"      <li>Configurable interface and shortcuts</li>\n"
+"      <li xml:lang=\"ar\">اختصارات و واجهة قابلة للتخصيص</li>\n"
+"      <li xml:lang=\"ca\">Interfície i dreceres configurables</li>\n"
+"      <li xml:lang=\"ca-valencia\">Interfície i dreceres configurables</li>\n"
+"      <li xml:lang=\"de\">Konfigurierbare Benutzeroberfläche und "
+"Kurzbefehle</li>\n"
+"      <li xml:lang=\"en-GB\">Configurable interface and shortcuts</li>\n"
+"      <li xml:lang=\"eo\">Agordeblaj interfaco kaj ŝparvojoj</li>\n"
+"      <li xml:lang=\"es\">Interfaz y atajos de teclado configurables</li>\n"
+"      <li xml:lang=\"eu\">Interfaze eta lasterbide konfiguragarriak</li>\n"
+"      <li xml:lang=\"fi\">Mukautettava käyttöliittymä ja pikanäppäimet</li>\n"
+"      <li xml:lang=\"fr\">Interface et raccourcis configurables</li>\n"
+"      <li xml:lang=\"ga\">Comhéadan agus aicearraí inchumraithe</li>\n"
+"      <li xml:lang=\"gl\">Interface e atallos configurábeis.</li>\n"
+"      <li xml:lang=\"he\">ממשק וקיצורי דרך גמישים</li>\n"
+"      <li xml:lang=\"hi\">कॉन्फ़िगर करने योग्य इंटरफ़ेस और शॉर्टकट</li>\n"
+"      <li xml:lang=\"id\">Pintasan dan antarmuka yang dapat dikonfigurasi</"
+"li>\n"
+"      <li xml:lang=\"it\">Scorciatoie e interfaccia configurabili</li>\n"
+"      <li xml:lang=\"ka\">მორგებადი ინტერფეისი და მალსახმობები</li>\n"
+"      <li xml:lang=\"lv\">Konfigurējama saskarne un saīsnes</li>\n"
+"      <li xml:lang=\"nl\">Te configureren interface en sneltoetsen</li>\n"
+"      <li xml:lang=\"pl\">Interfejs i skróty dające się dostosować</li>\n"
+"      <li xml:lang=\"pt-BR\">Interface e atalhos configuráveis</li>\n"
+"      <li xml:lang=\"ru\">Настраиваемые интерфейс и комбинации клавиш</li>\n"
+"      <li xml:lang=\"sa\">विन्यासयोग्यं अन्तरफलकं शॉर्टकट् च</li>\n"
+"      <li xml:lang=\"sl\">Nastavljiv vmesnik in bližnjice</li>\n"
+"      <li xml:lang=\"sv\">Anpassningsbart gränssnitt och genvägar</li>\n"
+"      <li xml:lang=\"tr\">Yapılandırılabilir arayüz ve kısayollar</li>\n"
+"      <li xml:lang=\"uk\">Можливість налаштовування інтерфейсу та "
+"клавіатурних скорочень</li>\n"
+"      <li xml:lang=\"zh-CN\">可定制的界面和快捷键</li>\n"
+"      <li xml:lang=\"zh-TW\">可調整的介面與快捷鍵</li>\n"
+"      <li>Scopes: Histogram, Vectorscope, RGB Parade, Waveform and Audio "
+"Meter</li>\n"
+"      <li xml:lang=\"ar\">المناظير: الرسم البياني، Vectorscope، RGB Parade، "
+"الموجي ومقياس الصوت</li>\n"
+"      <li xml:lang=\"ca\">Vectoscopis: Histograma, Vectoscopi, Histograma "
+"RGB, Forma d'ona i Mesurador d'àudio</li>\n"
+"      <li xml:lang=\"ca-valencia\">Vectoscopis: Histograma, Vectoscopi, "
+"Histograma RGB, Forma d'ona i Mesurador d'àudio</li>\n"
+"      <li xml:lang=\"de\">Anzeigen: Histogramm, Vektorskop, RGB-Parade, "
+"Wellenform und Audiometer</li>\n"
+"      <li xml:lang=\"en-GB\">Scopes: Histogram, Vectorscope, RGB Parade, "
+"Waveform and Audio Meter</li>\n"
+"      <li xml:lang=\"eo\">Ampleksoj: Histogramo, Vectorscope, RGB Parade, "
+"Ondoformo kaj Aŭdmezurilo</li>\n"
+"      <li xml:lang=\"es\">Instrumentos: Histograma, Vectorscopio, "
+"Presentación RVA, Medidores de forma de onda y volumen</li>\n"
+"      <li xml:lang=\"eu\">Eskopioak: Histograma, Bektoreskopioa, RGB parada, "
+"Uhin-forma eta Audio-neurgailua</li>\n"
+"      <li xml:lang=\"fr\">Oscilloscopes : histogramme, oscilloscope "
+"vectoriel, défilé RVB, mesure de signaux et audiomètre</li>\n"
+"      <li xml:lang=\"ga\">Scóipeanna: Histogram, Veicteoirscóp, Paráid RGB, "
+"Tonnfhoirm agus Méadar Fuaime</li>\n"
+"      <li xml:lang=\"gl\">Ámbitos: histograma, vectorscopio, desfile RGB, "
+"forma de onda e medidor de son.</li>\n"
+"      <li xml:lang=\"he\">טווחים: היסטוגרמה, וקטורסקופ, צורת גל ומד עוצמת "
+"שמע</li>\n"
+"      <li xml:lang=\"hi\">कार्यक्षेत्र: हिस्टोग्राम, वेक्टरस्कोप, आरजीबी परेड, वेवफॉर्म "
+"और ऑडियो मीटर</li>\n"
+"      <li xml:lang=\"id\">Cakupan: Histogram, Vectorscope, RGB Parade, "
+"Bentuk Gelombang, dan Pengukur Audio</li>\n"
+"      <li xml:lang=\"it\">Diagrammi: istogramma, Evidenza le punte massime, "
+"Esibizione RGB, Forma d'onda e Misuratore audio</li>\n"
+"      <li xml:lang=\"ka\">მზომები: ჰისტოგრამა, ვექტორსკოპი, RGB პარადი, "
+"Waveform და აუდიომეტრი</li>\n"
+"      <li xml:lang=\"lv\">Tvērumi: histogramma, vektorskops, RGB parāde, "
+"viļņformas un audio mērītājs</li>\n"
+"      <li xml:lang=\"nl\">Scopes: Histogram, Vectorscope, RGB Parade, "
+"golfvorm en Audio-meter</li>\n"
+"      <li xml:lang=\"pl\">Widoki: Histogram, Wektoroskop, Parada RGB, "
+"Kształt Fali oraz Miernik Dźwięku</li>\n"
+"      <li xml:lang=\"pt-BR\">Escopos: Histograma, Vetorescópio, Desfile RGB, "
+"Forma de onda e Medidor de áudio</li>\n"
+"      <li xml:lang=\"ru\">Отображение: гистограмма, вектороскоп, парад RGB, "
+"звуковой спектр и уровень звука</li>\n"
+"      <li xml:lang=\"sa\">व्याप्तिः : हिस्टोग्राम, वेक्टरस्कोप, आरजीबी परेड, तरङ्गरूप "
+"तथा ऑडियो मीटर्</li>\n"
+"      <li xml:lang=\"sl\">Merilniki: histogram, vektroskop, parada RGB, "
+"signalna oblika in merilnik jakosti zvoka</li>\n"
+"      <li xml:lang=\"sv\">Oscilloskop: Histogram, vektoroscilloskop, RGB-"
+"parad, vågform och ljudmätare</li>\n"
+"      <li xml:lang=\"tr\">Kapsamlar: Histogram, Vektörskop, RGB Geçidi, "
+"Dalga Biçimi ve Ses Ölçeri</li>\n"
+"      <li xml:lang=\"uk\">Області: гістограма, векторскоп, розкладка RGB, "
+"форма хвилі та рівень звуку</li>\n"
+"      <li xml:lang=\"zh-CN\">示波器：直方图、矢量示波器、RGB Parade 直方图、"
+"波形图、音量计</li>\n"
+"      <li xml:lang=\"zh-TW\">示波器：直方圖、向量示波器、RGB 檢視、波形以及音"
+"訊音量測量</li>\n"
+"      <li>Proxy editing</li>\n"
+"      <li xml:lang=\"ar\">التحرير بواسطة الوسطاء</li>\n"
+"      <li xml:lang=\"ca\">Edició d'intermediaris</li>\n"
+"      <li xml:lang=\"ca-valencia\">Editeu intermediaris</li>\n"
+"      <li xml:lang=\"cs\">Úprava proxy</li>\n"
+"      <li xml:lang=\"de\">Proxy-Bearbeitung</li>\n"
+"      <li xml:lang=\"en-GB\">Proxy editing</li>\n"
+"      <li xml:lang=\"eo\">Redaktado de Prokurilo</li>\n"
+"      <li xml:lang=\"es\">Edición usando reemplazos</li>\n"
+"      <li xml:lang=\"eu\">Ordezkaria editatzea</li>\n"
+"      <li xml:lang=\"fr\">Modification du serveur mandataire</li>\n"
+"      <li xml:lang=\"ga\">Eagarthóireacht seachfhreastalaí</li>\n"
+"      <li xml:lang=\"gl\">Edición intermediaria.</li>\n"
+"      <li xml:lang=\"he\">עריכת תיווך</li>\n"
+"      <li xml:lang=\"hi\">प्रॉक्सी संपादन</li>\n"
+"      <li xml:lang=\"id\">Pengeditan proksi</li>\n"
+"      <li xml:lang=\"it\">Modifica del proxy</li>\n"
+"      <li xml:lang=\"ka\">პროქსი ჩასწორება</li>\n"
+"      <li xml:lang=\"lv\">Rediģēšana caur starpniekvideo un "
+"starpniekattēliem</li>\n"
+"      <li xml:lang=\"nl\">Proxy-bewerking</li>\n"
+"      <li xml:lang=\"pl\">Edytowanie pośredników</li>\n"
+"      <li xml:lang=\"pt-BR\">Edição com proxy</li>\n"
+"      <li xml:lang=\"ru\">Редактирование с промежуточными клипами</li>\n"
+"      <li xml:lang=\"sa\">प्रॉक्सी सम्पादनम्</li>\n"
+"      <li xml:lang=\"sl\">Montaža posrednih posnetkov</li>\n"
+"      <li xml:lang=\"sv\">Ersättningsredigering</li>\n"
+"      <li xml:lang=\"tr\">Vekilli düzenleme</li>\n"
+"      <li xml:lang=\"uk\">Редагування із проміжними кліпами</li>\n"
+"      <li xml:lang=\"zh-CN\">代理剪辑编辑</li>\n"
+"      <li xml:lang=\"zh-TW\">代理編輯</li>\n"
+"      <li>Free online assets and templates</li>\n"
+"      <li xml:lang=\"ar\">موارد وقوالب مجانية على الإنترنت</li>\n"
+"      <li xml:lang=\"ca\">Actius i plantilles lliures en línia</li>\n"
+"      <li xml:lang=\"ca-valencia\">Actius i plantilles lliures en línia</"
+"li>\n"
+"      <li xml:lang=\"de\">Kostenlose Online-Ressourcen und -Vorlagen</li>\n"
+"      <li xml:lang=\"en-GB\">Free online assets and templates</li>\n"
+"      <li xml:lang=\"eo\">Liberaj enretaj valoraĵoj kaj ŝablonoj</li>\n"
+"      <li xml:lang=\"es\">Recursos y plantillas libres en línea</li>\n"
+"      <li xml:lang=\"eu\">Lerroan doako aktiboak eta txantiloiak</li>\n"
+"      <li xml:lang=\"fr\">Produits et modèles en ligne gratuits</li>\n"
+"      <li xml:lang=\"ga\">Sócmhainní agus teimpléid ar líne saor in aisce</"
+"li>\n"
+"      <li xml:lang=\"gl\">Recursos e modelos libres por Internet.</li>\n"
+"      <li xml:lang=\"he\">משאבים ותבניות מקוונים בחינם</li>\n"
+"      <li xml:lang=\"hi\">निःशुल्क ऑनलाइन परिसंपत्तियाँ और टेम्पलेट्स</li>\n"
+"      <li xml:lang=\"id\">Templat dan aset gratis online</li>\n"
+"      <li xml:lang=\"it\">Risorse e modelli in linea gratuiti</li>\n"
+"      <li xml:lang=\"ka\">უფასო მასალები და ნიმუშები ინტერნეტში</li>\n"
+"      <li xml:lang=\"lv\">Bezmaksas tiešsaistes resursi un veidnes</li>\n"
+"      <li xml:lang=\"nl\">Vrij online bezit en sjablonen</li>\n"
+"      <li xml:lang=\"pl\">Darmowe zasoby i wzorce z sieci</li>\n"
+"      <li xml:lang=\"pt-BR\">Recursos e modelos online gratuitos</li>\n"
+"      <li xml:lang=\"ru\">Бесплатные ресурсы и шаблоны в Интернете</li>\n"
+"      <li xml:lang=\"sa\">निःशुल्क ऑनलाइन सम्पत्तिः टेम्पलेट् च</li>\n"
+"      <li xml:lang=\"sl\">Brezplačna spletna sredstva in predloge</li>\n"
+"      <li xml:lang=\"sv\">Fria tillgångar och mallar på nätet</li>\n"
+"      <li xml:lang=\"tr\">Ücretsiz çevrimiçi kaynaklar ve şablonlar</li>\n"
+"      <li xml:lang=\"uk\">Безкоштовні ресурси та шаблони в інтернеті</li>\n"
+"      <li xml:lang=\"zh-CN\">自由免费的在线资源和模板</li>\n"
+"      <li xml:lang=\"zh-TW\">免費線上資源與範本</li>\n"
+"      <li>Motion tracking</li>\n"
+"      <li xml:lang=\"ar\">تتبع الحركة</li>\n"
+"      <li xml:lang=\"ca\">Seguiment de moviment</li>\n"
+"      <li xml:lang=\"ca-valencia\">Seguiment de moviment</li>\n"
+"      <li xml:lang=\"de\">Bewegungsverfolgung</li>\n"
+"      <li xml:lang=\"en-GB\">Motion tracking</li>\n"
+"      <li xml:lang=\"eo\">Moviĝospurado</li>\n"
+"      <li xml:lang=\"es\">Rastreo de movimiento</li>\n"
+"      <li xml:lang=\"eu\">Higiduraren jarraipena</li>\n"
+"      <li xml:lang=\"fi\">Liikkeen jäljitys</li>\n"
+"      <li xml:lang=\"fr\">Suivi de déplacement</li>\n"
+"      <li xml:lang=\"ga\">Rianú gluaisne</li>\n"
+"      <li xml:lang=\"gl\">Seguimento de movemento.</li>\n"
+"      <li xml:lang=\"he\">מעקב אחר תנועה</li>\n"
+"      <li xml:lang=\"hi\">मोशन ट्रेकिंग</li>\n"
+"      <li xml:lang=\"id\">Pelacakan gerakan</li>\n"
+"      <li xml:lang=\"it\">Tracciatore di movimento</li>\n"
+"      <li xml:lang=\"ka\">მოძრაობის ტრეკინგი</li>\n"
+"      <li xml:lang=\"lv\">Kustību izsekošana</li>\n"
+"      <li xml:lang=\"nl\">Volgen van beweging</li>\n"
+"      <li xml:lang=\"pl\">Śledzenie ruchu</li>\n"
+"      <li xml:lang=\"pt-BR\">Rastreamento de movimento</li>\n"
+"      <li xml:lang=\"ru\">Отслеживание движения</li>\n"
+"      <li xml:lang=\"sa\">गतिनिरीक्षणम्</li>\n"
+"      <li xml:lang=\"sl\">Sledenje gibanju</li>\n"
+"      <li xml:lang=\"sv\">Rörelseföljning</li>\n"
+"      <li xml:lang=\"tr\">Hareket izlemesi</li>\n"
+"      <li xml:lang=\"uk\">Стеження за рухом</li>\n"
+"      <li xml:lang=\"zh-CN\">运动跟踪功能</li>\n"
+"      <li xml:lang=\"zh-TW\">動態追蹤</li>\n"
+"      <li>AI powered tools</li>\n"
+"      <li xml:lang=\"ar\">أدوات بالذكاء الاصطناعي</li>\n"
+"      <li xml:lang=\"ca\">Eines que funcionen amb IA</li>\n"
+"      <li xml:lang=\"ca-valencia\">Eines que funcionen amb IA</li>\n"
+"      <li xml:lang=\"de\">KI-gestützte Werkzeuge</li>\n"
+"      <li xml:lang=\"en-GB\">AI powered tools</li>\n"
+"      <li xml:lang=\"eo\">AI-pelitaj iloj</li>\n"
+"      <li xml:lang=\"es\">Herramientas potenciadas mediante IA</li>\n"
+"      <li xml:lang=\"eu\">AAk bultzatutako tresnak</li>\n"
+"      <li xml:lang=\"fi\">Tekoälytehosteiset työkalut</li>\n"
+"      <li xml:lang=\"fr\">Outils alimentés par l'intelligence artificielle</"
+"li>\n"
+"      <li xml:lang=\"ga\">Uirlisí faoi thiomáint AI</li>\n"
+"      <li xml:lang=\"gl\">Ferramentas que usan intelixencia artificial.</"
+"li>\n"
+"      <li xml:lang=\"he\">כלים מחוזקי בינה מלאכותית</li>\n"
+"      <li xml:lang=\"hi\">एआई संचालित उपकरण</li>\n"
+"      <li xml:lang=\"id\">Alat bertenaga AI</li>\n"
+"      <li xml:lang=\"it\">Strumenti alimentati dalla IA</li>\n"
+"      <li xml:lang=\"ka\">ფუნქციები AI-ით</li>\n"
+"      <li xml:lang=\"lv\">Mākslīgā intelekta rīki</li>\n"
+"      <li xml:lang=\"nl\">AI aangedreven hulpmiddelen</li>\n"
+"      <li xml:lang=\"pl\">Narzędzia wspomagane SI</li>\n"
+"      <li xml:lang=\"pt-BR\">Ferramentas com IA</li>\n"
+"      <li xml:lang=\"ru\">Инструменты на основе ИИ</li>\n"
+"      <li xml:lang=\"sa\">एआइ-सञ्चालित-उपकरणम्</li>\n"
+"      <li xml:lang=\"sl\">Orodja, ki jih poganja umetna inteligenca</li>\n"
+"      <li xml:lang=\"sv\">AI-drivna verktyg</li>\n"
+"      <li xml:lang=\"tr\">Yapay Zeka destekli araçlar</li>\n"
+"      <li xml:lang=\"uk\">Інструменти на основі ШІ</li>\n"
+"      <li xml:lang=\"zh-CN\">基于 AI 的工具</li>\n"
+"      <li xml:lang=\"zh-TW\">利用 AI 的工具</li>\n"
+"    </ul>\n"
+"  "
+msgstr ""
+
+#: data/org.kde.kdenlive.appdata.xml:446
+#, kde-format
+msgid ""
+"\n"
+"        <p>This is the first bugfix release for the 24.02 version. Some of "
+"the most noteworthy fixes:</p>\n"
+"        <ul>\n"
+"          <li>Fix distorted font in some parts of the UI</li>\n"
+"          <li>Fix crash editing gradients in titler</li>\n"
+"          <li>Fix adding a mix to a grouped clip could move existing cut</"
+"li>\n"
+"          <li>Fix moving and deleting a single item in a group</li>\n"
+"          <li>Fix crash in spacer tool with grouped subtitles</li>\n"
+"          <li>Fix multiple issues on sequence clips (incorrectly saving "
+"changes, subtitles not duplicated)</li>\n"
+"          <li>Fix multiple issues with subtitles (multiple subtitles tracks "
+"not correctly saved or displayed)</li>\n"
+"        </ul>\n"
+"      "
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:4 data/org.kde.kdenlive.xml:12
+#, fuzzy, kde-format
+#| msgid "Kdenlive project (*.kdenlive)"
+msgid "Kdenlive video project document"
+msgstr "Kdenlive-ის პროექტი (*.kdenlive)"
+
+#: data/org.kde.kdenlive.xml:5
+#, kde-format
+msgid "مستند مشروع «كدنلايف» فيديو"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:6
+#, kde-format
+msgid "Kdenlive video layihəsi sənədi"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:7
+#, kde-format
+msgid "Document de projecte de vídeo del Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:8
+#, kde-format
+msgid "Document de projecte de vídeo de Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:9
+#, fuzzy, kde-format
+#| msgid "Kdenlive project (*.kdenlive)"
+msgid "Dokument video projektu Kdenlive"
+msgstr "Kdenlive-ის პროექტი (*.kdenlive)"
+
+#: data/org.kde.kdenlive.xml:10
+#, kde-format
+msgid "Kdenlive-Videoprojektdokument"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:11
+#, kde-format
+msgid "Έγγραφο έργου βίντεο kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:13
+#, fuzzy, kde-format
+#| msgid "Kdenlive project (*.kdenlive)"
+msgid "Kdenlive videoprojekta dokumento"
+msgstr "Kdenlive-ის პროექტი (*.kdenlive)"
+
+#: data/org.kde.kdenlive.xml:14
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Welcome to Kdenlive"
+msgid "Proyecto de video de Kdenlive"
+msgstr "მოგესალმებათ Kdenlive"
+
+#: data/org.kde.kdenlive.xml:15
+#, kde-format
+msgid "Kdenlive-ko bideo-proiektuaren dokumentua"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:16
+#, kde-format
+msgid "Kdenlive-videoprojektitiedosto"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:17
+#, kde-format
+msgid "Document de projet vidéo pour Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:18
+#, kde-format
+msgid "Doiciméad tionscadail físe Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:19
+#, kde-format
+msgid "Documento dun proxecto de vídeo de Kdenlive."
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:20
+#, kde-format
+msgid "מסמך מיזם וידאו של Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:21
+#, kde-format
+msgid "Kdenlive वीडियो परियोजना दस्तावेज़"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:22
+#, kde-format
+msgid "Kdenlive videóprojekt-dokumentum"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:23
+#, kde-format
+msgid "Dokumen proyek video Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:24
+#, kde-format
+msgid "Progetto video di Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:25
+#, kde-format
+msgid "Kdenlive ビデオプロジェクト資料"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:26
+#, kde-format
+msgid "Kdenlive ვიდეო პროექტის დოკუმენტი"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:27
+#, kde-format
+msgid "Kdenlive 동영상 프로젝트 문서"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:28
+#, fuzzy, kde-format
+#| msgid "Kdenlive project (*.kdenlive)"
+msgid "Kdenlive video projekto dokumentas"
+msgstr "Kdenlive-ის პროექტი (*.kdenlive)"
+
+#: data/org.kde.kdenlive.xml:29
+#, kde-format
+msgid "„Kdenlive“ video projekta dokuments"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:30
+#, kde-format
+msgid "Video projectdocument van Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:31
+#, kde-format
+msgid "Kdenlive-videoprosjektdokument"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:32
+#, kde-format
+msgid "Dokument projektowy filmu Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:33
+#, kde-format
+msgid "Documento de projecto de vídeo do Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:34
+#, kde-format
+msgid "Documento de projeto de vídeo do Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:35
+#, kde-format
+msgid "Видеопроект Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:36
+#, kde-format
+msgid "Kdenlive विडियो परियोजना दस्तावेज"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:37
+#, fuzzy, kde-format
+#| msgid "Kdenlive project (*.kdenlive)"
+msgid "Dokument video projekta Kdenlive"
+msgstr "Kdenlive-ის პროექტი (*.kdenlive)"
+
+#: data/org.kde.kdenlive.xml:38
+#, kde-format
+msgid "Kdenlive-videoprojektdokument"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:39
+#, fuzzy, kde-format
+#| msgid "Kdenlive project (*.kdenlive)"
+msgid "Kdenlive video proje belgesi"
+msgstr "Kdenlive-ის პროექტი (*.kdenlive)"
+
+#: data/org.kde.kdenlive.xml:40
+#, kde-format
+msgid "документ відеопроєкту Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:41
+#, kde-format
+msgid "Kdenlive 视频工程文件"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:42
+#, kde-format
+msgid "Kdenlive 影片專案文件"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:47 data/org.kde.kdenlive.xml:55
+#, fuzzy, kde-format
+#| msgid "Kdenlive title"
+msgid "Kdenlive video title"
+msgstr "Kdenlive-ის სათაური"
+
+#: data/org.kde.kdenlive.xml:48
+#, kde-format
+msgid "عنوان فيديو «كدنلايف»"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:49 data/org.kde.kdenlive.xml:81
+#, kde-format
+msgid "Kdenlive video başlığı"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:50
+#, kde-format
+msgid "Títol de vídeo del Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:51
+#, kde-format
+msgid "Títol de vídeo de Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:52
+#, kde-format
+msgid "Název videa Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:53
+#, fuzzy, kde-format
+#| msgid "Kdenlive title"
+msgid "Kdenlive-Videotitel"
+msgstr "Kdenlive-ის სათაური"
+
+#: data/org.kde.kdenlive.xml:54
+#, kde-format
+msgid "Τίτλος βίντεο kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:56
+#, fuzzy, kde-format
+#| msgid "Kdenlive title"
+msgid "Kdenlive videotitolo"
+msgstr "Kdenlive-ის სათაური"
+
+#: data/org.kde.kdenlive.xml:57
+#, kde-format
+msgid "Título de video de Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:58
+#, kde-format
+msgid "Kdenlive-ko bideo-izenburua"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:59
+#, kde-format
+msgid "Kdenlive-video-otsikko"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:60
+#, kde-format
+msgid "Titre de vidéo pour Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:61
+#, kde-format
+msgid "Teideal físeáin Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:62
+#, kde-format
+msgid "Título de vídeo de Kdenlive."
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:63
+#, kde-format
+msgid "כותרת וידאו של Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:64
+#, kde-format
+msgid "Kdenlive वीडियो शीर्षक"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:65
+#, fuzzy, kde-format
+#| msgid "Kdenlive title"
+msgid "Kdenlive videófelirat"
+msgstr "Kdenlive-ის სათაური"
+
+#: data/org.kde.kdenlive.xml:66
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Welcome to Kdenlive"
+msgid "Judul video Kdenlive"
+msgstr "მოგესალმებათ Kdenlive"
+
+#: data/org.kde.kdenlive.xml:67
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Welcome to Kdenlive"
+msgid "Titolo video di Kdenlive"
+msgstr "მოგესალმებათ Kdenlive"
+
+#: data/org.kde.kdenlive.xml:68
+#, kde-format
+msgid "Kdenlive ビデオタイトル"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:69
+#, kde-format
+msgid "Kdenlive ვიდეოს სათაური"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:70
+#, kde-format
+msgid "Kdenlive 동영상 타이틀"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:71
+#, kde-format
+msgid "„Kdenlive“ video nosaukums"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:72
+#, kde-format
+msgid "Titel van Kdenlive-video"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:73
+#, fuzzy, kde-format
+#| msgid "Kdenlive title"
+msgid "Kdenlive-videotittel"
+msgstr "Kdenlive-ის სათაური"
+
+#: data/org.kde.kdenlive.xml:74
+#, kde-format
+msgid "Tytuł filmu Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:75 data/org.kde.kdenlive.xml:76
+#, kde-format
+msgid "Título de vídeo do Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:77
+#, kde-format
+msgid "Видеотитры Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:78
+#, kde-format
+msgid "Kdenlive विडियो शीर्षक"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:79
+#, kde-format
+msgid "Naslov videa Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:80
+#, fuzzy, kde-format
+#| msgid "Kdenlive"
+msgid "Kdenlive-video"
+msgstr "Kdenlive"
+
+#: data/org.kde.kdenlive.xml:82
+#, kde-format
+msgid "заголовок відео Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:83
+#, kde-format
+msgid "Kdenlive 视频标题"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:84
+#, kde-format
+msgid "Kdenlive 影片標題"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:89 data/org.kde.kdenlive.xml:96
+#, kde-format
+msgid "Kdenlive application layout"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:90
+#, kde-format
+msgid "تخطيط برنامج كدنلايف"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:91
+#, fuzzy, kde-format
+#| msgid "Kdenlive title"
+msgid "Kdenlive tətbiq qatı"
+msgstr "Kdenlive-ის სათაური"
+
+#: data/org.kde.kdenlive.xml:92 data/org.kde.kdenlive.xml:93
+#, kde-format
+msgid "Disposició de l'aplicació Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:94
+#, kde-format
+msgid "Rozvržení aplikace Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:95
+#, kde-format
+msgid "Kdenlive-Anwendungslayout"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:97
+#, kde-format
+msgid "Kdenlive aplikaĵa aranĝo"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:98
+#, kde-format
+msgid "Organización de paneles de Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:99
+#, kde-format
+msgid "Kdenlive aplikazioaren antolaera"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:100
+#, kde-format
+msgid "Kdenlive-sovelluksen-asettelu"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:101
+#, kde-format
+msgid "Mise en page de l'application Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:102
+#, kde-format
+msgid "Leagan amach feidhmchláir Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:103
+#, kde-format
+msgid "Disposición de aplicación de Kdenlive."
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:104
+#, kde-format
+msgid "פריסת יישום Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:105
+#, kde-format
+msgid "Kdenlive अनुप्रयोग लेआउट"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:106
+#, kde-format
+msgid "Kdenlive alkalmazáselrendezés"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:107
+#, kde-format
+msgid "Tata letak aplikasi Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:108
+#, kde-format
+msgid "Disposizione dell'applicazione Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:109
+#, kde-format
+msgid "Kdenlive アプリケーションレイアウト"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:110
+#, kde-format
+msgid "Kdenlive აპლიკაციის განლაგება"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:111
+#, kde-format
+msgid "Kdenlive 앱 레이아웃"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:112
+#, kde-format
+msgid "„Kdenlive“ programmas izkārtojums"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:113
+#, kde-format
+msgid "Toepassingsindeling van Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:114
+#, kde-format
+msgid "Układ programu Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:115
+#, kde-format
+msgid "Disposição da aplicação Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:116
+#, kde-format
+msgid "Layout de aplicativo do Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:117
+#, kde-format
+msgid "Макет приложения Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:118
+#, kde-format
+msgid "Kdenlive अनुप्रयोग विन्यास"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:119
+#, kde-format
+msgid "Postavitev programa Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:120
+#, fuzzy, kde-format
+#| msgid "Kdenlive Project"
+msgid "Kdenlive programlayout"
+msgstr "Kdenlive-ის პროექტი"
+
+#: data/org.kde.kdenlive.xml:121
+#, kde-format
+msgid "Kdenlive uygulama yerleşimi"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:122
+#, kde-format
+msgid "Компонування вікон програми Kdenlive"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:123
+#, kde-format
+msgid "Kdenlive 应用程序布局"
+msgstr ""
+
+#: data/org.kde.kdenlive.xml:124
+#, kde-format
+msgid "Kdenlive 應用程式版面配置"
+msgstr ""
+
 #: data/transitions/affine.xml:4
 #, kde-format
 msgctxt "Affine Transform Transition Name"
@@ -17102,6 +18168,11 @@ msgstr "გაძევება"
 msgid "Revert"
 msgstr "დაბრუნება"
 
+#: data/westley.xml:4
+#, kde-format
+msgid "MLT video playlist"
+msgstr ""
+
 #. i18n: ectx: property (windowTitle), widget (QDialog, CountDown_UI)
 #. i18n: ectx: property (windowTitle), widget (QDialog, QTextClip_UI)
 #. i18n: ectx: property (windowTitle), widget (QDialog, TestProxy_UI)
@@ -17439,7 +18510,7 @@ msgstr "ეფექტები ტრეკისთვის %1"
 msgid "Bin %1 effects"
 msgstr "კალათა %1 ეფექტები"
 
-#: src/assets/assetpanel.cpp:494 src/bin/bin.cpp:4126
+#: src/assets/assetpanel.cpp:494 src/bin/bin.cpp:4133
 #: src/dialogs/speechdialog.cpp:51 src/dialogs/textbasededit.cpp:764
 #: src/effects/effectstack/view/maskmanager.cpp:116
 #: src/monitor/recmanager.cpp:41
@@ -17447,7 +18518,7 @@ msgstr "კალათა %1 ეფექტები"
 msgid "Show log"
 msgstr "ჟურნალის ჩვენება"
 
-#: src/assets/assetpanel.cpp:496 src/bin/bin.cpp:4129
+#: src/assets/assetpanel.cpp:496 src/bin/bin.cpp:4136
 #: src/dialogs/textbasededit.cpp:765
 #: src/effects/effectstack/view/maskmanager.cpp:118
 #, kde-format
@@ -17870,7 +18941,7 @@ msgid "Limit automatic keyframes"
 msgstr "ავტომატური საკვანძო კადრების შეზღუდვა"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/assets/view/widgets/keyframecontainer.cpp:290 src/bin/bin.cpp:1558
+#: src/assets/view/widgets/keyframecontainer.cpp:290 src/bin/bin.cpp:1565
 #: src/ui/clipstabilize_ui.ui:37
 #, kde-format
 msgid "Options"
@@ -18372,77 +19443,77 @@ msgstr[1] "%1 დარჩენილი დავალება"
 msgid "Bin Search"
 msgstr "ძებნა"
 
-#: src/bin/bin.cpp:1452
+#: src/bin/bin.cpp:1459
 #, kde-format
 msgid "View Mode"
 msgstr "ხედვის რეჟიმი"
 
-#: src/bin/bin.cpp:1455
+#: src/bin/bin.cpp:1462
 #, kde-format
 msgid "Tree View"
 msgstr "ხისმაგვარი ხედი"
 
-#: src/bin/bin.cpp:1462
+#: src/bin/bin.cpp:1469
 #, kde-format
 msgid "Adjust Profile to Current Clip"
 msgstr "პროფილის გასწრება მიმდინარე კლიპზე"
 
-#: src/bin/bin.cpp:1466
+#: src/bin/bin.cpp:1473
 #, kde-format
 msgid "Icon View"
 msgstr "ხატულებით ჩვენება"
 
-#: src/bin/bin.cpp:1474 src/project/dialogs/guideslist.cpp:224
+#: src/bin/bin.cpp:1481 src/project/dialogs/guideslist.cpp:224
 #, kde-format
 msgid "Descending"
 msgstr "Დაღმავალი"
 
-#: src/bin/bin.cpp:1490
+#: src/bin/bin.cpp:1497
 #, kde-format
 msgid "Sort By"
 msgstr "დახარისხება"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, fileList)
 #. i18n: ectx: property (text), widget (QTreeWidget, styleList)
-#: src/bin/bin.cpp:1493 src/bin/projectitemmodel.cpp:325
+#: src/bin/bin.cpp:1500 src/bin/projectitemmodel.cpp:325
 #: src/ui/managesubtitles_ui.ui:66 src/ui/managesubtitles_ui.ui:349
 #, kde-format
 msgid "Name"
 msgstr "სახელი"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, listWidget)
-#: src/bin/bin.cpp:1497 src/bin/projectitemmodel.cpp:328
+#: src/bin/bin.cpp:1504 src/bin/projectitemmodel.cpp:328
 #: src/project/dialogs/projectsettings.cpp:247 src/ui/managecache_ui.ui:369
 #, kde-format
 msgid "Date"
 msgstr "თარიღი"
 
-#: src/bin/bin.cpp:1501 src/bin/projectitemmodel.cpp:331
+#: src/bin/bin.cpp:1508 src/bin/projectitemmodel.cpp:331
 #, kde-format
 msgid "Description"
 msgstr "აღწერა"
 
-#: src/bin/bin.cpp:1513
+#: src/bin/bin.cpp:1520
 #, kde-format
 msgid "Insert Order"
 msgstr "ჩასმის მიმდევრობა"
 
-#: src/bin/bin.cpp:1517 src/bin/projectitemmodel.cpp:346
+#: src/bin/bin.cpp:1524 src/bin/projectitemmodel.cpp:346
 #, kde-format
 msgid "Rating"
 msgstr "შეფასება"
 
-#: src/bin/bin.cpp:1541
+#: src/bin/bin.cpp:1548
 #, kde-format
 msgid "Disable Bin Effects"
 msgstr "კალათის ეფექტების გათიშვა"
 
-#: src/bin/bin.cpp:1549
+#: src/bin/bin.cpp:1556
 #, kde-format
 msgid "Show Video Preview in Thumbnails"
 msgstr "ვიდეოს გადახედვის ჩვენება მინიატურებში"
 
-#: src/bin/bin.cpp:1559
+#: src/bin/bin.cpp:1566
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -18452,32 +19523,32 @@ msgstr ""
 "გახსნის მენიუს, სადაც პროექტის კალათის მორგება (მაგ:; ხედის რეჟიმი, "
 "დალაგება, რეიტინგის ჩვენება) შეგიძლიათ."
 
-#: src/bin/bin.cpp:1566
+#: src/bin/bin.cpp:1573
 #, kde-format
 msgid "Show Date"
 msgstr "თარიღის ჩვენება"
 
-#: src/bin/bin.cpp:1570
+#: src/bin/bin.cpp:1577
 #, kde-format
 msgid "Show Description"
 msgstr "აღწერის ჩვენება"
 
-#: src/bin/bin.cpp:1574
+#: src/bin/bin.cpp:1581
 #, kde-format
 msgid "Show Rating"
 msgstr "რეიტინგის ჩვენება"
 
-#: src/bin/bin.cpp:1585
+#: src/bin/bin.cpp:1592
 #, kde-format
 msgid "Open Current Folder In New Bin"
 msgstr "მიმდინარე საქაღალდის გახსნა ახალ კალათში"
 
-#: src/bin/bin.cpp:1590
+#: src/bin/bin.cpp:1597
 #, kde-format
 msgid "Tags Panel"
 msgstr "ჭდეების პანელი"
 
-#: src/bin/bin.cpp:1612
+#: src/bin/bin.cpp:1619
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -18489,52 +19560,52 @@ msgstr ""
 "ფილტრის ჩვენება გადართოთ. დააწკაპუნეთ ისრის ხატულაზე, რომ შესაძლო ფილტრის "
 "პარამეტრები გახსნათ."
 
-#: src/bin/bin.cpp:1647
+#: src/bin/bin.cpp:1654
 #, kde-format
 msgid "Close Current Bin"
 msgstr "მიმდინარე კალათის დახურვა"
 
-#: src/bin/bin.cpp:1659
+#: src/bin/bin.cpp:1666
 #, kde-format
 msgid "Cancel All Jobs"
 msgstr "ყველა ამოცანის გაუქმება"
 
-#: src/bin/bin.cpp:1661
+#: src/bin/bin.cpp:1668
 #, kde-format
 msgid "Cancel Current Clip Jobs"
 msgstr "მიმდინარე დავალებების გაუქმება"
 
-#: src/bin/bin.cpp:1663
+#: src/bin/bin.cpp:1670
 #, kde-format
 msgid "Cancel Pending Jobs"
 msgstr "რიგში მყოფი დავალებების გაუქმება"
 
-#: src/bin/bin.cpp:1704
+#: src/bin/bin.cpp:1711
 #, kde-format
 msgid "Bin Clip Properties"
 msgstr "კალათის კლიპის თვისებები"
 
-#: src/bin/bin.cpp:2037
+#: src/bin/bin.cpp:2044
 #, kde-format
 msgid "You cannot delete all sequences of a project"
 msgstr "პროექტის ყველა მიმდევრობას ვერ წაშლით"
 
-#: src/bin/bin.cpp:2040
+#: src/bin/bin.cpp:2047
 #, kde-format
 msgid "Deleting sequences cannot be undone"
 msgstr "მიმდევრობების წაშლა შეუქცევადია"
 
-#: src/bin/bin.cpp:2047
+#: src/bin/bin.cpp:2054
 #, kde-format
 msgid "This will delete all selected clips from the timeline"
 msgstr "ეს დროის ხაზიდან ყველა მონიშნულ კლიპს წაშლის"
 
-#: src/bin/bin.cpp:2050
+#: src/bin/bin.cpp:2057
 #, kde-format
 msgid "This will delete all folder content"
 msgstr "ეს საქაღალდის შემცველობას სულ წაშლის"
 
-#: src/bin/bin.cpp:2073
+#: src/bin/bin.cpp:2080
 #, kde-format
 msgid ""
 "Some items could not be deleted. Maybe there are instances on locked tracks?"
@@ -18542,25 +19613,25 @@ msgstr ""
 "ზოგიერთი ელემენტის წაშლა შეუძლებელია. შეიძლება არსებობს მათი გაშვებული "
 "ასლები დაბლოკილ ტრეკებზე?"
 
-#: src/bin/bin.cpp:2075
+#: src/bin/bin.cpp:2082
 #, kde-format
 msgid "Delete bin Clips"
 msgstr "კალათის კლიპების წაშლა"
 
-#: src/bin/bin.cpp:2100 src/effects/effectstack/view/maskmanager.cpp:267
+#: src/bin/bin.cpp:2107 src/effects/effectstack/view/maskmanager.cpp:267
 #, kde-format
 msgid "Missing source clip"
 msgstr "ნაკლული საწყისი კლიპი"
 
-#: src/bin/bin.cpp:2120 src/bin/bin.cpp:2817
+#: src/bin/bin.cpp:2127 src/bin/bin.cpp:2824
 #: src/effects/effectlist/view/effectlistwidget.cpp:147
-#: src/renderpresets/renderpresetrepository.cpp:156
-#: src/renderpresets/renderpresetrepository.cpp:439
+#: src/renderpresets/renderpresetrepository.cpp:169
+#: src/renderpresets/renderpresetrepository.cpp:474
 #, kde-format
 msgid "Unable to write to file %1"
 msgstr "%1 ფაილში ჩაწერის შეცდომა"
 
-#: src/bin/bin.cpp:2127 src/bin/bin.cpp:2823 src/doc/kdenlivedoc.cpp:750
+#: src/bin/bin.cpp:2134 src/bin/bin.cpp:2830 src/doc/kdenlivedoc.cpp:750
 #, kde-format
 msgid ""
 "Your project file was modified by Kdenlive.\n"
@@ -18570,17 +19641,17 @@ msgstr ""
 "რომ დარწმუნდეთ, რომ მონაცემებს არასდროს დაკარგავთ, შეიქმნა მარქაფი სახელად "
 "%1."
 
-#: src/bin/bin.cpp:2133
+#: src/bin/bin.cpp:2140
 #, kde-format
 msgid "Unable to parse file %1"
 msgstr "ფაილის დამუშავების შეცდომა: %1"
 
-#: src/bin/bin.cpp:2144
+#: src/bin/bin.cpp:2151
 #, kde-format
 msgid "Cannot replace clip with invalid file %1"
 msgstr "კლიპის შეცვლა არასწორი ფაილით(%1) შეუძლებელია"
 
-#: src/bin/bin.cpp:2170 src/bin/bin.cpp:2393
+#: src/bin/bin.cpp:2177 src/bin/bin.cpp:2400
 #, kde-format
 msgid ""
 "You are replacing a clip with a shorter one, this might cause issues in "
@@ -18591,18 +19662,18 @@ msgstr ""
 "შეიძლება, გამოიწვიოს.\n"
 "ჩამნაცვლებელი %1 კადრით მოკლეა."
 
-#: src/bin/bin.cpp:2179 src/bin/bin.cpp:2401
+#: src/bin/bin.cpp:2186 src/bin/bin.cpp:2408
 #: src/bin/model/subtitlemodel.cpp:410
 #, kde-format
 msgid "The selected file %1 is invalid."
 msgstr "მონიშნული ფაილი %1 არასწორია."
 
-#: src/bin/bin.cpp:2185
+#: src/bin/bin.cpp:2192
 #, kde-format
 msgid "Cannot find original clip to be replaced"
 msgstr "ორიგინალი კლიპი ჩასანაცვლებლად ვერ ვიპოვე"
 
-#: src/bin/bin.cpp:2209
+#: src/bin/bin.cpp:2216
 #, kde-format
 msgid ""
 "You need to select 2 clips (the replacement clip and the original clip) for "
@@ -18611,24 +19682,24 @@ msgstr ""
 "საჭიროა აირჩიოთ 2 კლიპი (ჩამნაცვლებელი და ორიგინალი კლიპები) დროის ხაზზე "
 "ჩანაცვლებისთვის."
 
-#: src/bin/bin.cpp:2215
+#: src/bin/bin.cpp:2222
 #, kde-format
 msgid "The current clip <b>%1</b> is not inserted in the active timeline."
 msgstr "მიმდინარე კლიპი <b>%1</b> აქტიურ დროის ხაზში ჩასმული არაა."
 
-#: src/bin/bin.cpp:2220
+#: src/bin/bin.cpp:2227
 #, kde-format
 msgid "You cannot insert the sequence <b>%1</b> into itself."
 msgstr "მიმდევრობას <b>%1</b> თავის თავში ვერ ჩასვამთ."
 
-#: src/bin/bin.cpp:2239
+#: src/bin/bin.cpp:2246
 #, kde-format
 msgid ""
 "The selected clips %1 and %2 don't match, cannot replace audio nor video"
 msgstr ""
 "მონიშნული კლიპები %1 და %2 არ ემთხვევა. ვერც აუდიოს ჩავანაცვლებ, ვერც ვიდეოს"
 
-#: src/bin/bin.cpp:2250
+#: src/bin/bin.cpp:2257
 #, kde-format
 msgid ""
 "Replacing instances of clip <b>%1</b> (%2)<br/>in active timeline\n"
@@ -18637,7 +19708,7 @@ msgstr ""
 "ასლების ჩანაცვლება კლიპისთვის <b>%1</b> (%2)<br/>აქტიურ დროის ხაზში\n"
 "კლიპით <b>%3</b> (%4)"
 
-#: src/bin/bin.cpp:2255
+#: src/bin/bin.cpp:2262
 #, kde-format
 msgid ""
 "Replacing instances of clip <b>%1</b><br/>in active timeline\n"
@@ -18646,17 +19717,17 @@ msgstr ""
 "ასლების ჩანაცვლება კლიპისთვის <b>%1</b><br/>აქტიურ დროის ხაზში\n"
 "კლიპით <b>%2</b>"
 
-#: src/bin/bin.cpp:2257 src/timeline2/model/timelineitemmodel.cpp:986
+#: src/bin/bin.cpp:2264 src/timeline2/model/timelineitemmodel.cpp:986
 #, kde-format
 msgid "Replace audio"
 msgstr "ხმის ჩანაცვლება"
 
-#: src/bin/bin.cpp:2260 src/timeline2/model/timelineitemmodel.cpp:986
+#: src/bin/bin.cpp:2267 src/timeline2/model/timelineitemmodel.cpp:986
 #, kde-format
 msgid "Replace video"
 msgstr "ვიდეოს ჩანაცვლება"
 
-#: src/bin/bin.cpp:2270
+#: src/bin/bin.cpp:2277
 #, kde-format
 msgid ""
 "Replacement clip is shorter than source clip.<br><b>Some clips in timeline "
@@ -18665,18 +19736,18 @@ msgstr ""
 "ჩასანაცვლებელი კლიპი საწყის კლიპზე მოკლეა.<br><b>დროის ხაზზე ზოგიერთი კლიპი, "
 "შეიძლება, არ ჩანაცვლდეს.</b>"
 
-#: src/bin/bin.cpp:2273
+#: src/bin/bin.cpp:2280
 #, kde-format
 msgid "Replacement clip duration is longer that your source clip"
 msgstr "ჩამნაცვლებელი კლიპის ხანგრძლივობა საწყის კლიპზე დიდია"
 
-#: src/bin/bin.cpp:2309
+#: src/bin/bin.cpp:2316
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Replacement for %1"
 msgstr "%1-სთვის ჩანაცვლების გახსნა"
 
-#: src/bin/bin.cpp:2350
+#: src/bin/bin.cpp:2357
 #, kde-format
 msgid ""
 "Replacement clip does not contain a video stream. Do you want to replace "
@@ -18685,7 +19756,7 @@ msgstr ""
 "ჩამნაცვლებელი კლიპი ვიდეონაკადს არ შეიცავს. გნებავთ, მხოლოდ, კლიპის აუდიოს "
 "კომპონენტის ჩანაცვლება აქტიურ დროის ხაზში?"
 
-#: src/bin/bin.cpp:2355
+#: src/bin/bin.cpp:2362
 #, kde-format
 msgid ""
 "Replacement clip does not contain an audio stream. Do you want to replace "
@@ -18694,7 +19765,7 @@ msgstr ""
 "ჩამნაცვლებელი კლიპი აუდიონაკადს არ შეიცავს. გნებავთ, მხოლოდ, კლიპის ვიდეოს "
 "კომპონენტის ჩანაცვლება აქტიურ დროის ხაზში?"
 
-#: src/bin/bin.cpp:2359 src/bin/bin.cpp:2385
+#: src/bin/bin.cpp:2366 src/bin/bin.cpp:2392
 #, kde-format
 msgid ""
 "You cannot replace a clip with a different type of clip (audio/video not "
@@ -18702,97 +19773,97 @@ msgid ""
 msgstr ""
 "კლიპს სხვა ტიპის მქონე კლიპით ვერ ჩაანაცვლებთ (აუდიო/ვიდეო არ ემთხვევა)."
 
-#: src/bin/bin.cpp:2362
+#: src/bin/bin.cpp:2369
 #, kde-format
 msgid "Replace in timeline"
 msgstr "ჩანაცვლება დროის ხაზზე"
 
-#: src/bin/bin.cpp:2383 src/bin/bin.cpp:6099 src/bin/clipcreator.cpp:329
+#: src/bin/bin.cpp:2390 src/bin/bin.cpp:6106 src/bin/clipcreator.cpp:329
 #: src/effects/effectstack/view/maskmanager.cpp:642
 #, kde-format
 msgctxt "@action"
 msgid "Add clip"
 msgstr "კლიპის დამატება"
 
-#: src/bin/bin.cpp:2433
+#: src/bin/bin.cpp:2440
 #, kde-format
 msgid "Could not locate %1"
 msgstr "%1 ვერ ვიპოვე"
 
-#: src/bin/bin.cpp:2487
+#: src/bin/bin.cpp:2494
 #, kde-format
 msgid "Could not create temporary file in %1"
 msgstr "%1-ში დროებით ფაილების შექმნის შეცდომა"
 
-#: src/bin/bin.cpp:2495
+#: src/bin/bin.cpp:2502
 #, kde-format
 msgid "Duplicating sequence failed"
 msgstr "მიმდევრობის დუბლირება ცავარდა"
 
-#: src/bin/bin.cpp:2508
+#: src/bin/bin.cpp:2515
 #, kde-format
 msgid "%1 (copy)"
 msgstr "%1 (ასლი)"
 
-#: src/bin/bin.cpp:2513 src/bin/bin.cpp:2534
+#: src/bin/bin.cpp:2520 src/bin/bin.cpp:2541
 #, kde-format
 msgid "Duplicate clip"
 msgstr "კლიპის დუბლირება"
 
-#: src/bin/bin.cpp:2526
+#: src/bin/bin.cpp:2533
 #, kde-format
 msgctxt "append to clip name to indicate a copied idem"
 msgid " (copy)"
 msgstr " (ასლი)"
 
-#: src/bin/bin.cpp:2662
+#: src/bin/bin.cpp:2669
 #, kde-format
 msgid "Clear Filters"
 msgstr "ფილტრების გასუფთავება"
 
-#: src/bin/bin.cpp:2668
+#: src/bin/bin.cpp:2675
 #, kde-format
 msgid "No Tags"
 msgstr "ჭდეების გარეშე"
 
-#: src/bin/bin.cpp:2687
+#: src/bin/bin.cpp:2694
 #, kde-format
 msgid "%1 Star"
 msgid_plural "%1 Stars"
 msgstr[0] "%1 ვარსკვლავი"
 msgstr[1] "%1 ვარსკვლავი"
 
-#: src/bin/bin.cpp:2694
+#: src/bin/bin.cpp:2701
 #, kde-format
 msgid "Filter by Usage"
 msgstr "გამოყენებით გაფილტვრა"
 
-#: src/bin/bin.cpp:2697
+#: src/bin/bin.cpp:2704
 #, kde-format
 msgid "All Clips"
 msgstr "ყველა კლიპი"
 
-#: src/bin/bin.cpp:2702
+#: src/bin/bin.cpp:2709
 #, kde-format
 msgid "Unused Clips"
 msgstr "გამოუყენებელი ფილტრები"
 
-#: src/bin/bin.cpp:2706
+#: src/bin/bin.cpp:2713
 #, kde-format
 msgid "Used Clips"
 msgstr "გამოყენებული კლიპები"
 
-#: src/bin/bin.cpp:2713
+#: src/bin/bin.cpp:2720
 #, kde-format
 msgid "Filter by Type"
 msgstr "ტიპით გაფილტვრა"
 
-#: src/bin/bin.cpp:2716
+#: src/bin/bin.cpp:2723
 #, kde-format
 msgid "AV Clip"
 msgstr "AV კლიპი"
 
-#: src/bin/bin.cpp:2720
+#: src/bin/bin.cpp:2727
 #, kde-format
 msgid "Mute Video"
 msgstr "ვიდეოს დადუმება"
@@ -18803,7 +19874,7 @@ msgstr "ვიდეოს დადუმება"
 #. i18n: ectx: property (text), widget (QCheckBox, enable_audio)
 #. i18n: ectx: attribute (title), widget (QWidget, audio_tab)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/bin/bin.cpp:2724 src/effects/effectlist/model/effecttreemodel.cpp:65
+#: src/bin/bin.cpp:2731 src/effects/effectlist/model/effecttreemodel.cpp:65
 #: src/lib/audio/audioStreamInfo.cpp:25 src/lib/audio/audioStreamInfo.cpp:31
 #: src/monitor/recmanager.cpp:45 src/onlineresources/resourcewidget.cpp:684
 #: src/ui/clipjobmanager_ui.ui:388 src/ui/configcapture_ui.ui:331
@@ -18813,62 +19884,62 @@ msgstr "ვიდეოს დადუმება"
 msgid "Audio"
 msgstr "აუდიო"
 
-#: src/bin/bin.cpp:2728 src/mltcontroller/clippropertiescontroller.cpp:396
+#: src/bin/bin.cpp:2735 src/mltcontroller/clippropertiescontroller.cpp:396
 #, kde-format
 msgid "Image"
 msgstr "გამოსახულება"
 
-#: src/bin/bin.cpp:2732
+#: src/bin/bin.cpp:2739
 #, kde-format
 msgid "Slideshow"
 msgstr "სლაიდშოუ"
 
-#: src/bin/bin.cpp:2736
+#: src/bin/bin.cpp:2743
 #, kde-format
 msgid "Playlist"
 msgstr "დასაკრავი სია"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/bin/bin.cpp:2740 src/bin/clipcreator.cpp:238 src/bin/clipcreator.cpp:240
+#: src/bin/bin.cpp:2747 src/bin/clipcreator.cpp:238 src/bin/clipcreator.cpp:240
 #: src/project/projectmanager.cpp:1663 src/project/projectmanager.cpp:1665
 #: src/ui/managecache_ui.ui:192
 #, kde-format
 msgid "Sequences"
 msgstr "მიმდევრობები"
 
-#: src/bin/bin.cpp:2744 src/project/dialogs/projectsettings.cpp:215
+#: src/bin/bin.cpp:2751 src/project/dialogs/projectsettings.cpp:215
 #, kde-format
 msgid "Title"
 msgstr "სათაური"
 
-#: src/bin/bin.cpp:2748
+#: src/bin/bin.cpp:2755
 #, kde-format
 msgid "Title Template"
 msgstr "სათაურის შაბლონი"
 
-#: src/bin/bin.cpp:2789
+#: src/bin/bin.cpp:2796
 #, kde-format
 msgid "Select an option in the menu to enable filtering"
 msgstr "აირჩიეთ პუნქტი მენიუში გაფილტვრის ჩასართავად"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, listWidget)
-#: src/bin/bin.cpp:2844 src/ui/managecache_ui.ui:359
+#: src/bin/bin.cpp:2851 src/ui/managecache_ui.ui:359
 #, kde-format
 msgid "Folder"
 msgstr "საქაღალდე"
 
-#: src/bin/bin.cpp:2845
+#: src/bin/bin.cpp:2852
 #, kde-format
 msgid "Create bin folder"
 msgstr "კალათის საქაღალდის შექმნა"
 
-#: src/bin/bin.cpp:2984 src/bin/bin.cpp:2997 src/bin/bin.cpp:4030
+#: src/bin/bin.cpp:2991 src/bin/bin.cpp:3004 src/bin/bin.cpp:4037
 #: src/timeline2/model/timelinemodel.cpp:2227
 #, kde-format
 msgid "Delete Clip"
 msgstr "კლიპის წაშლა"
 
-#: src/bin/bin.cpp:2986 src/bin/bin.cpp:2999
+#: src/bin/bin.cpp:2993 src/bin/bin.cpp:3006
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -18876,37 +19947,37 @@ msgid ""
 "timeline."
 msgstr "ამჟამად მონიშნული კლიპების წაშლა პროექტის კალათიდან და დროის ხაზიდან."
 
-#: src/bin/bin.cpp:2987 src/bin/bin.cpp:3000 src/bin/bin.cpp:4006
+#: src/bin/bin.cpp:2994 src/bin/bin.cpp:3007 src/bin/bin.cpp:4013
 #, kde-format
 msgid "Proxy Clip"
 msgstr "პროქსი კლიპი"
 
-#: src/bin/bin.cpp:2991
+#: src/bin/bin.cpp:2998
 #, kde-format
 msgid "Delete Folder"
 msgstr "საქაღალდის წაშლა"
 
-#: src/bin/bin.cpp:2992
+#: src/bin/bin.cpp:2999
 #, kde-format
 msgid "Proxy Folder"
 msgstr "პროქსის საქაღალდე"
 
-#: src/bin/bin.cpp:3265
+#: src/bin/bin.cpp:3272
 #, kde-format
 msgid "Edit rating"
 msgstr "რეიტინგის ჩასწორება"
 
-#: src/bin/bin.cpp:3267
+#: src/bin/bin.cpp:3274
 #, kde-format
 msgid "Cannot set rating on this item"
 msgstr "ამ ელემენტზე შეფასებას ვერ დააყენებთ"
 
-#: src/bin/bin.cpp:3950
+#: src/bin/bin.cpp:3957
 #, kde-format
 msgid "Add Clip or Folder…"
 msgstr "კლიპის ან საქაღალდის დამატება…"
 
-#: src/bin/bin.cpp:3951
+#: src/bin/bin.cpp:3958
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -18920,97 +19991,97 @@ msgstr ""
 "მაჩვენებელ ხატულაზე, რომ წყაროს ტიპის არჩევა შეძლოთ.<nl/>დააწკაპუნეთ მედიის "
 "ხატულაზე, რომ გავხსნა ფანჯარა, სადაც ფაილების არჩევას შეძლებთ."
 
-#: src/bin/bin.cpp:3957
+#: src/bin/bin.cpp:3964
 #, kde-format
 msgid "Add Color Clip…"
 msgstr "ფერის კლიპის დამატება…"
 
-#: src/bin/bin.cpp:3959
+#: src/bin/bin.cpp:3966
 #, kde-format
 msgid "Add Image Sequence…"
 msgstr "გამოსახულების მიმდევრობის დამატება…"
 
-#: src/bin/bin.cpp:3961
+#: src/bin/bin.cpp:3968
 #, kde-format
 msgid "Add Title Clip…"
 msgstr "ტიტრების კლიპის დამატება…"
 
-#: src/bin/bin.cpp:3963
+#: src/bin/bin.cpp:3970
 #, kde-format
 msgid "Add Template Title…"
 msgstr "ნიმუში ტიტრის დამატება…"
 
-#: src/bin/bin.cpp:3965
+#: src/bin/bin.cpp:3972
 #, kde-format
 msgid "Create Animation…"
 msgstr "ანიმაციის შექმნა…"
 
-#: src/bin/bin.cpp:3967
+#: src/bin/bin.cpp:3974
 #, kde-format
 msgid "Add Sequence…"
 msgstr "მიმდევრობის დამატება…"
 
-#: src/bin/bin.cpp:3970 src/mainwindow.cpp:364
+#: src/bin/bin.cpp:3977 src/mainwindow.cpp:364
 #, kde-format
 msgid "Online Resources"
 msgstr "რესურსები ინტერნეტში"
 
-#: src/bin/bin.cpp:3974
+#: src/bin/bin.cpp:3981
 #, kde-format
 msgid "Locate Clip…"
 msgstr "კლიპის მოძებნა…"
 
-#: src/bin/bin.cpp:3979
+#: src/bin/bin.cpp:3986
 #, kde-format
 msgid "Reload Clip"
 msgstr "კლიპის თავიდან ჩატვირთვა"
 
-#: src/bin/bin.cpp:3985
+#: src/bin/bin.cpp:3992
 #, kde-format
 msgid "Transcode to Edit Friendly Format…"
 msgstr "ჩასწორებად ფორმატში კოდირება…"
 
-#: src/bin/bin.cpp:3990
+#: src/bin/bin.cpp:3997
 #, kde-format
 msgid "Replace Clip…"
 msgstr "კლიპის ჩანაცვლება…"
 
-#: src/bin/bin.cpp:3996
+#: src/bin/bin.cpp:4003
 #, kde-format
 msgid "Replace Clip In Timeline…"
 msgstr "კლიპის ჩანაცვლება დროის ხაზზე…"
 
-#: src/bin/bin.cpp:4001
+#: src/bin/bin.cpp:4008
 #, kde-format
 msgid "Duplicate Clip"
 msgstr "კლიპის დუბლირება"
 
-#: src/bin/bin.cpp:4013 src/bin/bin.cpp:4073
+#: src/bin/bin.cpp:4020 src/bin/bin.cpp:4080
 #, kde-format
 msgid "Clip Properties"
 msgstr "კლიპის თვისებები"
 
-#: src/bin/bin.cpp:4018 src/mltcontroller/clippropertiescontroller.cpp:638
+#: src/bin/bin.cpp:4025 src/mltcontroller/clippropertiescontroller.cpp:638
 #, kde-format
 msgid "Edit Clip"
 msgstr "კლიპის ჩასწორება"
 
-#: src/bin/bin.cpp:4036
+#: src/bin/bin.cpp:4043
 #, kde-format
 msgid "Default Target Folder for Sequences"
 msgstr "ნაგულისხმევი სამიზნე საქაღალდე მიმდევრობებისთვის"
 
-#: src/bin/bin.cpp:4041
+#: src/bin/bin.cpp:4048
 #, kde-format
 msgid "Default Target Folder for Audio Captures"
 msgstr "ნაგულისხმევი სამიზნე საქაღალდე აუდიოჩანაწერებისთვის"
 
-#: src/bin/bin.cpp:4045
+#: src/bin/bin.cpp:4052
 #, kde-format
 msgid "Create Folder"
 msgstr "საქაღალდის შექმნა"
 
-#: src/bin/bin.cpp:4048
+#: src/bin/bin.cpp:4055
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -19021,58 +20092,58 @@ msgstr ""
 "გაძლევთ, წყაროს ფაილები უკეთ დააორგანიზოთ. საქაღალდეები, შეგიძლიათ, "
 "ერთმანეთში ჩაალაგოთ."
 
-#: src/bin/bin.cpp:4189 src/bin/bin.cpp:4222
+#: src/bin/bin.cpp:4196 src/bin/bin.cpp:4229
 #, kde-format
 msgctxt "@title:window"
 msgid "Create New Sequence"
 msgstr "ახალი მიმდევრობის შექმნა"
 
-#: src/bin/bin.cpp:4192 src/bin/bin.cpp:4195 src/bin/bin.cpp:4225
+#: src/bin/bin.cpp:4199 src/bin/bin.cpp:4202 src/bin/bin.cpp:4232
 #, kde-format
 msgid "Sequence %1"
 msgstr "მიმდევრობა %1"
 
-#: src/bin/bin.cpp:4256
+#: src/bin/bin.cpp:4263
 #, kde-format
 msgid "Move Clip"
 msgid_plural "Move Clips"
 msgstr[0] "კლიპის გადატანა"
 msgstr[1] "კლიპების გადატანა"
 
-#: src/bin/bin.cpp:4298
+#: src/bin/bin.cpp:4305
 #, kde-format
 msgid "No valid clip to insert"
 msgstr "ჩასასმელად სწორი კლიპი ვერ ვიპოვე"
 
-#: src/bin/bin.cpp:4311 src/timeline2/view/timelinecontroller.cpp:1616
+#: src/bin/bin.cpp:4318 src/timeline2/view/timelinecontroller.cpp:1616
 #: src/timeline2/view/timelinecontroller.cpp:3522
 #, kde-format
 msgid "Select a clip to apply an effect"
 msgstr "აირჩიეთ კლიპი ეფექტის გადასატარებლად"
 
-#: src/bin/bin.cpp:4345 src/effects/effectstack/model/effectstackmodel.cpp:764
+#: src/bin/bin.cpp:4352 src/effects/effectstack/model/effectstackmodel.cpp:764
 #: src/effects/effectstack/model/effectstackmodel.cpp:770
 #: src/timeline2/model/timelineitemmodel.cpp:738
 #, kde-format
 msgid "Cannot add effect to clip"
 msgstr "ეფექტის კლიპზე დამატება შეუძლებელია"
 
-#: src/bin/bin.cpp:4419 src/effects/effectstack/model/effectstackmodel.cpp:720
+#: src/bin/bin.cpp:4426 src/effects/effectstack/model/effectstackmodel.cpp:720
 #, kde-format
 msgid "Paste effect"
 msgstr "ეფექტის ჩასმა"
 
-#: src/bin/bin.cpp:4456 src/bin/bin.cpp:4463
+#: src/bin/bin.cpp:4463 src/bin/bin.cpp:4470
 #, kde-format
 msgid "Select a clip to add a tag"
 msgstr "აირჩიეთ კლიპი, რომელზეც ჭდის დამატება გნებავთ"
 
-#: src/bin/bin.cpp:4602
+#: src/bin/bin.cpp:4609
 #, kde-format
 msgid "Edit Tags"
 msgstr "ჭდეების ჩასწორება"
 
-#: src/bin/bin.cpp:4938 src/bin/projectclip.cpp:196
+#: src/bin/bin.cpp:4945 src/bin/projectclip.cpp:196
 #: src/bin/projectclip.cpp:1984 src/onlineresources/resourcewidget.cpp:291
 #: src/onlineresources/resourcewidget.cpp:694
 #: src/onlineresources/resourcewidget.cpp:709
@@ -19080,42 +20151,42 @@ msgstr "ჭდეების ჩასწორება"
 msgid "Unnamed"
 msgstr "უსახელო"
 
-#: src/bin/bin.cpp:5002
+#: src/bin/bin.cpp:5009
 #, kde-format
 msgid "Enter path for your image editing application"
 msgstr "შეიყვანეთ ბილიკი თქვენს გამოსახულების რედაქტორამდე"
 
-#: src/bin/bin.cpp:5014
+#: src/bin/bin.cpp:5021
 #, kde-format
 msgid "Please set a default application to open image files"
 msgstr "დააყენეთ ნაგულისხმევი აპლიკაცია გამოსახულების ფაილების გასახსნელად"
 
-#: src/bin/bin.cpp:5019
+#: src/bin/bin.cpp:5026
 #, kde-format
 msgid "Enter path for your audio editing application"
 msgstr "შეიყვანეთ ბილიკი თქვენს ხმის რედაქტორამდე"
 
-#: src/bin/bin.cpp:5031
+#: src/bin/bin.cpp:5038
 #, kde-format
 msgid "Please set a default application to open audio files"
 msgstr "დააყენეთ ნაგულისხმევი აპლიკაცია აუდიოფაილების გასახსნელად"
 
-#: src/bin/bin.cpp:5041 src/core.cpp:669 src/doc/kdenlivedoc.cpp:169
+#: src/bin/bin.cpp:5048 src/core.cpp:669 src/doc/kdenlivedoc.cpp:169
 #: src/jobs/cliploadtask.cpp:487 src/jobs/cliploadtask.cpp:499
 #: src/jobs/filtertask.cpp:98 src/jobs/filtertask.cpp:139
 #: src/layouts/layoutmanagerdialog.cpp:211
 #: src/profiles/profilerepository.cpp:172
-#: src/renderpresets/renderpresetrepository.cpp:383
+#: src/renderpresets/renderpresetrepository.cpp:418
 #, kde-format
 msgid "Cannot open file %1"
 msgstr "ფაილის '%1' გახსნის შეცდომა"
 
-#: src/bin/bin.cpp:5078 src/dialogs/profilesdialog.cpp:237
+#: src/bin/bin.cpp:5085 src/dialogs/profilesdialog.cpp:237
 #, kde-format
 msgid "(copy)"
 msgstr "(ასლი)"
 
-#: src/bin/bin.cpp:5088
+#: src/bin/bin.cpp:5095
 #, kde-format
 msgid ""
 "You are editing an external title clip (%1). Do you want to save your "
@@ -19124,75 +20195,75 @@ msgstr ""
 "არედაქტირებთ გარე ტიტრის კლიპს (%1). გნებავთ შეინახოთ ცვლილებები ტიტრის "
 "ფაილში თუ, მხოლოდ, ამ პროექტში?"
 
-#: src/bin/bin.cpp:5091 src/titler/titlewidget.cpp:2331
+#: src/bin/bin.cpp:5098 src/titler/titlewidget.cpp:2331
 #, kde-format
 msgid "Save Title"
 msgstr "სათაურის შენახვა"
 
-#: src/bin/bin.cpp:5091
+#: src/bin/bin.cpp:5098
 #, kde-format
 msgid "Save to title file"
 msgstr "შენახვა ტირებიან ფაილში"
 
-#: src/bin/bin.cpp:5092
+#: src/bin/bin.cpp:5099
 #, kde-format
 msgid "Save in project only"
 msgstr "შენახვა, მხოლოდ, პროექტში"
 
-#: src/bin/bin.cpp:5115 src/dialogs/clipcreationdialog.cpp:327
+#: src/bin/bin.cpp:5122 src/dialogs/clipcreationdialog.cpp:327
 #, kde-format
 msgid "Title clip"
 msgstr "ტიტრის კლიპი"
 
-#: src/bin/bin.cpp:5165
+#: src/bin/bin.cpp:5172
 #, kde-format
 msgid "Clip is invalid, will be removed from project."
 msgstr "კლიპი არასწორია. პროექტიდან წაიშლება."
 
-#: src/bin/bin.cpp:5169
+#: src/bin/bin.cpp:5176
 #, kde-format
 msgid "Invalid clip"
 msgstr "არასწორი კლიპი"
 
-#: src/bin/bin.cpp:5283
+#: src/bin/bin.cpp:5290
 #, kde-format
 msgid "Enable proxies"
 msgstr "პროქსიების ჩართვა"
 
-#: src/bin/bin.cpp:5283
+#: src/bin/bin.cpp:5290
 #, kde-format
 msgid "Disable proxies"
 msgstr "პროქსიების გამორთვა"
 
-#: src/bin/bin.cpp:5464
+#: src/bin/bin.cpp:5471
 #, kde-format
 msgid "Rebuild proxies"
 msgstr "პროქსიების თავიდან აგება"
 
-#: src/bin/bin.cpp:5698
+#: src/bin/bin.cpp:5705
 #, kde-format
 msgctxt "@title:window"
 msgid "Project Bin"
 msgstr "პროექტის კალათა"
 
-#: src/bin/bin.cpp:5714
+#: src/bin/bin.cpp:5721
 #, kde-format
 msgid "Add Tracks"
 msgstr "ტრეკების დამატება"
 
-#: src/bin/bin.cpp:5716
+#: src/bin/bin.cpp:5723
 #, kde-format
 msgid "Edit Streams"
 msgstr "ნაკადების ჩასწორება"
 
-#: src/bin/bin.cpp:5735
+#: src/bin/bin.cpp:5742
 #, kde-format
 msgid "Don't ask again"
 msgstr "აღარ მკითხო"
 
 #. i18n("Cancel"), this);
 #. << ac4;
-#: src/bin/bin.cpp:5739
+#: src/bin/bin.cpp:5746
 #, kde-format
 msgid ""
 "Your project needs more audio tracks to handle all streams. Add %1 audio "
@@ -19201,7 +20272,7 @@ msgstr ""
 "თქვენ პროექტს ყველა ნაკადის დასამუშავებლად მეტი აუდიობილიკი სჭირება. "
 "დავამატო %1 აუდიობილიკი?"
 
-#: src/bin/bin.cpp:5751 src/mainwindow.cpp:3012
+#: src/bin/bin.cpp:5758 src/mainwindow.cpp:3012
 #, kde-format
 msgid "Cannot find clip to add marker"
 msgstr "მარკერის დასამატებელი კლიპი ვერ ვიპოვე"
@@ -19209,7 +20280,7 @@ msgstr "მარკერის დასამატებელი კლი�
 #. i18n: ectx: property (windowTitle), widget (QDialog, MarkerDialog_UI)
 #. i18n: ectx: property (windowTitle), widget (QDialog, ExportGuidesDialog_UI)
 #. i18n: ectx: property (windowTitle), widget (QDialog, MultipleMarkerDialog_UI)
-#: src/bin/bin.cpp:5765 src/bin/model/markerlistmodel.cpp:854
+#: src/bin/bin.cpp:5772 src/bin/model/markerlistmodel.cpp:854
 #: src/definitions.cpp:82 src/definitions.cpp:107
 #: src/timeline2/view/timelinecontroller.cpp:1390
 #: src/timeline2/view/timelinecontroller.cpp:1580
@@ -19219,34 +20290,34 @@ msgstr "მარკერის დასამატებელი კლი�
 msgid "Marker"
 msgstr "მარკერი"
 
-#: src/bin/bin.cpp:5855
+#: src/bin/bin.cpp:5862
 #, kde-format
 msgid "Could not find master clip"
 msgstr "მთავარი კლიპი ვერ ვიპოვე"
 
-#: src/bin/bin.cpp:6121
+#: src/bin/bin.cpp:6128
 #, kde-format
 msgid "<b>%1</b> clips | "
 msgstr "<b>%1</b> კლიპი | "
 
-#: src/bin/bin.cpp:6123
+#: src/bin/bin.cpp:6130
 #, kde-format
 msgid "<b>%1</b> clips (%2 selected) | "
 msgstr "<b>%1</b> კლიპი (%2 მონიშნული) | "
 
-#: src/bin/bin.cpp:6192 src/bin/bin.cpp:6269
+#: src/bin/bin.cpp:6199 src/bin/bin.cpp:6276
 #, kde-format
 msgid "Add additional stream for clip"
 msgid_plural "Add additional streams for clip"
 msgstr[0] "დამატებითი ნაკადის დამატება კლიპისთვის"
 msgstr[1] "დამატებითი ნაკადების დამატება კლიპისთვის"
 
-#: src/bin/bin.cpp:6213
+#: src/bin/bin.cpp:6220
 #, kde-format
 msgid "Import selected clips"
 msgstr "მონიშნულის კლიპების შემოტანა"
 
-#: src/bin/bin.cpp:6215
+#: src/bin/bin.cpp:6222
 #, kde-format
 msgid ""
 "Additional streams for clip\n"
@@ -19255,51 +20326,51 @@ msgstr ""
 "დამატებითი ნაკადების კლიპისთვის\n"
 "%1"
 
-#: src/bin/bin.cpp:6228 src/mltcontroller/clippropertiescontroller.cpp:754
+#: src/bin/bin.cpp:6235 src/mltcontroller/clippropertiescontroller.cpp:754
 #, kde-format
 msgid "Video stream %1"
 msgstr "ვიდეო ნაკადი %1"
 
-#: src/bin/bin.cpp:6243
+#: src/bin/bin.cpp:6250
 #, kde-format
 msgid "Audio stream %1"
 msgstr "აუდიო ნაკადი %1"
 
-#: src/bin/bin.cpp:6296
+#: src/bin/bin.cpp:6303
 #, kde-format
 msgid "Remove clip markers"
 msgstr "კლიპის სანიშნების წაშლა"
 
-#: src/bin/bin.cpp:6459
+#: src/bin/bin.cpp:6466
 #, kde-format
 msgctxt "@label:textbox"
 msgid "We recommend that you save the project before the transcode operation"
 msgstr "გირჩევთ, შეინახოთ პროექტი გადაკოდირების ოპერაციამდე"
 
-#: src/bin/bin.cpp:6460
+#: src/bin/bin.cpp:6467
 #, kde-format
 msgctxt "@action:button"
 msgid "Save Project"
 msgstr "პროექტის შენახვა"
 
-#: src/bin/bin.cpp:6461
+#: src/bin/bin.cpp:6468
 #, kde-format
 msgctxt "@action:button"
 msgid "Transcode Without Saving"
 msgstr "გადაყვანა შენახვის გარეშე"
 
-#: src/bin/bin.cpp:6619 src/effects/effectstack/model/effectstackmodel.cpp:198
+#: src/bin/bin.cpp:6626 src/effects/effectstack/model/effectstackmodel.cpp:198
 #: src/timeline2/model/timelineitemmodel.cpp:1121
 #, kde-format
 msgid "Delete effect %1"
 msgstr "ეფექტის წაშლა: %1"
 
-#: src/bin/bin.cpp:6685 src/mainwindow.cpp:264
+#: src/bin/bin.cpp:6692 src/mainwindow.cpp:264
 #, kde-format
 msgid "Project Bin"
 msgstr "პროექტის კალათა"
 
-#: src/bin/bin.cpp:6688 src/bin/bin.cpp:6691 src/mainwindow.cpp:5225
+#: src/bin/bin.cpp:6695 src/bin/bin.cpp:6698 src/mainwindow.cpp:5225
 #, kde-format
 msgid "Project Bin %1"
 msgstr "პროექტის კალათა %1"
@@ -20674,12 +21745,12 @@ msgctxt "@title:window"
 msgid "Export Markers Data"
 msgstr "მარკერის მონაცემების გატანა"
 
-#: src/dialogs/exportguidesdialog.cpp:81 src/dialogs/renderwidget.cpp:2180
-#: src/dialogs/renderwidget.cpp:2204 src/doc/kdenlivedoc.cpp:767
+#: src/dialogs/exportguidesdialog.cpp:81 src/dialogs/renderwidget.cpp:2182
+#: src/dialogs/renderwidget.cpp:2206 src/doc/kdenlivedoc.cpp:767
 #: src/doc/kdenlivedoc.cpp:775 src/doc/kdenlivedoc.cpp:1344
 #: src/effects/effectlist/model/effecttreemodel.cpp:307
 #: src/effects/effectlist/model/effecttreemodel.cpp:320
-#: src/effects/effectsrepository.cpp:429
+#: src/effects/effectsrepository.cpp:433
 #: src/effects/effectstack/view/collapsibleeffectview.cpp:786
 #: src/effects/effectstack/view/effectstackview.cpp:813
 #: src/layouts/layoutmanagerdialog.cpp:315
@@ -20691,8 +21762,8 @@ msgstr "მარკერის მონაცემების გატა�
 #: src/project/dialogs/archivewidget.cpp:908
 #: src/project/projectmanager.cpp:1974 src/project/projectmanager.cpp:1980
 #: src/render/renderrequest.cpp:324
-#: src/renderpresets/renderpresetrepository.cpp:389
-#: src/renderpresets/renderpresetrepository.cpp:445
+#: src/renderpresets/renderpresetrepository.cpp:424
+#: src/renderpresets/renderpresetrepository.cpp:480
 #: src/timeline2/view/timelinecontroller.cpp:5259
 #: src/timeline2/view/timelinecontroller.cpp:5264
 #: src/titler/titlewidget.cpp:2344
@@ -20783,7 +21854,7 @@ msgstr "თუ დარწმუნებული არ ბრძანდე
 
 #: src/dialogs/importsubtitle.cpp:46 src/dialogs/importsubtitle.cpp:79
 #: src/project/dialogs/guideslist.cpp:406 src/project/projectmanager.cpp:1863
-#: src/renderpresets/renderpresetrepository.cpp:322
+#: src/renderpresets/renderpresetrepository.cpp:357
 #, kde-format
 msgid "Cannot read file %1"
 msgstr "ფაილში ჩაწერის შეცდომა: %1"
@@ -21086,7 +22157,7 @@ msgid "6"
 msgstr "6"
 
 #: src/dialogs/renderpresetdialog.cpp:117
-#: src/dialogs/renderpresetdialog.cpp:421
+#: src/dialogs/renderpresetdialog.cpp:430
 #, kde-format
 msgid "Edit Render Preset"
 msgstr "რენდერის პრესეტის ჩასწორება"
@@ -21096,19 +22167,12 @@ msgstr "რენდერის პრესეტის ჩასწორე�
 msgid "Constrained VBR"
 msgstr "ნაძალადევი VBR"
 
-#: src/dialogs/renderpresetdialog.cpp:417
-#: src/dialogs/renderpresetdialog.cpp:438
-#, kde-format
-msgctxt "Group Name"
-msgid "Custom"
-msgstr "ხელით მითითებული"
-
-#: src/dialogs/renderpresetdialog.cpp:433
+#: src/dialogs/renderpresetdialog.cpp:442
 #, kde-format
 msgid "The preset name can't be empty"
 msgstr "პრესტის სახელი ცარიელი ვერ იქნება"
 
-#: src/dialogs/renderpresetdialog.cpp:861
+#: src/dialogs/renderpresetdialog.cpp:870
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -21146,7 +22210,7 @@ msgstr "ჟურნალის ჩვენება"
 msgid "Show Xml"
 msgstr "XML-ის ჩვენება"
 
-#: src/dialogs/renderwidget.cpp:250 src/dialogs/renderwidget.cpp:2002
+#: src/dialogs/renderwidget.cpp:250 src/dialogs/renderwidget.cpp:2004
 #, kde-format
 msgid "Waiting…"
 msgstr "მოლოდინი…"
@@ -21287,50 +22351,50 @@ msgstr ""
 "ვერ ვიპოვე პროგრამა kdenlive_render. პროგრამას რაღაც სჭირს. რენდერი არ "
 "იმუშავებს"
 
-#: src/dialogs/renderwidget.cpp:583
+#: src/dialogs/renderwidget.cpp:585
 #, kde-format
 msgid "Only works for the matroska (mkv) format"
 msgstr "მუშაობს, მხოლოდ, ფორმატთან matroska (mkv)"
 
-#: src/dialogs/renderwidget.cpp:598
+#: src/dialogs/renderwidget.cpp:600
 #, kde-format
 msgid "There was a problem sharing the document: %1"
 msgstr "პრობლემა დოკუმენტის გაზიარებისას: %1"
 
 #. i18n: ectx: property (text), widget (QToolButton, shareButton)
-#: src/dialogs/renderwidget.cpp:598 src/dialogs/renderwidget.cpp:606
+#: src/dialogs/renderwidget.cpp:600 src/dialogs/renderwidget.cpp:608
 #: src/ui/renderwidget_ui.ui:917
 #, kde-format
 msgid "Share"
 msgstr "გაზიარება"
 
-#: src/dialogs/renderwidget.cpp:603
+#: src/dialogs/renderwidget.cpp:605
 #, kde-format
 msgid "Document shared successfully"
 msgstr "დოკუმენტი წარმატებით გაზიარდა"
 
-#: src/dialogs/renderwidget.cpp:606
+#: src/dialogs/renderwidget.cpp:608
 #, kde-format
 msgid "You can find the shared document at: <a href=\"%1\">%1</a>"
 msgstr ""
 "გაზიარებული დოკუმენტის ხილვა შეგიძლიათ მისამართზე: <a href=\"%1\">%1</a>"
 
-#: src/dialogs/renderwidget.cpp:758
+#: src/dialogs/renderwidget.cpp:760
 #, kde-format
 msgid "Beginning"
 msgstr "დასაწყისი"
 
-#: src/dialogs/renderwidget.cpp:898
+#: src/dialogs/renderwidget.cpp:900
 #, kde-format
 msgid "Add a clip to timeline before rendering"
 msgstr "კლიპის დამატება დროის ხაზზე რენდერამდე"
 
-#: src/dialogs/renderwidget.cpp:904
+#: src/dialogs/renderwidget.cpp:906
 #, kde-format
 msgid "Cannot find the melt program required for rendering (part of Mlt)"
 msgstr "რენდერისთვის საჭირო პროგრამა melt ვერ ვიპოვე (MLT-ის ნაწილი)"
 
-#: src/dialogs/renderwidget.cpp:913
+#: src/dialogs/renderwidget.cpp:915
 #, kde-format
 msgctxt "@label:textbox"
 msgid ""
@@ -21342,25 +22406,25 @@ msgstr ""
 "აუდიო/ვიდეოს დექსინრონიზაციამდე მიგვიყვანოს.\n"
 "ჩვენი რეკომენდაციაა გადაკოდირება ჩასწორებად ფორმატში გააკეთოთ."
 
-#: src/dialogs/renderwidget.cpp:922
+#: src/dialogs/renderwidget.cpp:924
 #, kde-format
 msgctxt "@action:button"
 msgid "Render Anyway"
 msgstr "მაინც რენდერი"
 
-#: src/dialogs/renderwidget.cpp:928
+#: src/dialogs/renderwidget.cpp:930
 #, kde-format
 msgctxt "@action:button"
 msgid "Transcode"
 msgstr "გადაყვანა"
 
-#: src/dialogs/renderwidget.cpp:950 src/dialogs/renderwidget.cpp:1975
+#: src/dialogs/renderwidget.cpp:952 src/dialogs/renderwidget.cpp:1977
 #: src/project/dialogs/archivewidget.cpp:896
 #, kde-format
 msgid "Output file already exists. Do you want to overwrite it?"
 msgstr "გატანის ფაილი უკვე არსებობს. გნებავთ გადააწეროთ?"
 
-#: src/dialogs/renderwidget.cpp:958 src/monitor/recmanager.cpp:181
+#: src/dialogs/renderwidget.cpp:960 src/monitor/recmanager.cpp:181
 #, kde-format
 msgid ""
 "The directory %1, could not be created.\n"
@@ -21369,12 +22433,12 @@ msgstr ""
 "საქაღალდის %1 შექმნა შეუძლებელია.\n"
 "დარწმუნდით, რომ გაქვთ საჭირო უფლებები."
 
-#: src/dialogs/renderwidget.cpp:1030
+#: src/dialogs/renderwidget.cpp:1032
 #, kde-format
 msgid "The following errors occurred while trying to render"
 msgstr "აღმოჩენილია შემდეგი შეცდომები რენდერის მცდელობისას"
 
-#: src/dialogs/renderwidget.cpp:1070 src/dialogs/renderwidget.cpp:1988
+#: src/dialogs/renderwidget.cpp:1072 src/dialogs/renderwidget.cpp:1990
 #, kde-format
 msgid ""
 "There is already a job writing file:<br /><b>%1</b><br />Abort the job if "
@@ -21383,162 +22447,162 @@ msgstr ""
 "უკვე არსებობს დავალება, რომელიც წერს ფაილს:<br /><b>%1</b><br />შეწყვიტეთ ეს "
 "დავალება, თუ გნებავთ, თავზე გადააწეროთ…"
 
-#: src/dialogs/renderwidget.cpp:1071 src/dialogs/renderwidget.cpp:1989
+#: src/dialogs/renderwidget.cpp:1073 src/dialogs/renderwidget.cpp:1991
 #, kde-format
 msgid "Already running"
 msgstr "უკვე გაშვებულია"
 
-#: src/dialogs/renderwidget.cpp:1099
+#: src/dialogs/renderwidget.cpp:1101
 #, kde-format
 msgid "Video without audio track"
 msgstr "ვიდეო აუდიოს გარეშე"
 
-#: src/dialogs/renderwidget.cpp:1101
+#: src/dialogs/renderwidget.cpp:1103
 #, kde-format
 msgid "Audio without video track"
 msgstr "აუდიო ვიდეოს გარეშე"
 
-#: src/dialogs/renderwidget.cpp:1183 src/main.cpp:462
+#: src/dialogs/renderwidget.cpp:1185 src/main.cpp:462
 #, kde-format
 msgid "Rendering %1 started"
 msgstr "%1-ის რენდერი დაიწყო"
 
-#: src/dialogs/renderwidget.cpp:1248 src/monitor/monitor.cpp:1424
+#: src/dialogs/renderwidget.cpp:1250 src/monitor/monitor.cpp:1427
 #, kde-format
 msgid "untitled"
 msgstr "უსახელო"
 
-#: src/dialogs/renderwidget.cpp:1287
+#: src/dialogs/renderwidget.cpp:1289
 #, kde-format
 msgid "No preset selected"
 msgstr "პრესეტი არჩეული არაა"
 
-#: src/dialogs/renderwidget.cpp:1289
+#: src/dialogs/renderwidget.cpp:1291
 #, kde-format
 msgid "No matching preset"
 msgstr "ასეთი პრესეტი არ არსებობს"
 
-#: src/dialogs/renderwidget.cpp:1301
+#: src/dialogs/renderwidget.cpp:1303
 #, kde-format
 msgid "Invalid preset"
 msgstr "არასწორი პრესეტი"
 
-#: src/dialogs/renderwidget.cpp:1442
+#: src/dialogs/renderwidget.cpp:1444
 #, kde-format
 msgid ""
 "Rendering without audio and video does not work. Please enable at least one "
 "of both."
 msgstr "აუდიოს და ვიდეოს გარეშე რენდერი არ მუშაობს. ჩართეთ ერთ-ერთი ან ორივე."
 
-#: src/dialogs/renderwidget.cpp:1647
+#: src/dialogs/renderwidget.cpp:1649
 #, kde-format
 msgid "Remaining time "
 msgstr "დარჩენილი დრო "
 
-#: src/dialogs/renderwidget.cpp:1649 src/dialogs/renderwidget.cpp:1752
+#: src/dialogs/renderwidget.cpp:1651 src/dialogs/renderwidget.cpp:1754
 #, kde-format
 msgid "%1 day "
 msgid_plural "%1 days "
 msgstr[0] "%1 დღე "
 msgstr[1] "%1 დღე "
 
-#: src/dialogs/renderwidget.cpp:1661
+#: src/dialogs/renderwidget.cpp:1663
 #, kde-format
 msgid " (frame %1 @ %2 fps)"
 msgstr " (კადრი %1 @ %2 კადრი/წმ)"
 
-#: src/dialogs/renderwidget.cpp:1683
+#: src/dialogs/renderwidget.cpp:1685
 #, kde-format
 msgid "Less than %1MB of available memory remaining."
 msgstr "დარჩენილია %1მბ-ზე ნაკლები მეხსიერება."
 
-#: src/dialogs/renderwidget.cpp:1754
+#: src/dialogs/renderwidget.cpp:1756
 #, kde-format
 msgid "Rendering finished in %1"
 msgstr "რენდერის დასრულების დრო %1"
 
-#: src/dialogs/renderwidget.cpp:1765
+#: src/dialogs/renderwidget.cpp:1767
 #, kde-format
 msgid "Rendering of %1 finished in %2"
 msgstr "%1-ის რენდერის დასრულების დროა %2"
 
-#: src/dialogs/renderwidget.cpp:1768
+#: src/dialogs/renderwidget.cpp:1770
 #, kde-format
 msgid "First pass rendering of %1 finished"
 msgstr "%1-ის პირველი გავლის რენდერი დასრულდა"
 
-#: src/dialogs/renderwidget.cpp:1788
+#: src/dialogs/renderwidget.cpp:1790
 #, kde-format
 msgid "<strong>Rendering crashed</strong><br />"
 msgstr "<strong>რენდერი ავარიულად დასრულდა</strong><br />"
 
-#: src/dialogs/renderwidget.cpp:1790
+#: src/dialogs/renderwidget.cpp:1792
 #, kde-format
 msgid "<strong>Rendering of %1 crashed</strong><br />"
 msgstr "<strong>%1-ის რენდერი ავარიულად დასრულდა</strong><br />"
 
 #. i18n: ectx: property (text), widget (QPushButton, abort_job)
-#: src/dialogs/renderwidget.cpp:1857 src/ui/renderwidget_ui.ui:910
+#: src/dialogs/renderwidget.cpp:1859 src/ui/renderwidget_ui.ui:910
 #, kde-format
 msgid "Abort Job"
 msgstr "დავალების გაუქმება"
 
-#: src/dialogs/renderwidget.cpp:1860
+#: src/dialogs/renderwidget.cpp:1862
 #, kde-format
 msgid "Remove Job"
 msgstr "დავალების წაშლა"
 
-#: src/dialogs/renderwidget.cpp:2318
+#: src/dialogs/renderwidget.cpp:2320
 #, kde-format
 msgid "Add clips in timeline before rendering"
 msgstr "კლიპების დამატება დროის ხაზზე რენდერამდე"
 
-#: src/dialogs/renderwidget.cpp:2325
+#: src/dialogs/renderwidget.cpp:2327
 #, kde-format
 msgid "Output location is not writable, please select another one"
 msgstr "გამოტანის მდებარეობა ჩაწერადი არაა. აირჩიეთ სხვა"
 
-#: src/dialogs/renderwidget.cpp:2328
+#: src/dialogs/renderwidget.cpp:2330
 #, kde-format
 msgid "Your disk is almost full, rendering might fail"
 msgstr "თქვენი დისკი თითქმის სავსეა. რენდერი, შეიძლება, ჩავარდეს"
 
-#: src/dialogs/renderwidget.cpp:2331
+#: src/dialogs/renderwidget.cpp:2333
 #, kde-format
 msgid "Your disk space is limited (%1)"
 msgstr "თქვენი ადგილი დისკზე შეზღუდულია (%1)"
 
-#: src/dialogs/renderwidget.cpp:2341
+#: src/dialogs/renderwidget.cpp:2343
 #, kde-format
 msgid "Rendered File Length: %1"
 msgstr "დარენდერებული ფაილის სიგრძე: %1"
 
-#: src/dialogs/renderwidget.cpp:2344
+#: src/dialogs/renderwidget.cpp:2346
 #: src/mltcontroller/clippropertiescontroller.cpp:644
 #, kde-format
 msgid "Timecode Offset:"
 msgstr "დროის კოდის წანაცვლება:"
 
-#: src/dialogs/renderwidget.cpp:2349
+#: src/dialogs/renderwidget.cpp:2351
 #, kde-format
 msgid "<b>One missing clip used in the project.</b>"
 msgid_plural "<b>%1 missing clips used in the project.</b>"
 msgstr[0] "<b>პროექტში გამოიყენება 1 ნაკლული კლიპი.</b>"
 msgstr[1] "<b>პროექტში გამოიყენება %1 ნაკლული კლიპი.</b>"
 
-#: src/dialogs/renderwidget.cpp:2351
+#: src/dialogs/renderwidget.cpp:2353
 #, kde-format
 msgid "One missing clip (unused)."
 msgid_plural "%1 missing clips (unused)."
 msgstr[0] "ერთი ნაკლული კლიპი (გამოუყენებელი)"
 msgstr[1] "%1 ნაკლული კლიპი (გამოუყენებელი)"
 
-#: src/dialogs/renderwidget.cpp:2353
+#: src/dialogs/renderwidget.cpp:2355
 #, kde-format
 msgid "%1 missing clips (<b>%2 used in the project</b>)."
 msgstr "%1 ნაკლული კლიპი (<b>პროექტში გამოიყენება %2</b>)."
 
-#: src/dialogs/renderwidget.cpp:2483
+#: src/dialogs/renderwidget.cpp:2485
 #, kde-format
 msgid ""
 "Codec speed parameters:\n"
@@ -21547,12 +22611,12 @@ msgstr ""
 "კოდეკის სიჩქარის პარამეტრები:\n"
 "%1"
 
-#: src/dialogs/renderwidget.cpp:2503
+#: src/dialogs/renderwidget.cpp:2505
 #, kde-format
 msgid "Add to Current Project"
 msgstr "მიმდინარე პროექტში დამატება"
 
-#: src/dialogs/renderwidget.cpp:2512
+#: src/dialogs/renderwidget.cpp:2514
 #: src/effects/effectstack/view/maskmanager.cpp:679
 #: src/library/librarywidget.cpp:248 src/project/dialogs/backupwidget.cpp:42
 #, kde-format
@@ -21593,7 +22657,7 @@ msgstr "სხვანი"
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:214
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:746
 #: src/doc/documentvalidator.cpp:2511
-#: src/transitions/transitionsrepository.cpp:193
+#: src/transitions/transitionsrepository.cpp:197
 #, kde-format
 msgid "auto"
 msgstr "ავტომატური"
@@ -22022,11 +23086,6 @@ msgstr ""
 #, kde-format
 msgid "Made by KDE"
 msgstr "შეიქმნა KDE-ის მიერ"
-
-#: src/dialogs/Simplesplash.qml:148 src/dialogs/Splash.qml:592 src/main.cpp:274
-#, kde-format
-msgid "Kdenlive"
-msgstr "Kdenlive"
 
 #: src/dialogs/Simplesplash.qml:179
 #, kde-format
@@ -27869,12 +28928,12 @@ msgstr "თქვენი Kdenlive-ის ვერსია 6 თვეზე 
 msgid "Checking cached data size"
 msgstr "დაკეშილი მონაცემების შემოწმება"
 
-#: src/mltconnection.cpp:205
+#: src/mltconnection.cpp:291
 #, kde-format
 msgid "Cannot find the melt program required for rendering (part of MLT)"
 msgstr "რენდერისთვის საჭირო პროგრამა melt ვერ ვიპოვე (MLT-iის ნაწილი)"
 
-#: src/mltconnection.cpp:239
+#: src/mltconnection.cpp:351
 #, kde-format
 msgid "Cannot find your MLT profiles, please give the path"
 msgstr "თქვენი MLT პროფილები ვერ ვიპოვე. მიუთითეთ ბილიკი"
@@ -28103,7 +29162,7 @@ msgid "Audio streams"
 msgstr "აუდიო ნაკადები"
 
 #: src/mltcontroller/clippropertiescontroller.cpp:878
-#: src/monitor/monitor.cpp:2107
+#: src/monitor/monitor.cpp:2110
 #, kde-format
 msgid "Merge all streams"
 msgstr "ყველა ნაკადის შერწყმა"
@@ -28506,54 +29565,54 @@ msgstr "წყარის დროის კოდის ჩვენება
 msgid "Your screen resolution is not sufficient for this action"
 msgstr "ამ ქმედებისთვის თქვენი ეკრანის გაფართოება საკმარისი არაა"
 
-#: src/monitor/monitor.cpp:941 src/monitor/monitor.cpp:977
-#: src/monitor/monitor.cpp:1013
+#: src/monitor/monitor.cpp:943 src/monitor/monitor.cpp:979
+#: src/monitor/monitor.cpp:1015
 #, kde-format
 msgid "Cannot change zone when creating a mask"
 msgstr "ნიღბის შექმნისას ზონის შეცვლა შეუძლებელია"
 
-#: src/monitor/monitor.cpp:970 src/monitor/monitor.cpp:1006
+#: src/monitor/monitor.cpp:972 src/monitor/monitor.cpp:1008
 #: src/timeline2/view/timelinecontroller.cpp:1896
 #, kde-format
 msgid "Set Zone"
 msgstr "ზონის დაყენება"
 
-#: src/monitor/monitor.cpp:1437
+#: src/monitor/monitor.cpp:1440
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Image to Project"
 msgstr "გამოსახულების შენახვა პროექტში"
 
-#: src/monitor/monitor.cpp:1437
+#: src/monitor/monitor.cpp:1440
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Image"
 msgstr "გამოსახულების შენახვა"
 
-#: src/monitor/monitor.cpp:1444
+#: src/monitor/monitor.cpp:1447
 #, kde-format
 msgid "Export image using source resolution"
 msgstr "გამოსახულების გატანა წყაროს გაფართოებით"
 
-#: src/monitor/monitor.cpp:1984
+#: src/monitor/monitor.cpp:1987
 #, kde-format
 msgid "Exit Mask Mode ?"
 msgstr "გავიდე ნიღბის შექმნიდან?"
 
-#: src/monitor/monitor.cpp:2092 src/monitor/monitor.cpp:2221
+#: src/monitor/monitor.cpp:2095 src/monitor/monitor.cpp:2224
 #, kde-format
 msgid "%1 audio stream"
 msgid_plural "%1 audio streams"
 msgstr[0] "%1 აუდიო ნაკადი"
 msgstr[1] "%1 აუდიო ნაკადი"
 
-#: src/monitor/monitor.cpp:2543
+#: src/monitor/monitor.cpp:2546
 #, kde-format
 msgid "Cannot initialize Movit's GLSL manager, please disable Movit"
 msgstr ""
 "Movit-ის GLSL მმართველის ინიციალიზაცია შეუძლებელია. გამორთეთ Movit, გეთაყვა"
 
-#: src/monitor/monitor.cpp:2585 src/monitor/monitor.cpp:2642
+#: src/monitor/monitor.cpp:2588 src/monitor/monitor.cpp:2645
 #, kde-format
 msgid ""
 "The alphagrad filter is required for that feature, please install frei0r and "
@@ -28562,17 +29621,17 @@ msgstr ""
 "ამ თვისებისთვის alphagrad ფილტრი დაგჭირდებათ. დააყენეთ frei0r და გადატვირთეთ "
 "Kdenlive"
 
-#: src/monitor/monitor.cpp:2605
+#: src/monitor/monitor.cpp:2608
 #, kde-format
 msgid "Clip has no effects"
 msgstr "კლიპს ეფექტები არ აქვს"
 
-#: src/monitor/monitor.cpp:2607
+#: src/monitor/monitor.cpp:2610
 #, kde-format
 msgid "Select a clip in project bin to compare effect"
 msgstr "აირჩიეთ კლიპი პროექტის კალათაში ეფექტის შესადარებლად"
 
-#: src/monitor/monitor.cpp:2649
+#: src/monitor/monitor.cpp:2652
 #, kde-format
 msgid ""
 "The cairoblend transition is required for that feature, please install "
@@ -28581,40 +29640,40 @@ msgstr ""
 "ამ თვისებისთვის cairoblend გადასვლა დაგჭირდებათ. დააყენეთ frei0r და "
 "გადატვირთეთ Kdenlive"
 
-#: src/monitor/monitor.cpp:2729
+#: src/monitor/monitor.cpp:2732
 #, kde-format
 msgid "Enable edit mode in monitor to edit effect"
 msgstr "ეფექტის შესაცვლელად მონიტორში ჩასწორების რეჟიმი ჩართეთ"
 
-#: src/monitor/monitor.cpp:3236
+#: src/monitor/monitor.cpp:3239
 #, kde-format
 msgid "No clip selected in Clip Monitor"
 msgstr "კლიპის მონიტორისთვის კლიპი არჩეული არაა"
 
-#: src/monitor/monitor.cpp:3257
+#: src/monitor/monitor.cpp:3260
 #, kde-format
 msgid "Cannot get producer for Clip Monitor"
 msgstr "კლიპის მონიტორისთვის შემქმნელის მიღება შეუძლებელია"
 
-#: src/monitor/monitor.cpp:3339 src/monitor/monitor.cpp:3370
+#: src/monitor/monitor.cpp:3342 src/monitor/monitor.cpp:3373
 #: src/timeline2/view/timelinecontroller.cpp:5770
 #, kde-format
 msgid "No valid zone defined. Please set in/out points first."
 msgstr ""
 "სწორი ზონა ჯერ აღწერილი არაა. ჯერ დააყენეთ გამომავალი/შემავალი წერტილები."
 
-#: src/monitor/monitor.cpp:3349
+#: src/monitor/monitor.cpp:3352
 #, kde-format
 msgid "Create Range Marker from Zone"
 msgstr "შუალედის მარკერის შექმნა ზონიდან"
 
-#: src/monitor/monitor.cpp:3355 src/monitor/monitor.cpp:3376
+#: src/monitor/monitor.cpp:3358 src/monitor/monitor.cpp:3379
 #: src/timeline2/view/timelinecontroller.cpp:5785
 #, kde-format
 msgid "Range marker created from zone"
 msgstr "შუალედის მარკერი შეიქმნა ზონიდან"
 
-#: src/monitor/monitor.cpp:3357 src/monitor/monitor.cpp:3378
+#: src/monitor/monitor.cpp:3360 src/monitor/monitor.cpp:3381
 #: src/timeline2/view/timelinecontroller.cpp:5788
 #, kde-format
 msgid "Failed to create range marker from zone"
@@ -28826,17 +29885,17 @@ msgstr "აუდიოს სპექტრის ჩასართავა�
 msgid "Enable Audio Spectrum"
 msgstr "ხმის სპექტრის ჩართვა"
 
-#: src/monitor/videowidget.cpp:1148
+#: src/monitor/videowidget.cpp:1167
 #, kde-format
 msgid "Select a zone to play"
 msgstr "აირჩიეთ დასაკრავი ზონა"
 
-#: src/monitor/videowidget.cpp:1157
+#: src/monitor/videowidget.cpp:1176
 #, kde-format
 msgid "Select a clip to play"
 msgstr "აირჩიეთ დასაკრავი კლიპი"
 
-#: src/monitor/videowidget.cpp:1262
+#: src/monitor/videowidget.cpp:1281
 #, kde-format
 msgid ""
 "Could not create the video preview window.\n"
@@ -31548,44 +32607,36 @@ msgstr "რენდერის დავალებასთან %1 და�
 msgid "Communication error with render job"
 msgstr "რენდერის დავალებასთან დაკავშირების შეცდომა"
 
-#: src/renderpresets/renderpresetmodel.cpp:198
-#: src/renderpresets/renderpresetmodel.cpp:284
-#: src/renderpresets/renderpresetrepository.cpp:135
-#, kde-format
-msgctxt "Category Name"
-msgid "Custom"
-msgstr "ხელით მითითებული"
-
-#: src/renderpresets/renderpresetmodel.cpp:320
+#: src/renderpresets/renderpresetmodel.cpp:316
 #, kde-format
 msgid "Standard (%1) not compatible with project profile (%2)"
 msgstr "სტანდარტული (%1) პროექტის პროფილთან (%2) თავსებადი არაა"
 
-#: src/renderpresets/renderpresetmodel.cpp:330
+#: src/renderpresets/renderpresetmodel.cpp:326
 #, kde-format
 msgid "Frame rate (%1) not compatible with project profile (%2)"
 msgstr "კადრების სიხშირე (%1) პროექტის პროფილთან (%2) თავსებადი არაა"
 
-#: src/renderpresets/renderpresetmodel.cpp:344
-#: src/renderpresets/renderpresetmodel.cpp:367
+#: src/renderpresets/renderpresetmodel.cpp:340
+#: src/renderpresets/renderpresetmodel.cpp:363
 #, kde-format
 msgid "Unsupported video format: %1"
 msgstr "მხარდაუჭერელი ვიდეოფორმატი: %1"
 
-#: src/renderpresets/renderpresetmodel.cpp:349
-#: src/renderpresets/renderpresetmodel.cpp:380
+#: src/renderpresets/renderpresetmodel.cpp:345
+#: src/renderpresets/renderpresetmodel.cpp:376
 #, kde-format
 msgid "Unsupported video codec: %1"
 msgstr "მხარდაუჭერელი ვიდეო კოდეკი: %1"
 
-#: src/renderpresets/renderpresetmodel.cpp:354
-#: src/renderpresets/renderpresetmodel.cpp:374
+#: src/renderpresets/renderpresetmodel.cpp:350
+#: src/renderpresets/renderpresetmodel.cpp:370
 #, kde-format
 msgid "Unsupported audio codec: %1"
 msgstr "მხარდაუჭერელი აუდიო კოდეკი: %1"
 
-#: src/renderpresets/renderpresetmodel.cpp:359
-#: src/renderpresets/renderpresetmodel.cpp:386
+#: src/renderpresets/renderpresetmodel.cpp:355
+#: src/renderpresets/renderpresetmodel.cpp:382
 #, kde-format
 msgid ""
 "10 bit color depth will be converted to 8 bit if you use compositing or "
@@ -31594,7 +32645,7 @@ msgstr ""
 "10-ბიტიანი ფერის სიღრმე გადაყვანილი იქნება 8-ბიტიანში, თუ იყენებთ "
 "კომპოზიტირებას ან ეფექტებს, რომლებსაც avfilter არ გაწვდით."
 
-#: src/renderpresets/renderpresetmodel.cpp:391
+#: src/renderpresets/renderpresetmodel.cpp:387
 #, kde-format
 msgid ""
 "This render preset uses a 'profile' parameter.<br />Unless you know what you "
@@ -31603,33 +32654,56 @@ msgstr ""
 "ეს რენდერის პრესეტი 'profile' პარამეტრს იყენებთ.<br />თუ ზუსტად არ იცით, რას "
 "აკეთებთ, სჯობს, შეცვალოთ მნიშვნელობაზე 'mlt_profile'."
 
-#: src/renderpresets/renderpresetrepository.cpp:193
-#, kde-format
-msgctxt "Attribute Name"
+#: src/renderpresets/renderpresetrepository.cpp:99
+#, fuzzy, kde-format
+#| msgid "Custom"
+msgctxt "Custom render preset category"
 msgid "Custom"
 msgstr "ხელით მითითებული"
 
-#: src/renderpresets/renderpresetrepository.cpp:228
-#, kde-format
+#: src/renderpresets/renderpresetrepository.cpp:100
+#, fuzzy, kde-format
+#| msgid "10 Bit"
+msgctxt "10 Bit color depth category"
+msgid "10 Bit"
+msgstr "10-ბიტიანი"
+
+#: src/renderpresets/renderpresetrepository.cpp:101
+#, fuzzy, kde-format
+#| msgid "Lossless/HQ"
+msgctxt "Lossless rendering category"
 msgid "Lossless/HQ"
 msgstr "კარგვის გარეშე/მაღალი ხარისხი"
 
-#: src/renderpresets/renderpresetrepository.cpp:241
+#: src/renderpresets/renderpresetrepository.cpp:148
+#, kde-format
+msgctxt "Category Name"
+msgid "Custom"
+msgstr "ხელით მითითებული"
+
+#: src/renderpresets/renderpresetrepository.cpp:229
+#, fuzzy, kde-format
+#| msgid "Custom"
+msgctxt "Custom render preset category name"
+msgid "Custom"
+msgstr "ხელით მითითებული"
+
+#: src/renderpresets/renderpresetrepository.cpp:280
 #, kde-format
 msgid "10 Bit"
 msgstr "10-ბიტიანი"
 
-#: src/renderpresets/renderpresetrepository.cpp:254
+#: src/renderpresets/renderpresetrepository.cpp:292
 #, kde-format
 msgid "Images sequence"
 msgstr "გამოსახულებების მიმდევრობა"
 
-#: src/renderpresets/renderpresetrepository.cpp:358
+#: src/renderpresets/renderpresetrepository.cpp:393
 #, kde-format
 msgid "Preset already exists"
 msgstr "პრესეტი უკვე არსებობს"
 
-#: src/renderpresets/renderpresetrepository.cpp:359
+#: src/renderpresets/renderpresetrepository.cpp:394
 #, kde-format
 msgid ""
 "This preset name already exists. Change the name if you do not want to "
@@ -38919,6 +39993,14 @@ msgstr "%1მ"
 msgctxt "h as hours"
 msgid "%1h"
 msgstr "%1სთ"
+
+#~ msgctxt "Group Name"
+#~ msgid "Custom"
+#~ msgstr "ხელით მითითებული"
+
+#~ msgctxt "Attribute Name"
+#~ msgid "Custom"
+#~ msgstr "ხელით მითითებული"
 
 #~ msgctxt "@info:whatsthis"
 #~ msgid ""
