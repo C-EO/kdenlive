@@ -442,15 +442,12 @@ bool EffectStackModel::fromXml(const QDomElement &effectsXml, Fun &undo, Fun &re
             }
             // We are pasting a built in effect. Don't do a real paste, but copy the parameters to the existing effect
             // get all properties
+            bool disableFound = Xml::hasXmlProperty(node, QLatin1String("disable"));
             QDomNodeList props = node.elementsByTagName(QStringLiteral("property"));
             QVector<QPair<QString, QVariant>> effectProps;
-            bool disableFound = false;
             for (int j = 0; j < props.count(); ++j) {
                 QDomElement prop = props.item(j).toElement();
                 const QString propName = prop.attribute(QStringLiteral("name"));
-                if (!disableFound && propName == QLatin1String("disable")) {
-                    disableFound = true;
-                }
                 effectProps.append({propName, prop.firstChild().nodeValue()});
             }
             // Built-in effects are disabled by default. So when pasting an effect that
@@ -479,7 +476,7 @@ bool EffectStackModel::fromXml(const QDomElement &effectsXml, Fun &undo, Fun &re
                 local_redo();
                 std::shared_ptr<EffectItemModel> sourceEffect = std::static_pointer_cast<EffectItemModel>(model);
                 UPDATE_UNDO_REDO(local_redo, local_undo, undo, redo);
-                sourceEffect->markEnabled(true, undo, redo);
+                sourceEffect->markEnabled(effectEnabled, undo, redo);
                 continue;
             }
         }
