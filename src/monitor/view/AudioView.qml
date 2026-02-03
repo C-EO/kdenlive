@@ -16,6 +16,7 @@ Item {
     property int audioZoomHeightRef: isAudioClip ? height / 5 : height / 3.5
     property bool displayAudioZoom: true
     property bool dragButtonsVisible: false
+    property bool dirty: false
     property bool containsMyMouse: thumbMouseArea.containsMouse || audioZoom.containsMouse || clipMonitorRuler.containsMouse || thumbMouseArea.pressed
     property int clipId: controller.clipId
     state: stateVisible ? "showAudio" : "hideAudio"
@@ -132,6 +133,7 @@ Item {
     K.AudioZoomBar {
         id: audioZoom
         visible: audioThumb.isAudioClip || controller.clipHasAV
+        opacity: audioThumb.dirty ? 0.5 : 1
         anchors.top: parent.top
         height: audioThumb.audioZoomHeightRef
     }
@@ -139,6 +141,7 @@ Item {
         id: mainThumbsContainer
         anchors.fill: parent
         anchors.topMargin: audioZoom.height
+        opacity: audioThumb.dirty ? 0.5 : 1
         Rectangle {
             // Audio monitor background
             id: audioBg
@@ -286,6 +289,11 @@ Item {
             root.seeking = false
             root.captureRightClick = false
         }
+        onDoubleClicked: {
+            if (audioThumb.dirty) {
+                controller.refreshAudio()
+            }
+        }
 
         onWheel: wheel => {
             if (wheel.modifiers & Qt.ControlModifier) {
@@ -305,5 +313,10 @@ Item {
             }
 
         }
+    }
+    ToolTip {
+        text: audioThumb.dirty ? i18n("Audio wave not synced. Double click to update") : ""
+        delay: 1000
+        visible: thumbMouseArea.containsMouse
     }
 }

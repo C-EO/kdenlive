@@ -69,11 +69,7 @@ SequenceClip::SequenceClip(const QString &id, const QIcon &thumb, const std::sha
     // Initialize path for thumbnails playlist
     m_sequenceUuid = QUuid(m_masterProducer->get("kdenlive:uuid"));
     m_clipType = ClipType::Timeline;
-    // Generate audio thumbnail
-    if (KdenliveSettings::audiothumbnails() && producer->get_int("kdenlive:duration") > 0) {
-        ObjectId oid(KdenliveObjectType::BinClip, m_binId.toInt(), QUuid());
-        AudioLevelsTask::start(oid, this, false);
-    }
+
     if (model->hasSequenceId(m_sequenceUuid)) {
         // We already have a sequence with this uuid, this is probably a duplicate, update uuid
         const QUuid prevUuid = m_sequenceUuid;
@@ -87,6 +83,7 @@ SequenceClip::SequenceClip(const QString &id, const QIcon &thumb, const std::sha
             pCore->currentDoc()->duplicateSequenceProperty(m_sequenceUuid, prevUuid, subValue);
         }
     }
+    connect(this, &ProjectClip::audioThumbReady, this, &SequenceClip::updateAudioSync);
     m_sequenceThumbFile.setFileTemplate(QDir::temp().absoluteFilePath(QStringLiteral("thumbs-%1-XXXXXX.mlt").arg(m_binId)));
     // Timeline clip thumbs will be generated later after the tractor has been updated
     qDebug() << "555555555555555555\n\nBUILDING SEQUENCE CLIP\n\n555555555555555555555555555";
@@ -208,7 +205,7 @@ QTemporaryFile *SequenceClip::getSequenceTmpResource()
     QTemporaryFile *tmp = new QTemporaryFile(QDir::temp().absoluteFilePath(QStringLiteral("kdenlive-XXXXXX.mlt")));
     if (tmp->open()) {
         tmp->close();
-        cloneProducerToFile(tmp->fileName());
+        cloneProducerToFile(tmp->fileName(), false, true);
         return tmp;
     }
     return nullptr;
@@ -246,6 +243,7 @@ void SequenceClip::setProperties(const QMap<QString, QString> &properties, bool 
             }
         }
     }
+    bool durationChanged = properties.contains("length") && properties.value("length").toInt() != getFramePlaytime();
     ProjectClip::setProperties(properties, refreshPanel);
     if (properties.contains(QStringLiteral("kdenlive:clipname"))) {
         if (!m_sequenceUuid.isNull()) {
@@ -253,9 +251,12 @@ void SequenceClip::setProperties(const QMap<QString, QString> &properties, bool 
             Q_EMIT pCore->bin()->updateTabName(m_sequenceUuid, m_name);
         }
     }
-    if (properties.contains("length")) {
-        discardAudioThumb(true);
+    if (durationChanged) {
+        discardAudioThumb();
+        m_audioSynced = false;
         if (pCore->taskManager.displayedClip == m_binId.toInt()) {
+            // Mark audio thumb as dirty
+            pCore->getMonitor(Kdenlive::ClipMonitor)->markAudioDirty(true);
             // Refresh monitor duration
             pCore->getMonitor(Kdenlive::ClipMonitor)->adjustRulerSize(properties.value("length").toInt());
         }
@@ -349,4 +350,23 @@ std::shared_ptr<Mlt::Producer> SequenceClip::sequenceProducer(const QUuid &)
 int SequenceClip::getStartTimecode()
 {
     return pCore->currentDoc()->getSequenceProperty(m_sequenceUuid, "kdenlive:sequenceproperties.timecodeOffset").toInt();
+}
+
+const QString SequenceClip::hash(bool /*createIfEmpty*/)
+{
+    return m_sequenceUuid.toString();
+}
+
+bool SequenceClip::audioSynced() const
+{
+    return m_audioSynced;
+}
+
+void SequenceClip::updateAudioSync()
+{
+    m_audioSynced = true;
+    if (pCore->taskManager.displayedClip == m_binId.toInt()) {
+        // Mark audio thumb as dirty
+        pCore->getMonitor(Kdenlive::ClipMonitor)->markAudioDirty(false);
+    }
 }

@@ -87,12 +87,18 @@ public:
     std::unique_ptr<Mlt::Producer> getThumbProducer(const QUuid &) override;
     QDomElement toXml(QDomDocument &document, bool includeMeta = false, bool includeProfile = true) override;
     int getStartTimecode() override;
+    const QString hash(bool createIfEmpty = true) override;
+    bool audioSynced() const override;
 
 public Q_SLOTS:
     bool setProducer(std::shared_ptr<Mlt::Producer> producer, bool generateThumb = false, bool clearTrackProducers = true) override;
+
+private Q_SLOTS:
+    void updateAudioSync();
 
 private:
     // The sequence unique identifier
     QUuid m_sequenceUuid;
     QTemporaryFile m_sequenceThumbFile;
+    bool m_audioSynced{false};
 };

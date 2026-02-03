@@ -1728,6 +1728,7 @@ void ProjectManager::passSequenceProperties(const QUuid &uuid, std::shared_ptr<M
     if (tractor.property_exists("kdenlive:sequenceproperties.timelineHash")) {
         prod->parent().set("kdenlive:sequenceproperties.timelineHash", tractor.get("kdenlive:sequenceproperties.timelineHash"));
     }
+
     prod->parent().set("kdenlive:producer_type", ClipType::Timeline);
 }
 

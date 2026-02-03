@@ -87,6 +87,8 @@ void AudioLevelsTask::saveLevelsToCache(const QString &cachePath, const QVector<
         QDataStream out(&file);
         out << levels;
         file.close();
+    } else {
+        qWarning() << "Could not write to audiothumb file: " << cachePath;
     }
 }
 

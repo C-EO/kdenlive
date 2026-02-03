@@ -197,6 +197,7 @@ Monitor::Monitor(Kdenlive::MonitorId id, MonitorManager *manager, QWidget *paren
     connect(m_glMonitor->getControllerProxy(), &MonitorProxy::requestSeek, this, &Monitor::processSeek, Qt::DirectConnection);
     connect(m_glMonitor->getControllerProxy(), &MonitorProxy::positionChanged, this, &Monitor::slotSeekPosition);
     connect(m_glMonitor->getControllerProxy(), &MonitorProxy::addTimelineEffect, this, &Monitor::addTimelineEffect);
+    connect(m_glMonitor->getControllerProxy(), &MonitorProxy::rebuildAudio, this, &Monitor::rebuildAudio);
 
     m_qmlManager = new QmlManager(m_glMonitor, this);
     connect(this, &Monitor::blockSceneChange, m_qmlManager, &QmlManager::blockSceneChange);
@@ -2049,7 +2050,7 @@ bool Monitor::slotOpenClip(const std::shared_ptr<ProjectClip> &controller, int i
         m_audioMeterWidget->audioChannels = 0;
         m_timePos->setRange(0, 0);
         m_glMonitor->setRulerInfo(0, nullptr);
-        m_glMonitor->getControllerProxy()->setClipProperties(-1, ClipType::Unknown, false, QString());
+        m_glMonitor->getControllerProxy()->setClipProperties(-1, ClipType::Unknown, false, QString(), true);
         pCore->guidesList()->setClipMarkerModel(nullptr);
         // m_audioChannels->menuAction()->setVisible(false);
         m_streamAction->setVisible(false);
@@ -2175,7 +2176,7 @@ bool Monitor::slotOpenClip(const std::shared_ptr<ProjectClip> &controller, int i
             m_audioMeterWidget->audioChannels = controller->audioInfo() ? controller->audioInfo()->channels() : 0;
             m_controller->getMarkerModel()->registerSnapModel(m_snaps);
             m_glMonitor->getControllerProxy()->setClipProperties(controller->clipId().toInt(), controller->clipType(), controller->hasAudioAndVideo(),
-                                                                 controller->clipName());
+                                                                 controller->clipName(), controller->audioSynced());
             if (!m_controller->hasVideo() || KdenliveSettings::displayClipMonitorInfo() & Monitor::AudioWaveformOverlay) {
                 if (m_audioMeterWidget->audioChannels == 0 || !m_controller->hasAudio()) {
                     qDebug() << "=======\n\nSETTING AUDIO DATA IN MONITOR EMPTY!!!";
@@ -2269,7 +2270,7 @@ void Monitor::slotPreviewResource(const QString &path, const QString &title)
     m_markerModel = nullptr;
     m_glMonitor->setProducer(path);
     m_timePos->setRange(0, m_glMonitor->producer()->get_length() - 1);
-    m_glMonitor->getControllerProxy()->setClipProperties(-1, ClipType::Unknown, false, title);
+    m_glMonitor->getControllerProxy()->setClipProperties(-1, ClipType::Unknown, false, title, true);
     m_glMonitor->setRulerInfo(m_glMonitor->producer()->get_length() - 1);
     loadQmlScene(MonitorSceneDefault);
     checkOverlay();
@@ -3379,5 +3380,17 @@ void Monitor::slotCreateRangeMarkerFromZoneQuick()
         pCore->displayMessage(i18n("Range marker created from zone"), InformationMessage);
     } else {
         pCore->displayMessage(i18n("Failed to create range marker from zone"), ErrorMessage);
+    }
+}
+
+void Monitor::markAudioDirty(bool dirty)
+{
+    m_glMonitor->getControllerProxy()->setAudioSynced(!dirty);
+}
+
+void Monitor::rebuildAudio(int cid)
+{
+    if (cid == m_controller->clipId().toInt()) {
+        m_controller->discardAudioThumb(true);
     }
 }
