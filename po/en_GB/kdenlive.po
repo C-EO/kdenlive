@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-02 00:43+0000\n"
+"POT-Creation-Date: 2026-02-03 00:45+0000\n"
 "PO-Revision-Date: 2024-11-16 12:52+0000\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English\n"
@@ -17355,1072 +17355,6 @@ msgstr ""
 msgid "Deprecated"
 msgstr "Deprecated"
 
-#: data/org.kde.kdenlive.appdata.xml:11 data/org.kde.kdenlive.appdata.xml:13
-#: data/org.kde.kdenlive.appdata.xml:14 data/org.kde.kdenlive.appdata.xml:15
-#: data/org.kde.kdenlive.appdata.xml:16 data/org.kde.kdenlive.appdata.xml:17
-#: data/org.kde.kdenlive.appdata.xml:18 data/org.kde.kdenlive.appdata.xml:19
-#: data/org.kde.kdenlive.appdata.xml:20 data/org.kde.kdenlive.appdata.xml:21
-#: data/org.kde.kdenlive.appdata.xml:22 data/org.kde.kdenlive.appdata.xml:23
-#: data/org.kde.kdenlive.appdata.xml:24 data/org.kde.kdenlive.appdata.xml:25
-#: data/org.kde.kdenlive.appdata.xml:26 data/org.kde.kdenlive.appdata.xml:27
-#: data/org.kde.kdenlive.appdata.xml:28 data/org.kde.kdenlive.appdata.xml:29
-#: data/org.kde.kdenlive.appdata.xml:30 data/org.kde.kdenlive.appdata.xml:31
-#: data/org.kde.kdenlive.appdata.xml:33 data/org.kde.kdenlive.appdata.xml:34
-#: data/org.kde.kdenlive.appdata.xml:35 data/org.kde.kdenlive.appdata.xml:36
-#: data/org.kde.kdenlive.appdata.xml:37 data/org.kde.kdenlive.appdata.xml:38
-#: data/org.kde.kdenlive.appdata.xml:39 data/org.kde.kdenlive.appdata.xml:40
-#: data/org.kde.kdenlive.appdata.xml:41 data/org.kde.kdenlive.appdata.xml:42
-#: data/org.kde.kdenlive.appdata.xml:43 data/org.kde.kdenlive.appdata.xml:44
-#: data/org.kde.kdenlive.appdata.xml:46 data/org.kde.kdenlive.appdata.xml:47
-#: data/org.kde.kdenlive.appdata.xml:48 data/org.kde.kdenlive.appdata.xml:49
-#: data/org.kde.kdenlive.appdata.xml:50 data/org.kde.kdenlive.appdata.xml:51
-#: data/org.kde.kdenlive.appdata.xml:52 src/dialogs/Simplesplash.qml:148
-#: src/dialogs/Splash.qml:592 src/main.cpp:274
-#, kde-format
-msgid "Kdenlive"
-msgstr "Kdenlive"
-
-#: data/org.kde.kdenlive.appdata.xml:12
-#, kde-format
-msgid "كدنلايف"
-msgstr ""
-
-#: data/org.kde.kdenlive.appdata.xml:32
-#, kde-format
-msgid "केडेनलाइव"
-msgstr ""
-
-#: data/org.kde.kdenlive.appdata.xml:45
-#, kde-format
-msgid "क्डेन्लिव्"
-msgstr ""
-
-#: data/org.kde.kdenlive.appdata.xml:367
-#, kde-format
-msgid ""
-"\n"
-"    <p>Kdenlive is a video editing application with support for many audio "
-"and video formats. It offers advanced editing features, a variety of effects "
-"and transitions, color correction, audio post-production and subtitling "
-"tools. Additionally, it provides the flexibility to render into practically "
-"any format of your choice.</p>\n"
-"    <p xml:lang=\"ar\">كدنلايف هو تطبيق لتحرير الفيديو يدعم العديد من "
-"تنسيقات الصوت والفيديو. فهو يوفر ميزات تحرير متقدمة، ومجموعة متنوعة من "
-"التأثيرات والانتقالات، وتصحيح الألوان، وأدوات ما بعد الإنتاج الصوتي وترجمة "
-"الأفلام.بالإضافة إلى ذلك، فهو يوفر المرونة اللازمة للتصيير  إلى أي تنسيق من "
-"اختيارك.</p>\n"
-"    <p xml:lang=\"ca\">El Kdenlive és una aplicació d'edició de vídeo amb "
-"suport per a molts formats d'àudio i vídeo. Ofereix funcions avançades "
-"d'edició, una gran varietat d'efectes i transicions, correcció de color, "
-"postproducció d'àudio i eines de subtitulació. A més, proporciona la "
-"flexibilitat per a convertir pràcticament a qualsevol format de la vostra "
-"elecció.</p>\n"
-"    <p xml:lang=\"ca-valencia\">Kdenlive és una aplicació d'edició de vídeo "
-"amb suport per a molts formats d'àudio i vídeo. Oferix característiques "
-"avançades d'edició, una gran varietat d'efectes i transicions, correcció de "
-"color, postproducció d'àudio i eines de subtitulació. A més, proporciona la "
-"flexibilitat per a convertir pràcticament a qualsevol format de la vostra "
-"elecció.</p>\n"
-"    <p xml:lang=\"de\">Kdenlive ist ein Videobearbeitungsprogramm, das viele "
-"Audio- und Videoformate unterstützt. Es bietet erweiterte "
-"Bearbeitungsfunktionen, eine Vielzahl von Effekten und Übergängen, "
-"Farbkorrektur, Audio-Nachbearbeitung und Untertitelungswerkzeuge. Darüber "
-"hinaus bietet es die Flexibilität, ein Video in praktisch jedes Format Ihrer "
-"Wahl zu rendern.</p>\n"
-"    <p xml:lang=\"en-GB\">Kdenlive is a video editing application with "
-"support for many audio and video formats. It offers advanced editing "
-"features, a variety of effects and transitions, colour correction, audio "
-"post-production and subtitling tools. Additionally, it provides the "
-"flexibility to render into practically any format of your choice.</p>\n"
-"    <p xml:lang=\"eo\">Kdenlive estas videoredakta aplikaĵo kun subteno por "
-"multaj audaĵaj kaj vidaĵaj formatoj. Ĝi ofertas altnivelajn redaktajn "
-"funkciojn, diversajn efektojn kaj transirojn, kolorkorektado, aŭda "
-"postproduktado kaj subtitolaj iloj. Aldone, ĝi provizas la flekseblecon por "
-"redoni en preskaŭ ajna formato de via elekto.</p>\n"
-"    <p xml:lang=\"es\">Kdenlive es una aplicación de edición de video con "
-"soporte para una variedad de formatos de audio y video. Ofrece "
-"características avanzadas de edición, múltiples efectos y transiciones, "
-"corrección de color, posproducción de audio y herramientas de subtitulado. "
-"Adicionalmente, permite la exportación a prácticamente cualquier formato de "
-"audio y video existente.</p>\n"
-"    <p xml:lang=\"eu\">Kdenlive, audio- eta bideo-formatu askorako euskarria "
-"duen bideoa editatzeko tresna bat da. Edizio-funtzio aurreratuak eskaintzen "
-"ditu, efektu eta trantsizio ezberdinak, kolore-zuzenketa, audio post-"
-"produkzioa eta azpidatzietarako tresnak. Gainera, aukeratzen duzun ia "
-"edozein formatutan errendatzeko malgutasuna ematen du.</p>\n"
-"    <p xml:lang=\"fi\">Kdenlive on videomuokkaussovellus, joka tukee monia "
-"ääni- ja videomuotoja. Se työkalut tarjoavat edistyneet "
-"muokkausominaisuudet, joukon tehosteita ja siirtymiä, värinkorjauksen, äänen "
-"jälkituotannon sekä tekstityksen. Lisäksi se tarjoaa joustoa hahmontaa "
-"tuloksen lähes mihin tahansa haluamaasi muotoon.</p>\n"
-"    <p xml:lang=\"fr\">Kdenlive est une application de montage vidéo prenant "
-"en charge de nombreux formats audio et vidéo. Il offre des fonctionnalités "
-"d'édition avancées, une variété d'effets et de transitions, une correction "
-"des couleurs, une post-production audio et des outils de sous-titrage. En "
-"outre, il offre la flexibilité de faire un rendu dans pratiquement n'importe "
-"quel format de votre choix.</p>\n"
-"    <p xml:lang=\"ga\">Is feidhmchlár eagarthóireachta físe é Kdenlive a "
-"thacaíonn le go leor formáidí fuaime agus físe. Cuireann sé gnéithe "
-"eagarthóireachta chun cinn, réimse éifeachtaí agus aistrithe, ceartú datha, "
-"iarléiriú fuaime agus uirlisí fotheidealaithe ar fáil. Ina theannta sin, "
-"cuireann sé an tsolúbthacht ar fáil chun rindreáil i mbeagnach aon fhormáid "
-"is rogha leat.</p>\n"
-"    <p xml:lang=\"gl\">Kdenlive é unha aplicación de edición de vídeo para "
-"moitos formatos de son e de vídeo. Fornece funcionalidades avanzadas de "
-"edición, varios efectos e transicións, corrección de cor, post-produción de "
-"son e ferramentas de subtítulos. Ademais, fornece a flexibilidade de "
-"renderizar en calquera formato da súa escolla.</p>\n"
-"    <p xml:lang=\"he\">Kdenlive הוא יישום לעריכת וידאו עם תמיכה במגוון סוגים "
-"של וידאו ושמע. הוא מציע יכולות עריכה מתקדמות, שלל אפקטים ומעברונים, תיקון "
-"צבע, הפקת פוסט של שמע וכלי כתוביות. בנוסף, הוא מספק את הגמישות לעבד לכמעט כל "
-"סוג אפשרי שיש לבחירתך.</p>\n"
-"    <p xml:lang=\"hi\">Kdenlive एक वीडियो संपादन एप्लिकेशन है जो कई ऑडियो और "
-"वीडियो प्रारूपों के लिए समर्थन प्रदान करता है। यह उन्नत संपादन सुविधाएँ, विभिन्न प्रकार के "
-"प्रभाव और संक्रमण, रंग सुधार, ऑडियो पोस्ट-प्रोडक्शन और उपशीर्षक उपकरण प्रदान करता है। "
-"इसके अतिरिक्त, यह आपकी पसंद के व्यावहारिक रूप से किसी भी प्रारूप में रेंडर करने की सुविधा "
-"प्रदान करता है।</p>\n"
-"    <p xml:lang=\"id\">Kdenlive adalah aplikasi pengeditan video yang "
-"mendukung banyak format audio dan video. Aplikasi ini menawarkan fitur "
-"pengeditan tingkat lanjut, berbagai efek dan transisi, koreksi warna, "
-"pascaproduksi audio, dan alat subtitel. Selain itu, aplikasi ini menyediakan "
-"fleksibilitas untuk melakukan render ke hampir semua format pilihan Anda.</"
-"p>\n"
-"    <p xml:lang=\"it\">Kdenlive è un'applicazione di editing video che "
-"supporta molti formati audio e video. Offre funzionalità avanzate di "
-"modifica, un assortimento di effetti e transizioni, correzione del colore, "
-"strumenti per la post-produzione audio e la sottotitolazione. In aggiunta, "
-"fornisce la flessibilità di produrre praticamente in qualsiasi formato tu "
-"desideri.</p>\n"
-"    <p xml:lang=\"ka\">Kdenlive ვიდეორედაქტორია ბევრი აუდიო და "
-"ვიდეოფორმატების მხარდაჭერით. ის გთავაზობთ დამატებითი ჩასწორების ფუნქციებს, "
-"მრავალ ეფექტსა და გადასვლას, ფერის შესწორებას, აუდიოს პოსტ-პროდაქშენს და "
-"სუბტიტრების მორგებას. დამატებით, ის გაძლევთ საშუალებას, დაარენდეროთ "
-"პრაქტიკულად ნებისმიერ ფორმატში, რომელსაც აირჩევთ.</p>\n"
-"    <p xml:lang=\"lv\">„Kdenlive“ ir video rediģēšanas programma ar daudzu "
-"audio un video formātu atbalstu. Tā sniedz plašas rediģēšanas iespējas, "
-"dažādus efektus un pārejas, krāsu korekcijas iespējas, skaņas pēcapstrādes "
-"un subtitru rīkus. Turklāt „Kdenlive“ ļauj renderēt praktiski jebkurā "
-"formātā pēc jūsu izvēles.</p>\n"
-"    <p xml:lang=\"nl\">Kdenlive is een toepassing voor video bewerken met "
-"ondersteuning voor vele audio- en videoformaten. Het biedt geavanceerde "
-"bewerkingsfuncties, een verscheidenheid aan effecten en transities, "
-"kleurcorrectie, audio nabewerking en hulpmiddelen voor ondertiteling. "
-"Bovendien levert het de flexibiliteit om te renderen in praktisch elk "
-"formaat van uw keuze.</p>\n"
-"    <p xml:lang=\"pl\">Kdenlive jest aplikacją do edytowania wideo z obsługą "
-"wielu formatów dźwięku i obrazu. Daje rozbudowane możliwości, wiele efektów "
-"i przejść, poprawianie barw, po-produkcję dźwięki oraz narzędzia do napisów. "
-"Dodatkowo, zapewnia możliwość zapisania do właściwie dowolnego formatu jaki "
-"sobie wybierzesz.</p>\n"
-"    <p xml:lang=\"pt-BR\">Kdenlive é um aplicativo de edição de vídeo com "
-"suporte para vários formatos de áudio e vídeo. Ele oferece recursos "
-"avançados de edição, uma variedade de efeitos e transições, correção de "
-"cores, pós-produção de áudio e ferramentas de legenda. Além disso, fornece a "
-"flexibilidade para renderizar em praticamente qualquer formato que você "
-"escolher.</p>\n"
-"    <p xml:lang=\"ru\">Kdenlive — видеоредактор, поддерживающий различные "
-"форматы аудио- и видеозаписей. Программа предоставляет расширенные "
-"возможности редактирования, широкий ряд эффектов и переходов, инструменты "
-"цветокоррекции, окончательного монтажа аудио и наложения субтитров. Кроме "
-"того, гибкость настройки программы позволяет получить на выходе файл "
-"практически любого формата.</p>\n"
-"    <p xml:lang=\"sa\">Kdenlive इति एकः विडियो सम्पादन-अनुप्रयोगः अस्ति यस्य "
-"समर्थनं बहुषु श्रव्य-वीडियो-स्वरूपेषु भवति । अस्मिन् उन्नतसम्पादनविशेषताः, विविधाः प्रभावाः "
-"संक्रमणाः च, वर्णशुद्धिः, श्रव्य-उत्तरनिर्माणं, उपशीर्षकसाधनं च प्राप्यते । तदतिरिक्तं, भवतः "
-"पसन्दस्य व्यावहारिकरूपेण कस्मिन् अपि प्रारूपे प्रतिपादयितुं लचीलापनं प्रदाति ।</p>\n"
-"    <p xml:lang=\"sl\">Kdenlive je program za montažo videoposnetkov s "
-"podporo za številne zvokovne in video zapise. Ponuja napredne funkcije "
-"montaže, urejanja, različne učinke in prehode, korekcijo barv, poprodukcijo "
-"zvoka in orodja za podnaslavljanje. Poleg tega zagotavlja prilagodljivost za "
-"izrisovanje v praktično poljuben zapis po vašem izboru.</p>\n"
-"    <p xml:lang=\"sv\">Kdenlive är ett videoredigeringsprogram med stöd för "
-"många ljud- och videoformat. Det erbjuder avancerade redigeringsfunktioner, "
-"en mängd olika effekter och övergångar, färgkorrigering, efterproduktion av "
-"ljud och textningsverktyg. Dessutom ger det flexibiliteten att återge till "
-"praktiskt taget vilket format som helst.</p>\n"
-"    <p xml:lang=\"tr\">Kdenlive, birçok ses ve video biçimini destekleyen "
-"bir video düzenleme uygulamasıdır. Gelişmiş düzenleme özellikleri, çeşitli "
-"efektler ve geçişler, renk düzeltme, ses post prodüksiyon ve altyazı "
-"araçları sunar. Ek olarak, neredeyse seçtiğiniz herhangi bir biçime "
-"dönüştürme esnekliği de sağlar.</p>\n"
-"    <p xml:lang=\"uk\">Kdenlive — програма для редагування відео із "
-"підтримкою багатьох форматів даних відео та звуку. У ній реалізовано широкі "
-"можливості з редагування, спектр ефектів та переходів, виправлення кольорів, "
-"остаточну обробку звуку та засоби субтитрування. Крім того, програма здатна "
-"гнучко обробляти дані практично до будь-якого вибраного вами формату.</p>\n"
-"    <p xml:lang=\"zh-CN\">Kdenlive 是一款视频编辑应用程序，支持多种音视频格"
-"式。它提供了各种高级编辑功能、种类丰富的效果和转场、色彩校正、音频后处理和字"
-"幕工具。它还能灵活地将视频输出为您需要的任意格式。</p>\n"
-"    <p xml:lang=\"zh-TW\">Kdenlive 是支援許多音訊與影片格式的影片編輯軟體。它"
-"提供進階的剪輯功能、許多的效果、轉場特效、顏色校正、音效後製與字幕工具等等。"
-"它也支援輸出到基本上任何您所想要使用的格式。</p>\n"
-"    <p>Features:</p>\n"
-"    <p xml:lang=\"ar\">الميزات:</p>\n"
-"    <p xml:lang=\"az\">İmkanlar:</p>\n"
-"    <p xml:lang=\"bs\">Svojstva:</p>\n"
-"    <p xml:lang=\"ca\">Característiques:</p>\n"
-"    <p xml:lang=\"ca-valencia\">Característiques:</p>\n"
-"    <p xml:lang=\"cs\">Vlastnosti:</p>\n"
-"    <p xml:lang=\"da\">Funktioner:</p>\n"
-"    <p xml:lang=\"de\">Funktionen:</p>\n"
-"    <p xml:lang=\"el\">Χαρακτηριστικά:</p>\n"
-"    <p xml:lang=\"en-GB\">Features:</p>\n"
-"    <p xml:lang=\"eo\">Trajtoj:</p>\n"
-"    <p xml:lang=\"es\">Características:</p>\n"
-"    <p xml:lang=\"et\">Omadused:</p>\n"
-"    <p xml:lang=\"eu\">Ezaugarriak:</p>\n"
-"    <p xml:lang=\"fi\">Ominaisuuksia:</p>\n"
-"    <p xml:lang=\"fr\">Fonctionnalités :</p>\n"
-"    <p xml:lang=\"ga\">Gnéithe:</p>\n"
-"    <p xml:lang=\"gl\">Funcionalidades:</p>\n"
-"    <p xml:lang=\"he\">יכולות:</p>\n"
-"    <p xml:lang=\"hi\">विशेषताएँ:</p>\n"
-"    <p xml:lang=\"id\">Fitur:</p>\n"
-"    <p xml:lang=\"it\">Funzionalità:</p>\n"
-"    <p xml:lang=\"ja\">特徴:</p>\n"
-"    <p xml:lang=\"ka\">თვისებები:</p>\n"
-"    <p xml:lang=\"ko\">기능:</p>\n"
-"    <p xml:lang=\"lv\">Iespējas:</p>\n"
-"    <p xml:lang=\"nl\">Mogelijkheden:</p>\n"
-"    <p xml:lang=\"nn\">Funksjonar:</p>\n"
-"    <p xml:lang=\"pl\">Możliwości:</p>\n"
-"    <p xml:lang=\"pt\">Funcionalidades:</p>\n"
-"    <p xml:lang=\"pt-BR\">Funcionalidades:</p>\n"
-"    <p xml:lang=\"ru\">Возможности:</p>\n"
-"    <p xml:lang=\"sa\">गुणाः:</p>\n"
-"    <p xml:lang=\"sk\">Funkcie:</p>\n"
-"    <p xml:lang=\"sl\">Zmožnosti:</p>\n"
-"    <p xml:lang=\"sv\">Funktioner:</p>\n"
-"    <p xml:lang=\"tr\">Özellikler:</p>\n"
-"    <p xml:lang=\"uk\">Можливості:</p>\n"
-"    <p xml:lang=\"zh-CN\">程序功能：</p>\n"
-"    <p xml:lang=\"zh-TW\">功能：</p>\n"
-"    <ul>\n"
-"      <li>Nested Sequences</li>\n"
-"      <li xml:lang=\"ar\">تسلسلات متداخلة</li>\n"
-"      <li xml:lang=\"ca\">Seqüències imbricades</li>\n"
-"      <li xml:lang=\"ca-valencia\">Seqüències imbricades</li>\n"
-"      <li xml:lang=\"de\">Verschachtelte Sequenzen</li>\n"
-"      <li xml:lang=\"en-GB\">Nested Sequences</li>\n"
-"      <li xml:lang=\"eo\">Ingitaj Sinsekvoj</li>\n"
-"      <li xml:lang=\"es\">Secuencias anidadas</li>\n"
-"      <li xml:lang=\"eu\">Habiaratutako sekuentziak</li>\n"
-"      <li xml:lang=\"fi\">Sisäkkäiset sekvenssit</li>\n"
-"      <li xml:lang=\"fr\">Séquences imbriquées</li>\n"
-"      <li xml:lang=\"ga\">Seichimh Neadaithe</li>\n"
-"      <li xml:lang=\"gl\">Secuencias aniñadas.</li>\n"
-"      <li xml:lang=\"he\">רצפים מקוננים</li>\n"
-"      <li xml:lang=\"hi\">नेस्टेड अनुक्रम</li>\n"
-"      <li xml:lang=\"id\">Urutan Bersarang</li>\n"
-"      <li xml:lang=\"it\">Sequenze annidate</li>\n"
-"      <li xml:lang=\"ka\">ერთმანეთში ჩალაგებული მიმდევრობები</li>\n"
-"      <li xml:lang=\"lv\">Ievietotas sekvences</li>\n"
-"      <li xml:lang=\"nl\">Geneste sequenties</li>\n"
-"      <li xml:lang=\"pl\">Osadzone odcinki</li>\n"
-"      <li xml:lang=\"pt-BR\">Sequências aninhadas</li>\n"
-"      <li xml:lang=\"ru\">Вложенные последовательности</li>\n"
-"      <li xml:lang=\"sa\">नेस्टेड अनुक्रम</li>\n"
-"      <li xml:lang=\"sl\">Ugnezdena zaporedja</li>\n"
-"      <li xml:lang=\"sv\">Nästlade sekvenser</li>\n"
-"      <li xml:lang=\"tr\">İç içe geçmiş sekanslar</li>\n"
-"      <li xml:lang=\"uk\">Вкладені послідовності</li>\n"
-"      <li xml:lang=\"zh-CN\">嵌套序列</li>\n"
-"      <li xml:lang=\"zh-TW\">巢狀序列</li>\n"
-"      <li>Configurable interface and shortcuts</li>\n"
-"      <li xml:lang=\"ar\">اختصارات و واجهة قابلة للتخصيص</li>\n"
-"      <li xml:lang=\"ca\">Interfície i dreceres configurables</li>\n"
-"      <li xml:lang=\"ca-valencia\">Interfície i dreceres configurables</li>\n"
-"      <li xml:lang=\"de\">Konfigurierbare Benutzeroberfläche und "
-"Kurzbefehle</li>\n"
-"      <li xml:lang=\"en-GB\">Configurable interface and shortcuts</li>\n"
-"      <li xml:lang=\"eo\">Agordeblaj interfaco kaj ŝparvojoj</li>\n"
-"      <li xml:lang=\"es\">Interfaz y atajos de teclado configurables</li>\n"
-"      <li xml:lang=\"eu\">Interfaze eta lasterbide konfiguragarriak</li>\n"
-"      <li xml:lang=\"fi\">Mukautettava käyttöliittymä ja pikanäppäimet</li>\n"
-"      <li xml:lang=\"fr\">Interface et raccourcis configurables</li>\n"
-"      <li xml:lang=\"ga\">Comhéadan agus aicearraí inchumraithe</li>\n"
-"      <li xml:lang=\"gl\">Interface e atallos configurábeis.</li>\n"
-"      <li xml:lang=\"he\">ממשק וקיצורי דרך גמישים</li>\n"
-"      <li xml:lang=\"hi\">कॉन्फ़िगर करने योग्य इंटरफ़ेस और शॉर्टकट</li>\n"
-"      <li xml:lang=\"id\">Pintasan dan antarmuka yang dapat dikonfigurasi</"
-"li>\n"
-"      <li xml:lang=\"it\">Scorciatoie e interfaccia configurabili</li>\n"
-"      <li xml:lang=\"ka\">მორგებადი ინტერფეისი და მალსახმობები</li>\n"
-"      <li xml:lang=\"lv\">Konfigurējama saskarne un saīsnes</li>\n"
-"      <li xml:lang=\"nl\">Te configureren interface en sneltoetsen</li>\n"
-"      <li xml:lang=\"pl\">Interfejs i skróty dające się dostosować</li>\n"
-"      <li xml:lang=\"pt-BR\">Interface e atalhos configuráveis</li>\n"
-"      <li xml:lang=\"ru\">Настраиваемые интерфейс и комбинации клавиш</li>\n"
-"      <li xml:lang=\"sa\">विन्यासयोग्यं अन्तरफलकं शॉर्टकट् च</li>\n"
-"      <li xml:lang=\"sl\">Nastavljiv vmesnik in bližnjice</li>\n"
-"      <li xml:lang=\"sv\">Anpassningsbart gränssnitt och genvägar</li>\n"
-"      <li xml:lang=\"tr\">Yapılandırılabilir arayüz ve kısayollar</li>\n"
-"      <li xml:lang=\"uk\">Можливість налаштовування інтерфейсу та "
-"клавіатурних скорочень</li>\n"
-"      <li xml:lang=\"zh-CN\">可定制的界面和快捷键</li>\n"
-"      <li xml:lang=\"zh-TW\">可調整的介面與快捷鍵</li>\n"
-"      <li>Scopes: Histogram, Vectorscope, RGB Parade, Waveform and Audio "
-"Meter</li>\n"
-"      <li xml:lang=\"ar\">المناظير: الرسم البياني، Vectorscope، RGB Parade، "
-"الموجي ومقياس الصوت</li>\n"
-"      <li xml:lang=\"ca\">Vectoscopis: Histograma, Vectoscopi, Histograma "
-"RGB, Forma d'ona i Mesurador d'àudio</li>\n"
-"      <li xml:lang=\"ca-valencia\">Vectoscopis: Histograma, Vectoscopi, "
-"Histograma RGB, Forma d'ona i Mesurador d'àudio</li>\n"
-"      <li xml:lang=\"de\">Anzeigen: Histogramm, Vektorskop, RGB-Parade, "
-"Wellenform und Audiometer</li>\n"
-"      <li xml:lang=\"en-GB\">Scopes: Histogram, Vectorscope, RGB Parade, "
-"Waveform and Audio Meter</li>\n"
-"      <li xml:lang=\"eo\">Ampleksoj: Histogramo, Vectorscope, RGB Parade, "
-"Ondoformo kaj Aŭdmezurilo</li>\n"
-"      <li xml:lang=\"es\">Instrumentos: Histograma, Vectorscopio, "
-"Presentación RVA, Medidores de forma de onda y volumen</li>\n"
-"      <li xml:lang=\"eu\">Eskopioak: Histograma, Bektoreskopioa, RGB parada, "
-"Uhin-forma eta Audio-neurgailua</li>\n"
-"      <li xml:lang=\"fr\">Oscilloscopes : histogramme, oscilloscope "
-"vectoriel, défilé RVB, mesure de signaux et audiomètre</li>\n"
-"      <li xml:lang=\"ga\">Scóipeanna: Histogram, Veicteoirscóp, Paráid RGB, "
-"Tonnfhoirm agus Méadar Fuaime</li>\n"
-"      <li xml:lang=\"gl\">Ámbitos: histograma, vectorscopio, desfile RGB, "
-"forma de onda e medidor de son.</li>\n"
-"      <li xml:lang=\"he\">טווחים: היסטוגרמה, וקטורסקופ, צורת גל ומד עוצמת "
-"שמע</li>\n"
-"      <li xml:lang=\"hi\">कार्यक्षेत्र: हिस्टोग्राम, वेक्टरस्कोप, आरजीबी परेड, वेवफॉर्म "
-"और ऑडियो मीटर</li>\n"
-"      <li xml:lang=\"id\">Cakupan: Histogram, Vectorscope, RGB Parade, "
-"Bentuk Gelombang, dan Pengukur Audio</li>\n"
-"      <li xml:lang=\"it\">Diagrammi: istogramma, Evidenza le punte massime, "
-"Esibizione RGB, Forma d'onda e Misuratore audio</li>\n"
-"      <li xml:lang=\"ka\">მზომები: ჰისტოგრამა, ვექტორსკოპი, RGB პარადი, "
-"Waveform და აუდიომეტრი</li>\n"
-"      <li xml:lang=\"lv\">Tvērumi: histogramma, vektorskops, RGB parāde, "
-"viļņformas un audio mērītājs</li>\n"
-"      <li xml:lang=\"nl\">Scopes: Histogram, Vectorscope, RGB Parade, "
-"golfvorm en Audio-meter</li>\n"
-"      <li xml:lang=\"pl\">Widoki: Histogram, Wektoroskop, Parada RGB, "
-"Kształt Fali oraz Miernik Dźwięku</li>\n"
-"      <li xml:lang=\"pt-BR\">Escopos: Histograma, Vetorescópio, Desfile RGB, "
-"Forma de onda e Medidor de áudio</li>\n"
-"      <li xml:lang=\"ru\">Отображение: гистограмма, вектороскоп, парад RGB, "
-"звуковой спектр и уровень звука</li>\n"
-"      <li xml:lang=\"sa\">व्याप्तिः : हिस्टोग्राम, वेक्टरस्कोप, आरजीबी परेड, तरङ्गरूप "
-"तथा ऑडियो मीटर्</li>\n"
-"      <li xml:lang=\"sl\">Merilniki: histogram, vektroskop, parada RGB, "
-"signalna oblika in merilnik jakosti zvoka</li>\n"
-"      <li xml:lang=\"sv\">Oscilloskop: Histogram, vektoroscilloskop, RGB-"
-"parad, vågform och ljudmätare</li>\n"
-"      <li xml:lang=\"tr\">Kapsamlar: Histogram, Vektörskop, RGB Geçidi, "
-"Dalga Biçimi ve Ses Ölçeri</li>\n"
-"      <li xml:lang=\"uk\">Області: гістограма, векторскоп, розкладка RGB, "
-"форма хвилі та рівень звуку</li>\n"
-"      <li xml:lang=\"zh-CN\">示波器：直方图、矢量示波器、RGB Parade 直方图、"
-"波形图、音量计</li>\n"
-"      <li xml:lang=\"zh-TW\">示波器：直方圖、向量示波器、RGB 檢視、波形以及音"
-"訊音量測量</li>\n"
-"      <li>Proxy editing</li>\n"
-"      <li xml:lang=\"ar\">التحرير بواسطة الوسطاء</li>\n"
-"      <li xml:lang=\"ca\">Edició d'intermediaris</li>\n"
-"      <li xml:lang=\"ca-valencia\">Editeu intermediaris</li>\n"
-"      <li xml:lang=\"cs\">Úprava proxy</li>\n"
-"      <li xml:lang=\"de\">Proxy-Bearbeitung</li>\n"
-"      <li xml:lang=\"en-GB\">Proxy editing</li>\n"
-"      <li xml:lang=\"eo\">Redaktado de Prokurilo</li>\n"
-"      <li xml:lang=\"es\">Edición usando reemplazos</li>\n"
-"      <li xml:lang=\"eu\">Ordezkaria editatzea</li>\n"
-"      <li xml:lang=\"fr\">Modification du serveur mandataire</li>\n"
-"      <li xml:lang=\"ga\">Eagarthóireacht seachfhreastalaí</li>\n"
-"      <li xml:lang=\"gl\">Edición intermediaria.</li>\n"
-"      <li xml:lang=\"he\">עריכת תיווך</li>\n"
-"      <li xml:lang=\"hi\">प्रॉक्सी संपादन</li>\n"
-"      <li xml:lang=\"id\">Pengeditan proksi</li>\n"
-"      <li xml:lang=\"it\">Modifica del proxy</li>\n"
-"      <li xml:lang=\"ka\">პროქსი ჩასწორება</li>\n"
-"      <li xml:lang=\"lv\">Rediģēšana caur starpniekvideo un "
-"starpniekattēliem</li>\n"
-"      <li xml:lang=\"nl\">Proxy-bewerking</li>\n"
-"      <li xml:lang=\"pl\">Edytowanie pośredników</li>\n"
-"      <li xml:lang=\"pt-BR\">Edição com proxy</li>\n"
-"      <li xml:lang=\"ru\">Редактирование с промежуточными клипами</li>\n"
-"      <li xml:lang=\"sa\">प्रॉक्सी सम्पादनम्</li>\n"
-"      <li xml:lang=\"sl\">Montaža posrednih posnetkov</li>\n"
-"      <li xml:lang=\"sv\">Ersättningsredigering</li>\n"
-"      <li xml:lang=\"tr\">Vekilli düzenleme</li>\n"
-"      <li xml:lang=\"uk\">Редагування із проміжними кліпами</li>\n"
-"      <li xml:lang=\"zh-CN\">代理剪辑编辑</li>\n"
-"      <li xml:lang=\"zh-TW\">代理編輯</li>\n"
-"      <li>Free online assets and templates</li>\n"
-"      <li xml:lang=\"ar\">موارد وقوالب مجانية على الإنترنت</li>\n"
-"      <li xml:lang=\"ca\">Actius i plantilles lliures en línia</li>\n"
-"      <li xml:lang=\"ca-valencia\">Actius i plantilles lliures en línia</"
-"li>\n"
-"      <li xml:lang=\"de\">Kostenlose Online-Ressourcen und -Vorlagen</li>\n"
-"      <li xml:lang=\"en-GB\">Free online assets and templates</li>\n"
-"      <li xml:lang=\"eo\">Liberaj enretaj valoraĵoj kaj ŝablonoj</li>\n"
-"      <li xml:lang=\"es\">Recursos y plantillas libres en línea</li>\n"
-"      <li xml:lang=\"eu\">Lerroan doako aktiboak eta txantiloiak</li>\n"
-"      <li xml:lang=\"fr\">Produits et modèles en ligne gratuits</li>\n"
-"      <li xml:lang=\"ga\">Sócmhainní agus teimpléid ar líne saor in aisce</"
-"li>\n"
-"      <li xml:lang=\"gl\">Recursos e modelos libres por Internet.</li>\n"
-"      <li xml:lang=\"he\">משאבים ותבניות מקוונים בחינם</li>\n"
-"      <li xml:lang=\"hi\">निःशुल्क ऑनलाइन परिसंपत्तियाँ और टेम्पलेट्स</li>\n"
-"      <li xml:lang=\"id\">Templat dan aset gratis online</li>\n"
-"      <li xml:lang=\"it\">Risorse e modelli in linea gratuiti</li>\n"
-"      <li xml:lang=\"ka\">უფასო მასალები და ნიმუშები ინტერნეტში</li>\n"
-"      <li xml:lang=\"lv\">Bezmaksas tiešsaistes resursi un veidnes</li>\n"
-"      <li xml:lang=\"nl\">Vrij online bezit en sjablonen</li>\n"
-"      <li xml:lang=\"pl\">Darmowe zasoby i wzorce z sieci</li>\n"
-"      <li xml:lang=\"pt-BR\">Recursos e modelos online gratuitos</li>\n"
-"      <li xml:lang=\"ru\">Бесплатные ресурсы и шаблоны в Интернете</li>\n"
-"      <li xml:lang=\"sa\">निःशुल्क ऑनलाइन सम्पत्तिः टेम्पलेट् च</li>\n"
-"      <li xml:lang=\"sl\">Brezplačna spletna sredstva in predloge</li>\n"
-"      <li xml:lang=\"sv\">Fria tillgångar och mallar på nätet</li>\n"
-"      <li xml:lang=\"tr\">Ücretsiz çevrimiçi kaynaklar ve şablonlar</li>\n"
-"      <li xml:lang=\"uk\">Безкоштовні ресурси та шаблони в інтернеті</li>\n"
-"      <li xml:lang=\"zh-CN\">自由免费的在线资源和模板</li>\n"
-"      <li xml:lang=\"zh-TW\">免費線上資源與範本</li>\n"
-"      <li>Motion tracking</li>\n"
-"      <li xml:lang=\"ar\">تتبع الحركة</li>\n"
-"      <li xml:lang=\"ca\">Seguiment de moviment</li>\n"
-"      <li xml:lang=\"ca-valencia\">Seguiment de moviment</li>\n"
-"      <li xml:lang=\"de\">Bewegungsverfolgung</li>\n"
-"      <li xml:lang=\"en-GB\">Motion tracking</li>\n"
-"      <li xml:lang=\"eo\">Moviĝospurado</li>\n"
-"      <li xml:lang=\"es\">Rastreo de movimiento</li>\n"
-"      <li xml:lang=\"eu\">Higiduraren jarraipena</li>\n"
-"      <li xml:lang=\"fi\">Liikkeen jäljitys</li>\n"
-"      <li xml:lang=\"fr\">Suivi de déplacement</li>\n"
-"      <li xml:lang=\"ga\">Rianú gluaisne</li>\n"
-"      <li xml:lang=\"gl\">Seguimento de movemento.</li>\n"
-"      <li xml:lang=\"he\">מעקב אחר תנועה</li>\n"
-"      <li xml:lang=\"hi\">मोशन ट्रेकिंग</li>\n"
-"      <li xml:lang=\"id\">Pelacakan gerakan</li>\n"
-"      <li xml:lang=\"it\">Tracciatore di movimento</li>\n"
-"      <li xml:lang=\"ka\">მოძრაობის ტრეკინგი</li>\n"
-"      <li xml:lang=\"lv\">Kustību izsekošana</li>\n"
-"      <li xml:lang=\"nl\">Volgen van beweging</li>\n"
-"      <li xml:lang=\"pl\">Śledzenie ruchu</li>\n"
-"      <li xml:lang=\"pt-BR\">Rastreamento de movimento</li>\n"
-"      <li xml:lang=\"ru\">Отслеживание движения</li>\n"
-"      <li xml:lang=\"sa\">गतिनिरीक्षणम्</li>\n"
-"      <li xml:lang=\"sl\">Sledenje gibanju</li>\n"
-"      <li xml:lang=\"sv\">Rörelseföljning</li>\n"
-"      <li xml:lang=\"tr\">Hareket izlemesi</li>\n"
-"      <li xml:lang=\"uk\">Стеження за рухом</li>\n"
-"      <li xml:lang=\"zh-CN\">运动跟踪功能</li>\n"
-"      <li xml:lang=\"zh-TW\">動態追蹤</li>\n"
-"      <li>AI powered tools</li>\n"
-"      <li xml:lang=\"ar\">أدوات بالذكاء الاصطناعي</li>\n"
-"      <li xml:lang=\"ca\">Eines que funcionen amb IA</li>\n"
-"      <li xml:lang=\"ca-valencia\">Eines que funcionen amb IA</li>\n"
-"      <li xml:lang=\"de\">KI-gestützte Werkzeuge</li>\n"
-"      <li xml:lang=\"en-GB\">AI powered tools</li>\n"
-"      <li xml:lang=\"eo\">AI-pelitaj iloj</li>\n"
-"      <li xml:lang=\"es\">Herramientas potenciadas mediante IA</li>\n"
-"      <li xml:lang=\"eu\">AAk bultzatutako tresnak</li>\n"
-"      <li xml:lang=\"fi\">Tekoälytehosteiset työkalut</li>\n"
-"      <li xml:lang=\"fr\">Outils alimentés par l'intelligence artificielle</"
-"li>\n"
-"      <li xml:lang=\"ga\">Uirlisí faoi thiomáint AI</li>\n"
-"      <li xml:lang=\"gl\">Ferramentas que usan intelixencia artificial.</"
-"li>\n"
-"      <li xml:lang=\"he\">כלים מחוזקי בינה מלאכותית</li>\n"
-"      <li xml:lang=\"hi\">एआई संचालित उपकरण</li>\n"
-"      <li xml:lang=\"id\">Alat bertenaga AI</li>\n"
-"      <li xml:lang=\"it\">Strumenti alimentati dalla IA</li>\n"
-"      <li xml:lang=\"ka\">ფუნქციები AI-ით</li>\n"
-"      <li xml:lang=\"lv\">Mākslīgā intelekta rīki</li>\n"
-"      <li xml:lang=\"nl\">AI aangedreven hulpmiddelen</li>\n"
-"      <li xml:lang=\"pl\">Narzędzia wspomagane SI</li>\n"
-"      <li xml:lang=\"pt-BR\">Ferramentas com IA</li>\n"
-"      <li xml:lang=\"ru\">Инструменты на основе ИИ</li>\n"
-"      <li xml:lang=\"sa\">एआइ-सञ्चालित-उपकरणम्</li>\n"
-"      <li xml:lang=\"sl\">Orodja, ki jih poganja umetna inteligenca</li>\n"
-"      <li xml:lang=\"sv\">AI-drivna verktyg</li>\n"
-"      <li xml:lang=\"tr\">Yapay Zeka destekli araçlar</li>\n"
-"      <li xml:lang=\"uk\">Інструменти на основі ШІ</li>\n"
-"      <li xml:lang=\"zh-CN\">基于 AI 的工具</li>\n"
-"      <li xml:lang=\"zh-TW\">利用 AI 的工具</li>\n"
-"    </ul>\n"
-"  "
-msgstr ""
-
-#: data/org.kde.kdenlive.appdata.xml:446
-#, kde-format
-msgid ""
-"\n"
-"        <p>This is the first bugfix release for the 24.02 version. Some of "
-"the most noteworthy fixes:</p>\n"
-"        <ul>\n"
-"          <li>Fix distorted font in some parts of the UI</li>\n"
-"          <li>Fix crash editing gradients in titler</li>\n"
-"          <li>Fix adding a mix to a grouped clip could move existing cut</"
-"li>\n"
-"          <li>Fix moving and deleting a single item in a group</li>\n"
-"          <li>Fix crash in spacer tool with grouped subtitles</li>\n"
-"          <li>Fix multiple issues on sequence clips (incorrectly saving "
-"changes, subtitles not duplicated)</li>\n"
-"          <li>Fix multiple issues with subtitles (multiple subtitles tracks "
-"not correctly saved or displayed)</li>\n"
-"        </ul>\n"
-"      "
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:4 data/org.kde.kdenlive.xml:12
-#, fuzzy, kde-format
-#| msgid "Kdenlive project (*.kdenlive)"
-msgid "Kdenlive video project document"
-msgstr "Kdenlive project (*.kdenlive)"
-
-#: data/org.kde.kdenlive.xml:5
-#, kde-format
-msgid "مستند مشروع «كدنلايف» فيديو"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:6
-#, kde-format
-msgid "Kdenlive video layihəsi sənədi"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:7
-#, kde-format
-msgid "Document de projecte de vídeo del Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:8
-#, kde-format
-msgid "Document de projecte de vídeo de Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:9
-#, fuzzy, kde-format
-#| msgid "Kdenlive project (*.kdenlive)"
-msgid "Dokument video projektu Kdenlive"
-msgstr "Kdenlive project (*.kdenlive)"
-
-#: data/org.kde.kdenlive.xml:10
-#, kde-format
-msgid "Kdenlive-Videoprojektdokument"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:11
-#, kde-format
-msgid "Έγγραφο έργου βίντεο kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:13
-#, fuzzy, kde-format
-#| msgid "Kdenlive project (*.kdenlive)"
-msgid "Kdenlive videoprojekta dokumento"
-msgstr "Kdenlive project (*.kdenlive)"
-
-#: data/org.kde.kdenlive.xml:14
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Welcome to Kdenlive"
-msgid "Proyecto de video de Kdenlive"
-msgstr "Welcome to Kdenlive"
-
-#: data/org.kde.kdenlive.xml:15
-#, kde-format
-msgid "Kdenlive-ko bideo-proiektuaren dokumentua"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:16
-#, kde-format
-msgid "Kdenlive-videoprojektitiedosto"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:17
-#, kde-format
-msgid "Document de projet vidéo pour Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:18
-#, kde-format
-msgid "Doiciméad tionscadail físe Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:19
-#, kde-format
-msgid "Documento dun proxecto de vídeo de Kdenlive."
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:20
-#, kde-format
-msgid "מסמך מיזם וידאו של Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:21
-#, kde-format
-msgid "Kdenlive वीडियो परियोजना दस्तावेज़"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:22
-#, kde-format
-msgid "Kdenlive videóprojekt-dokumentum"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:23
-#, kde-format
-msgid "Dokumen proyek video Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:24
-#, kde-format
-msgid "Progetto video di Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:25
-#, kde-format
-msgid "Kdenlive ビデオプロジェクト資料"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:26
-#, kde-format
-msgid "Kdenlive ვიდეო პროექტის დოკუმენტი"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:27
-#, kde-format
-msgid "Kdenlive 동영상 프로젝트 문서"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:28
-#, fuzzy, kde-format
-#| msgid "Kdenlive project (*.kdenlive)"
-msgid "Kdenlive video projekto dokumentas"
-msgstr "Kdenlive project (*.kdenlive)"
-
-#: data/org.kde.kdenlive.xml:29
-#, kde-format
-msgid "„Kdenlive“ video projekta dokuments"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:30
-#, kde-format
-msgid "Video projectdocument van Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:31
-#, kde-format
-msgid "Kdenlive-videoprosjektdokument"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:32
-#, kde-format
-msgid "Dokument projektowy filmu Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:33
-#, kde-format
-msgid "Documento de projecto de vídeo do Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:34
-#, kde-format
-msgid "Documento de projeto de vídeo do Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:35
-#, kde-format
-msgid "Видеопроект Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:36
-#, kde-format
-msgid "Kdenlive विडियो परियोजना दस्तावेज"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:37
-#, fuzzy, kde-format
-#| msgid "Kdenlive project (*.kdenlive)"
-msgid "Dokument video projekta Kdenlive"
-msgstr "Kdenlive project (*.kdenlive)"
-
-#: data/org.kde.kdenlive.xml:38
-#, kde-format
-msgid "Kdenlive-videoprojektdokument"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:39
-#, fuzzy, kde-format
-#| msgid "Kdenlive project (*.kdenlive)"
-msgid "Kdenlive video proje belgesi"
-msgstr "Kdenlive project (*.kdenlive)"
-
-#: data/org.kde.kdenlive.xml:40
-#, kde-format
-msgid "документ відеопроєкту Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:41
-#, kde-format
-msgid "Kdenlive 视频工程文件"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:42
-#, kde-format
-msgid "Kdenlive 影片專案文件"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:47 data/org.kde.kdenlive.xml:55
-#, fuzzy, kde-format
-#| msgid "Kdenlive title"
-msgid "Kdenlive video title"
-msgstr "Kdenlive title"
-
-#: data/org.kde.kdenlive.xml:48
-#, kde-format
-msgid "عنوان فيديو «كدنلايف»"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:49 data/org.kde.kdenlive.xml:81
-#, kde-format
-msgid "Kdenlive video başlığı"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:50
-#, kde-format
-msgid "Títol de vídeo del Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:51
-#, kde-format
-msgid "Títol de vídeo de Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:52
-#, kde-format
-msgid "Název videa Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:53
-#, fuzzy, kde-format
-#| msgid "Kdenlive title"
-msgid "Kdenlive-Videotitel"
-msgstr "Kdenlive title"
-
-#: data/org.kde.kdenlive.xml:54
-#, kde-format
-msgid "Τίτλος βίντεο kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:56
-#, fuzzy, kde-format
-#| msgid "Kdenlive title"
-msgid "Kdenlive videotitolo"
-msgstr "Kdenlive title"
-
-#: data/org.kde.kdenlive.xml:57
-#, kde-format
-msgid "Título de video de Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:58
-#, kde-format
-msgid "Kdenlive-ko bideo-izenburua"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:59
-#, kde-format
-msgid "Kdenlive-video-otsikko"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:60
-#, kde-format
-msgid "Titre de vidéo pour Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:61
-#, kde-format
-msgid "Teideal físeáin Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:62
-#, kde-format
-msgid "Título de vídeo de Kdenlive."
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:63
-#, kde-format
-msgid "כותרת וידאו של Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:64
-#, kde-format
-msgid "Kdenlive वीडियो शीर्षक"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:65
-#, fuzzy, kde-format
-#| msgid "Kdenlive title"
-msgid "Kdenlive videófelirat"
-msgstr "Kdenlive title"
-
-#: data/org.kde.kdenlive.xml:66
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Welcome to Kdenlive"
-msgid "Judul video Kdenlive"
-msgstr "Welcome to Kdenlive"
-
-#: data/org.kde.kdenlive.xml:67
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Welcome to Kdenlive"
-msgid "Titolo video di Kdenlive"
-msgstr "Welcome to Kdenlive"
-
-#: data/org.kde.kdenlive.xml:68
-#, kde-format
-msgid "Kdenlive ビデオタイトル"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:69
-#, kde-format
-msgid "Kdenlive ვიდეოს სათაური"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:70
-#, kde-format
-msgid "Kdenlive 동영상 타이틀"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:71
-#, kde-format
-msgid "„Kdenlive“ video nosaukums"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:72
-#, kde-format
-msgid "Titel van Kdenlive-video"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:73
-#, fuzzy, kde-format
-#| msgid "Kdenlive title"
-msgid "Kdenlive-videotittel"
-msgstr "Kdenlive title"
-
-#: data/org.kde.kdenlive.xml:74
-#, kde-format
-msgid "Tytuł filmu Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:75 data/org.kde.kdenlive.xml:76
-#, kde-format
-msgid "Título de vídeo do Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:77
-#, kde-format
-msgid "Видеотитры Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:78
-#, kde-format
-msgid "Kdenlive विडियो शीर्षक"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:79
-#, kde-format
-msgid "Naslov videa Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:80
-#, fuzzy, kde-format
-#| msgid "Kdenlive"
-msgid "Kdenlive-video"
-msgstr "Kdenlive"
-
-#: data/org.kde.kdenlive.xml:82
-#, kde-format
-msgid "заголовок відео Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:83
-#, kde-format
-msgid "Kdenlive 视频标题"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:84
-#, kde-format
-msgid "Kdenlive 影片標題"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:89 data/org.kde.kdenlive.xml:96
-#, kde-format
-msgid "Kdenlive application layout"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:90
-#, kde-format
-msgid "تخطيط برنامج كدنلايف"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:91
-#, fuzzy, kde-format
-#| msgid "Kdenlive title"
-msgid "Kdenlive tətbiq qatı"
-msgstr "Kdenlive title"
-
-#: data/org.kde.kdenlive.xml:92 data/org.kde.kdenlive.xml:93
-#, kde-format
-msgid "Disposició de l'aplicació Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:94
-#, kde-format
-msgid "Rozvržení aplikace Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:95
-#, kde-format
-msgid "Kdenlive-Anwendungslayout"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:97
-#, kde-format
-msgid "Kdenlive aplikaĵa aranĝo"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:98
-#, kde-format
-msgid "Organización de paneles de Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:99
-#, kde-format
-msgid "Kdenlive aplikazioaren antolaera"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:100
-#, kde-format
-msgid "Kdenlive-sovelluksen-asettelu"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:101
-#, kde-format
-msgid "Mise en page de l'application Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:102
-#, kde-format
-msgid "Leagan amach feidhmchláir Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:103
-#, kde-format
-msgid "Disposición de aplicación de Kdenlive."
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:104
-#, kde-format
-msgid "פריסת יישום Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:105
-#, kde-format
-msgid "Kdenlive अनुप्रयोग लेआउट"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:106
-#, kde-format
-msgid "Kdenlive alkalmazáselrendezés"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:107
-#, kde-format
-msgid "Tata letak aplikasi Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:108
-#, kde-format
-msgid "Disposizione dell'applicazione Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:109
-#, kde-format
-msgid "Kdenlive アプリケーションレイアウト"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:110
-#, kde-format
-msgid "Kdenlive აპლიკაციის განლაგება"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:111
-#, kde-format
-msgid "Kdenlive 앱 레이아웃"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:112
-#, kde-format
-msgid "„Kdenlive“ programmas izkārtojums"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:113
-#, kde-format
-msgid "Toepassingsindeling van Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:114
-#, kde-format
-msgid "Układ programu Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:115
-#, kde-format
-msgid "Disposição da aplicação Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:116
-#, kde-format
-msgid "Layout de aplicativo do Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:117
-#, kde-format
-msgid "Макет приложения Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:118
-#, kde-format
-msgid "Kdenlive अनुप्रयोग विन्यास"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:119
-#, kde-format
-msgid "Postavitev programa Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:120
-#, fuzzy, kde-format
-#| msgid "Kdenlive Project"
-msgid "Kdenlive programlayout"
-msgstr "Kdenlive Project"
-
-#: data/org.kde.kdenlive.xml:121
-#, kde-format
-msgid "Kdenlive uygulama yerleşimi"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:122
-#, kde-format
-msgid "Компонування вікон програми Kdenlive"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:123
-#, kde-format
-msgid "Kdenlive 应用程序布局"
-msgstr ""
-
-#: data/org.kde.kdenlive.xml:124
-#, kde-format
-msgid "Kdenlive 應用程式版面配置"
-msgstr ""
-
 #: data/transitions/affine.xml:4
 #, kde-format
 msgctxt "Affine Transform Transition Name"
@@ -19250,12 +18184,6 @@ msgstr "Wipe"
 #, kde-format
 msgid "Revert"
 msgstr "Revert"
-
-#: data/westley.xml:4
-#, fuzzy, kde-format
-#| msgid "Loading playlist"
-msgid "MLT video playlist"
-msgstr "Loading playlist"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, CountDown_UI)
 #. i18n: ectx: property (windowTitle), widget (QDialog, QTextClip_UI)
@@ -21232,14 +20160,14 @@ msgstr "No valid clip to insert"
 msgid "Select a clip to apply an effect"
 msgstr "Select a clip to apply an effect"
 
-#: src/bin/bin.cpp:4352 src/effects/effectstack/model/effectstackmodel.cpp:764
-#: src/effects/effectstack/model/effectstackmodel.cpp:770
+#: src/bin/bin.cpp:4352 src/effects/effectstack/model/effectstackmodel.cpp:761
+#: src/effects/effectstack/model/effectstackmodel.cpp:767
 #: src/timeline2/model/timelineitemmodel.cpp:738
 #, kde-format
 msgid "Cannot add effect to clip"
 msgstr "Cannot add effect to clip"
 
-#: src/bin/bin.cpp:4426 src/effects/effectstack/model/effectstackmodel.cpp:720
+#: src/bin/bin.cpp:4426 src/effects/effectstack/model/effectstackmodel.cpp:717
 #, kde-format
 msgid "Paste effect"
 msgstr "Paste effect"
@@ -24258,6 +23186,11 @@ msgstr ""
 msgid "Made by KDE"
 msgstr "Made by KDE"
 
+#: src/dialogs/Simplesplash.qml:148 src/dialogs/Splash.qml:592 src/main.cpp:274
+#, kde-format
+msgid "Kdenlive"
+msgstr "Kdenlive"
+
 #: src/dialogs/Simplesplash.qml:179
 #, kde-format
 msgid "Kdenlive crashed on last start."
@@ -26672,27 +25605,27 @@ msgid "Copy effect"
 msgstr "Copy effect"
 
 #: src/effects/effectstack/model/effectstackmodel.cpp:432
-#: src/effects/effectstack/model/effectstackmodel.cpp:623
-#: src/effects/effectstack/model/effectstackmodel.cpp:750
-#: src/effects/effectstack/model/effectstackmodel.cpp:1522
+#: src/effects/effectstack/model/effectstackmodel.cpp:620
+#: src/effects/effectstack/model/effectstackmodel.cpp:747
+#: src/effects/effectstack/model/effectstackmodel.cpp:1519
 #, kde-format
 msgid "Effect %1 cannot be added twice."
 msgstr "Effect %1 cannot be added twice."
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:736
+#: src/effects/effectstack/model/effectstackmodel.cpp:733
 #: src/effects/effectstack/view/effectstackview.cpp:229
 #: src/timeline2/model/timelinemodel.cpp:5197
 #, kde-format
 msgid "Add effect %1"
 msgstr "Add effect %1"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:746
+#: src/effects/effectstack/model/effectstackmodel.cpp:743
 #, fuzzy, kde-format
 #| msgid "Effect %1 cannot be added twice."
 msgid "Effect %1 can only be added to master"
 msgstr "Effect %1 cannot be added twice."
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:1306
+#: src/effects/effectstack/model/effectstackmodel.cpp:1303
 #, kde-format
 msgid "Move effect %1"
 msgstr "Move effect %1"
@@ -41382,6 +40315,99 @@ msgstr "%1m"
 msgctxt "h as hours"
 msgid "%1h"
 msgstr "%1h"
+
+#, fuzzy
+#~| msgid "Kdenlive project (*.kdenlive)"
+#~ msgid "Kdenlive video project document"
+#~ msgstr "Kdenlive project (*.kdenlive)"
+
+#, fuzzy
+#~| msgid "Kdenlive project (*.kdenlive)"
+#~ msgid "Dokument video projektu Kdenlive"
+#~ msgstr "Kdenlive project (*.kdenlive)"
+
+#, fuzzy
+#~| msgid "Kdenlive project (*.kdenlive)"
+#~ msgid "Kdenlive videoprojekta dokumento"
+#~ msgstr "Kdenlive project (*.kdenlive)"
+
+#, fuzzy
+#~| msgctxt "@title:window"
+#~| msgid "Welcome to Kdenlive"
+#~ msgid "Proyecto de video de Kdenlive"
+#~ msgstr "Welcome to Kdenlive"
+
+#, fuzzy
+#~| msgid "Kdenlive project (*.kdenlive)"
+#~ msgid "Kdenlive video projekto dokumentas"
+#~ msgstr "Kdenlive project (*.kdenlive)"
+
+#, fuzzy
+#~| msgid "Kdenlive project (*.kdenlive)"
+#~ msgid "Dokument video projekta Kdenlive"
+#~ msgstr "Kdenlive project (*.kdenlive)"
+
+#, fuzzy
+#~| msgid "Kdenlive project (*.kdenlive)"
+#~ msgid "Kdenlive video proje belgesi"
+#~ msgstr "Kdenlive project (*.kdenlive)"
+
+#, fuzzy
+#~| msgid "Kdenlive title"
+#~ msgid "Kdenlive video title"
+#~ msgstr "Kdenlive title"
+
+#, fuzzy
+#~| msgid "Kdenlive title"
+#~ msgid "Kdenlive-Videotitel"
+#~ msgstr "Kdenlive title"
+
+#, fuzzy
+#~| msgid "Kdenlive title"
+#~ msgid "Kdenlive videotitolo"
+#~ msgstr "Kdenlive title"
+
+#, fuzzy
+#~| msgid "Kdenlive title"
+#~ msgid "Kdenlive videófelirat"
+#~ msgstr "Kdenlive title"
+
+#, fuzzy
+#~| msgctxt "@title:window"
+#~| msgid "Welcome to Kdenlive"
+#~ msgid "Judul video Kdenlive"
+#~ msgstr "Welcome to Kdenlive"
+
+#, fuzzy
+#~| msgctxt "@title:window"
+#~| msgid "Welcome to Kdenlive"
+#~ msgid "Titolo video di Kdenlive"
+#~ msgstr "Welcome to Kdenlive"
+
+#, fuzzy
+#~| msgid "Kdenlive title"
+#~ msgid "Kdenlive-videotittel"
+#~ msgstr "Kdenlive title"
+
+#, fuzzy
+#~| msgid "Kdenlive"
+#~ msgid "Kdenlive-video"
+#~ msgstr "Kdenlive"
+
+#, fuzzy
+#~| msgid "Kdenlive title"
+#~ msgid "Kdenlive tətbiq qatı"
+#~ msgstr "Kdenlive title"
+
+#, fuzzy
+#~| msgid "Kdenlive Project"
+#~ msgid "Kdenlive programlayout"
+#~ msgstr "Kdenlive Project"
+
+#, fuzzy
+#~| msgid "Loading playlist"
+#~ msgid "MLT video playlist"
+#~ msgstr "Loading playlist"
 
 #~ msgctxt "Group Name"
 #~ msgid "Custom"
