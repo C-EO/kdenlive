@@ -1977,7 +1977,9 @@ void Bin::slotAddClip()
 {
     // Check if we are in a folder
     const QString parentFolder = getCurrentFolder();
-    ClipCreationDialog::createClipsCommand(m_doc, parentFolder, m_itemModel);
+    ClipCreationDialog::createClipsCommand(m_doc, parentFolder, m_itemModel, m_readyCallBack, m_suggestedDuration);
+    m_readyCallBack = nullptr;
+    m_suggestedDuration = -1;
     pCore->window()->raiseBin();
 }
 
@@ -3433,6 +3435,7 @@ void Bin::contextMenuEvent(QContextMenuEvent *event)
     }
 
     // Show menu
+    m_readyCallBack = nullptr;
     event->setAccepted(true);
     if (enableClipActions) {
         m_menu->exec(event->globalPos());
@@ -3949,6 +3952,24 @@ void Bin::openClipInMonitor(std::shared_ptr<ProjectClip> clip, int in, int out, 
     pCore->textEditWidget()->openClip(clip);
 }
 
+QMenu *Bin::addClipMenu() const
+{
+    auto *menu = new QMenu(const_cast<Bin *>(this));
+    menu->setTitle(i18n("Add Clip"));
+    menu->addActions(m_addButton->menu()->actions());
+    return menu;
+}
+
+void Bin::setReadyCallBack(const std::function<void(const QString &)> &cb)
+{
+    m_readyCallBack = cb;
+}
+
+void Bin::setSuggestedDuration(int duration)
+{
+    m_suggestedDuration = duration;
+}
+
 void Bin::setupMenu()
 {
     auto *addClipMenu = new QMenu(this);
@@ -4064,6 +4085,7 @@ void Bin::setupMenu()
     m_toolbar->insertAction(m_createFolderAction, m_upAction);
 
     auto *m = new QMenu(this);
+    m->setTitle(i18n("Add Clip"));
     m->addActions(addClipMenu->actions());
     m_addButton = new QToolButton(this);
     m_addButton->setMenu(m);
@@ -4162,22 +4184,22 @@ void Bin::slotCreateProjectClip()
     QString parentFolder = getCurrentFolder();
     switch (type) {
     case ClipType::Color:
-        ClipCreationDialog::createColorClip(m_doc, parentFolder, m_itemModel);
+        ClipCreationDialog::createColorClip(m_doc, parentFolder, m_itemModel, m_readyCallBack, m_suggestedDuration);
         break;
     case ClipType::SlideShow:
-        ClipCreationDialog::createSlideshowClip(m_doc, parentFolder, m_itemModel);
+        ClipCreationDialog::createSlideshowClip(m_doc, parentFolder, m_itemModel, m_readyCallBack, m_suggestedDuration);
         break;
     case ClipType::Text:
-        ClipCreationDialog::createTitleClip(m_doc, parentFolder, QString(), m_itemModel);
+        ClipCreationDialog::createTitleClip(m_doc, parentFolder, QString(), m_itemModel, m_readyCallBack, m_suggestedDuration);
         break;
     case ClipType::TextTemplate:
-        ClipCreationDialog::createTitleTemplateClip(m_doc, parentFolder, m_itemModel);
+        ClipCreationDialog::createTitleTemplateClip(m_doc, parentFolder, m_itemModel, m_readyCallBack, m_suggestedDuration);
         break;
     case ClipType::QText:
-        ClipCreationDialog::createQTextClip(parentFolder, this);
+        ClipCreationDialog::createQTextClip(parentFolder, this, nullptr, m_readyCallBack, m_suggestedDuration);
         break;
     case ClipType::Animation:
-        ClipCreationDialog::createAnimationClip(m_doc, parentFolder);
+        ClipCreationDialog::createAnimationClip(m_doc, parentFolder, m_readyCallBack, m_suggestedDuration);
         break;
     case ClipType::Timeline:
         buildSequenceClip();
@@ -4185,6 +4207,8 @@ void Bin::slotCreateProjectClip()
     default:
         break;
     }
+    m_readyCallBack = nullptr;
+    m_suggestedDuration = -1;
     pCore->window()->raiseBin();
 }
 
@@ -4778,7 +4802,8 @@ const QString Bin::slotUrlsDropped(const QList<QUrl> urls, const QModelIndex par
             parentFolder = parentItem->clipId();
         }
     }
-    const QString id = ClipCreator::createClipsFromList(urls, true, parentFolder, m_itemModel);
+    const QString id = ClipCreator::createClipsFromList(urls, true, parentFolder, m_itemModel, m_readyCallBack);
+    m_readyCallBack = nullptr;
     if (!id.isEmpty()) {
         std::shared_ptr<AbstractProjectItem> item = m_itemModel->getItemByBinId(id);
         if (item) {

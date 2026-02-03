@@ -805,7 +805,7 @@ void MainWindow::init()
     new JogManager(this);
 #endif
     m_timelineTabs->setTimelineMenu(compositionMenu, timelineMenu, guideMenu, timelineRulerMenu, actionCollection()->action(QStringLiteral("edit_clip_marker")),
-                                    timelineHeadersMenu, thumbsMenu, timelineSubtitleMenu);
+                                    timelineHeadersMenu, thumbsMenu, timelineSubtitleMenu, m_binWidgets.first()->addClipMenu());
     m_scopesManager->slotCheckActiveScopes();
     connect(qApp, &QGuiApplication::applicationStateChanged, this, [&](Qt::ApplicationState state) {
         if (state == Qt::ApplicationActive && getCurrentTimeline()) {

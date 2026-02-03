@@ -994,6 +994,10 @@ Rectangle {
                 property bool sizeChanged: false
                 cursorShape: (enabled && (containsMouse || pressed) ? Qt.SizeHorCursor : Qt.OpenHandCursor)
                 onPressed: mouse => {
+                    if (mouse.modifiers & Qt.ControlModifier && (root.activeTool === K.ToolType.SelectTool || root.activeTool === K.ToolType.RippleTool)) {
+                        mouse.accepted = false
+                        return
+                    }
                     root.autoScrolling = false
                     root.trimInProgress = true;
                     clipRoot.originalX = clipRoot.x
@@ -1116,6 +1120,10 @@ Rectangle {
                 drag.smoothed: false
 
                 onPressed: mouse => {
+                    if (mouse.modifiers & Qt.ControlModifier && (root.activeTool === K.ToolType.SelectTool || root.activeTool === K.ToolType.RippleTool)) {
+                        mouse.accepted = false
+                        return
+                    }
                     root.autoScrolling = false
                     root.trimInProgress = true;
                     clipRoot.originalDuration = clipDuration

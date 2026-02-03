@@ -2038,6 +2038,9 @@ function getTrackColor(audio, header) {
                                             if (!dragProxyArea.containsMouse) {
                                                 regainFocus(dragProxyArea.mapToItem(root, dragProxyArea.mouseX, dragProxyArea.mouseY))
                                             }
+                                            endDrag()
+                                        } else {
+                                            endDrag()
                                         }
                                     }
                                     onDoubleClicked: {
