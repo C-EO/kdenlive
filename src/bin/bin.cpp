@@ -2929,20 +2929,7 @@ void Bin::selectAll()
 
 void Bin::selectClipById(const QString &clipId, int frame, const QPoint &zone, bool activateMonitor)
 {
-    if (pCore->getMonitor(Kdenlive::ClipMonitor)->activeClipId() == clipId) {
-        std::shared_ptr<ProjectClip> clip = m_itemModel->getClipByBinID(clipId);
-        if (clip) {
-            QModelIndex ix = m_itemModel->getIndexFromItem(clip);
-            int row = ix.row();
-            const QModelIndex id = m_itemModel->index(row, 0, ix.parent());
-            const QModelIndex id2 = m_itemModel->index(row, m_itemModel->columnCount() - 1, ix.parent());
-            if (id.isValid() && id2.isValid()) {
-                m_proxyModel->selectionModel()->select(QItemSelection(m_proxyModel->mapFromSource(id), m_proxyModel->mapFromSource(id2)),
-                                                       QItemSelectionModel::SelectCurrent);
-            }
-            m_itemView->scrollTo(m_proxyModel->mapFromSource(ix), QAbstractItemView::EnsureVisible);
-        }
-    } else {
+    if (pCore->getMonitor(Kdenlive::ClipMonitor)->activeClipId() != clipId) {
         std::shared_ptr<ProjectClip> clip = getBinClip(clipId);
         if (clip == nullptr) {
             return;
@@ -2953,6 +2940,19 @@ void Bin::selectClipById(const QString &clipId, int frame, const QPoint &zone, b
         m_activateClipZoneInfo.seekFrame = frame;
         selectClip(clip);
         return;
+    }
+    // Clip is already displayed, select and adjust zone
+    std::shared_ptr<ProjectClip> clip = m_itemModel->getClipByBinID(clipId);
+    if (clip) {
+        QModelIndex ix = m_itemModel->getIndexFromItem(clip);
+        int row = ix.row();
+        const QModelIndex id = m_itemModel->index(row, 0, ix.parent());
+        const QModelIndex id2 = m_itemModel->index(row, m_itemModel->columnCount() - 1, ix.parent());
+        if (id.isValid() && id2.isValid()) {
+            m_proxyModel->selectionModel()->select(QItemSelection(m_proxyModel->mapFromSource(id), m_proxyModel->mapFromSource(id2)),
+                                                   QItemSelectionModel::SelectCurrent);
+        }
+        m_itemView->scrollTo(m_proxyModel->mapFromSource(ix), QAbstractItemView::EnsureVisible);
     }
     Monitor *monitor = pCore->getMonitor(Kdenlive::ClipMonitor);
     if (!zone.isNull()) {
@@ -3790,6 +3790,13 @@ void Bin::selectClip(const std::shared_ptr<ProjectClip> &clip)
     QModelIndex ix = m_itemModel->getIndexFromItem(clip);
     int row = ix.row();
     const QModelIndex id = m_itemModel->index(row, 0, ix.parent());
+    if (!m_proxyModel->filterAcceptsRow(row, ix.parent())) {
+        // Wanted clip is currently hidden by a filter, disable all
+        if (m_filterButton->isChecked()) {
+            m_filterButton->setChecked(false);
+        }
+        m_searchLine->clear();
+    }
     // Ensure parent folder is expanded
     if (m_listType == BinTreeView) {
         if (m_itemView->rootIndex() != QModelIndex()) {
