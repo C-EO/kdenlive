@@ -333,6 +333,8 @@ public:
     void invalidateClip(const QString &binId);
     /** @brief A bin clip changed (its effects), invalidate audio preview */
     void invalidateClipAudio(const QString &binId);
+    /** @brief Update sequence audio thumb if necessary */
+    void rebuildAudioThumb(const QString &binId);
     /** @brief Recreate missing proxies on document opening */
     void checkMissingProxies();
     /** @brief Save folder state (expanded or not) */

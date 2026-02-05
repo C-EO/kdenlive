@@ -5711,6 +5711,7 @@ void Bin::invalidateClipAudio(const QString &binId)
     if (!clip) {
         // Clip was deleted, abort
         qDebug() << "::::: CLIP NOT FOUND: " << binId;
+        return;
     }
     if (clip->clipType() == ClipType::Timeline) {
         clip->markAudioDirty();
@@ -5725,6 +5726,23 @@ void Bin::invalidateClipAudio(const QString &binId)
                 pCore->invalidateAudio(ObjectId(KdenliveObjectType::TimelineClip, j, i.key()));
             }
         }
+    }
+}
+
+void Bin::rebuildAudioThumb(const QString &binId)
+{
+    if (!KdenliveSettings::audiothumbnails()) {
+        // Nothing to do
+        return;
+    }
+    std::shared_ptr<ProjectClip> clip = getBinClip(binId);
+    if (!clip) {
+        // Clip was deleted, abort
+        return;
+    }
+    if (!clip->audioSynced()) {
+        // Start audio thumbs task
+        AudioLevelsTask::start(ObjectId(KdenliveObjectType::BinClip, binId.toInt(), QUuid()), clip.get(), false);
     }
 }
 

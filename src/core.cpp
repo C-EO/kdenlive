@@ -1514,7 +1514,6 @@ void Core::invalidateAudioRange(const QUuid &uuid, int /*in*/, int /*out*/)
     if (!m_guiConstructed || !m_mainWindow->getCurrentTimeline() || m_mainWindow->getCurrentTimeline()->loading) return;
     // TODO: invalidate only the item range and regenerate partial audio
     const QString binId = m_projectItemModel->getSequenceId(uuid);
-    qDebug() << "======================\n\n\nINVALIDATING AUDIO FOR CLIP: " << binId << "\n\n======================";
     m_mainWindow->getBin()->invalidateClipAudio(binId);
 }
 
