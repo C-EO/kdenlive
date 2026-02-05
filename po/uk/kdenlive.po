@@ -9,9 +9,9 @@ msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-04 00:43+0000\n"
-"PO-Revision-Date: 2026-02-02 17:56+0200\n"
-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"PO-Revision-Date: 2026-02-04 12:02+0200\n"
+"Last-Translator: Fracture dept <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29698,7 +29698,7 @@ msgstr ""
 #: src/monitor/view/AudioView.qml:318
 #, kde-format
 msgid "Audio wave not synced. Double click to update"
-msgstr ""
+msgstr "Звукову хвилю не синхронізовано. Двічі клацніть, щоб оновити дані"
 
 #: src/monitor/view/ClipMonitor.qml:365 src/monitor/view/ProjectMonitor.qml:195
 #, kde-format

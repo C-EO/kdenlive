@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-04 00:43+0000\n"
-"PO-Revision-Date: 2026-02-03 19:29+0300\n"
+"PO-Revision-Date: 2026-02-04 20:08+0300\n"
 "Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -29473,7 +29473,7 @@ msgstr ""
 #: src/monitor/view/AudioView.qml:318
 #, kde-format
 msgid "Audio wave not synced. Double click to update"
-msgstr ""
+msgstr "Ses dalgası eşzamanlanmadı. Güncellemek için çift tıklayın"
 
 #: src/monitor/view/ClipMonitor.qml:365 src/monitor/view/ProjectMonitor.qml:195
 #, kde-format

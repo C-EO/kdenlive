@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: nl\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-04 00:43+0000\n"
-"PO-Revision-Date: 2026-02-02 12:58+0100\n"
+"PO-Revision-Date: 2026-02-04 16:19+0100\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -29619,7 +29619,7 @@ msgstr ""
 #: src/monitor/view/AudioView.qml:318
 #, kde-format
 msgid "Audio wave not synced. Double click to update"
-msgstr ""
+msgstr "Geluidsgolf niet gesynchroniseerd. Dubbelklik om bij te werken"
 
 #: src/monitor/view/ClipMonitor.qml:365 src/monitor/view/ProjectMonitor.qml:195
 #, kde-format
