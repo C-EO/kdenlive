@@ -136,17 +136,37 @@ VideoWidget::VideoWidget(int id, QObject *parent)
     engine()->addImageProvider(QStringLiteral("thumbnail"), new ThumbnailProvider);
     int iconSize = style()->pixelMetric(QStyle::PM_SmallIconSize);
     engine()->addImageProvider(QStringLiteral("icon"), new QmlIconProvider(QSize(iconSize, iconSize), this));
+    m_mouseTimer.setSingleShot(true);
+    m_mouseTimer.setInterval(2000);
 }
 
 VideoWidget::~VideoWidget()
 {
     stop();
+    m_mouseTimer.stop();
     if (m_frameRenderer && m_frameRenderer->isRunning()) {
         m_frameRenderer->quit();
         m_frameRenderer->wait();
         m_frameRenderer->deleteLater();
     }
     m_blackClip.reset();
+}
+
+void VideoWidget::enableMouseTimer(bool enable)
+{
+    m_fullScreen = enable;
+    if (enable) {
+        connect(&m_mouseTimer, &QTimer::timeout, this, &VideoWidget::blankCursor, Qt::UniqueConnection);
+    } else {
+        m_mouseTimer.stop();
+        setCursor(Qt::ArrowCursor);
+        disconnect(&m_mouseTimer, &QTimer::timeout, this, &VideoWidget::blankCursor);
+    }
+}
+
+void VideoWidget::blankCursor()
+{
+    setCursor(Qt::BlankCursor);
 }
 
 void VideoWidget::updateAudioForAnalysis()
@@ -432,6 +452,13 @@ bool VideoWidget::checkFrameNumber(int pos, bool isPlaying)
 
 void VideoWidget::mousePressEvent(QMouseEvent *event)
 {
+    if (m_fullScreen) {
+        if (!m_mouseTimer.isActive()) {
+            setCursor(Qt::ArrowCursor);
+        } else {
+            m_mouseTimer.stop();
+        }
+    }
     QQuickWidget::mousePressEvent(event);
     // For some reason, on Qt6 in mouseReleaseEvent, the event is always accepted, so use this m_qmlEvent bool to track if the event is accepted in qml
     m_qmlEvent = event->isAccepted();
@@ -458,8 +485,35 @@ void VideoWidget::mousePressEvent(QMouseEvent *event)
     }
 }
 
+void VideoWidget::focusInEvent(QFocusEvent *event)
+{
+    if (m_fullScreen) {
+        if (!m_mouseTimer.isActive()) {
+            setCursor(Qt::ArrowCursor);
+        }
+        if (parentWidget()->isFullScreen()) {
+            m_mouseTimer.start();
+        }
+    }
+    QQuickWidget::focusInEvent(event);
+}
+
+void VideoWidget::focusOutEvent(QFocusEvent *event)
+{
+    if (m_fullScreen) {
+        if (!m_mouseTimer.isActive()) {
+            setCursor(Qt::ArrowCursor);
+        }
+        m_mouseTimer.stop();
+    }
+    QQuickWidget::focusOutEvent(event);
+}
+
 void VideoWidget::mouseReleaseEvent(QMouseEvent *event)
 {
+    if (m_fullScreen) {
+        m_mouseTimer.start();
+    }
     bool qmlClick = rootObject()->property("captureRightClick").toBool();
     QQuickWidget::mouseReleaseEvent(event);
     rootObject()->setProperty("captureRightClick", false);
@@ -483,6 +537,12 @@ void VideoWidget::mouseReleaseEvent(QMouseEvent *event)
 
 void VideoWidget::mouseMoveEvent(QMouseEvent *event)
 {
+    if (m_fullScreen) {
+        if (!m_mouseTimer.isActive()) {
+            setCursor(Qt::ArrowCursor);
+        }
+        m_mouseTimer.start();
+    }
     if ((rootObject() != nullptr) && rootObject()->objectName() != QLatin1String("root") && !(event->modifiers() & Qt::ControlModifier) &&
         !(event->buttons() & Qt::MiddleButton)) {
         event->ignore();

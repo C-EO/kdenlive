@@ -1103,7 +1103,6 @@ bool Monitor::monitorIsFullScreen() const
 
 void Monitor::slotSwitchFullScreen(bool minimizeOnly)
 {
-    // TODO: disable screensaver?
     m_glMonitor->refreshZoom = true;
     if (!m_glWidget->isFullScreen() && !minimizeOnly) {
         // Move monitor widget to the second screen (one screen for Kdenlive, the other one for the Monitor widget)
@@ -1195,9 +1194,11 @@ void Monitor::slotSwitchFullScreen(bool minimizeOnly)
             m_glWidget->setParent(nullptr);
         }
         m_glWidget->showFullScreen();
+        m_glMonitor->enableMouseTimer(true);
         setFocus();
     } else {
         m_glWidget->showNormal();
+        m_glMonitor->enableMouseTimer(false);
         auto *lay = static_cast<QVBoxLayout *>(layout());
         lay->insertWidget(0, m_glWidget, 10);
         // With some Qt versions, focus was lost after switching back from fullscreen,
