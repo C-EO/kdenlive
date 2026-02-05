@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <profiles version="0.1">
  <group renderer="avformat" type="av" id="generic">
   <name>Generic (HD for web, mobile devices...)</name>
