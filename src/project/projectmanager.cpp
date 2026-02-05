@@ -555,6 +555,7 @@ bool ProjectManager::saveFileAs(const QString &outputFileName, bool saveOverExis
         p.second.erase(last, p.second.end());
     }
     ThumbnailCache::get()->saveCachedThumbs(thumbKeys);
+    pCore->bin()->saveSequenceAudioThumb();
     if (!saveACopy) {
         m_project->setUrl(url);
         // setting up autosave file in ~/.kde/data/stalefiles/kdenlive/
@@ -1112,6 +1113,9 @@ void ProjectManager::doOpenFile(const QUrl &url, KAutoSaveFile *stale, bool isBa
     m_project->loading = false;
     if (pCore->closing) {
         pCore->closeApp();
+    }
+    if (KdenliveSettings::audiothumbnails()) {
+        pCore->bin()->loadSequenceAudioThumb();
     }
 
     checkProjectWarnings();

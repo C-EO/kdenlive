@@ -7,6 +7,7 @@ SPDX-License-Identifier: GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
 #include "bin.h"
+#include "bin/sequenceclip.h"
 #include "bincommands.h"
 #include "clipcreator.hpp"
 #include "core.h"
@@ -6474,6 +6475,40 @@ void Bin::updateSequenceAVType(const QUuid &uuid, int tracksCount)
         std::shared_ptr<ProjectClip> sequenceClip = getBinClip(bId);
         if (sequenceClip) {
             sequenceClip->refreshTracksState(tracksCount);
+        }
+    }
+}
+
+void Bin::saveSequenceAudioThumb()
+{
+    QMap<QUuid, QString> sequences = m_itemModel->getAllSequenceClips();
+    for (const auto &s : sequences.values()) {
+        auto binClip = getBinClip(s);
+        if (!binClip) {
+            continue;
+        }
+        auto seqClip = std::static_pointer_cast<SequenceClip>(binClip);
+        if (seqClip) {
+            seqClip->saveAudioWave();
+        }
+    }
+}
+
+void Bin::loadSequenceAudioThumb()
+{
+    QMap<QUuid, QString> sequences = m_itemModel->getAllSequenceClips();
+    if (sequences.size() < 2) {
+        // Don't auto generate sequence thumbnails if we only have 1 sequence
+        return;
+    }
+    for (const auto &s : sequences.values()) {
+        auto binClip = getBinClip(s);
+        if (!binClip) {
+            continue;
+        }
+        if (binClip->frameDuration() > 1) {
+            ObjectId oid(KdenliveObjectType::BinClip, binClip->clipId().toInt(), QUuid());
+            AudioLevelsTask::start(oid, binClip.get(), false);
         }
     }
 }

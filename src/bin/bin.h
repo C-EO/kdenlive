@@ -414,6 +414,10 @@ public:
     bool isMainBin() const;
     void buildPropertiesDock(KDDockWidgets::QtWidgets::DockWidget *parentDock);
     const QString slotAddClipToProject(const QUrl &url);
+    /** @brief Save all sequence audio thumbnails to disk */
+    void saveSequenceAudioThumb();
+    /** @brief Generate or load all sequence audio thumbnails from disk */
+    void loadSequenceAudioThumb();
 
 public Q_SLOTS:
     const QString slotUrlsDropped(const QList<QUrl> urls, const QModelIndex parent);

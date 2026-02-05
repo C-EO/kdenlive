@@ -206,7 +206,7 @@ void AudioLevelsTask::run()
         if (!m_isCanceled && !levels.empty()) {
             storeLevels(binClip, streamIdx.key(), levels);
             storeMax(binClip, streamIdx.key(), levels);
-            if (!skipSaving) {
+            if (!skipSaving && !isTimeline) {
                 saveLevelsToCache(cachePath, levels);
             }
             m_progress = 100;

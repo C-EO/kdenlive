@@ -296,6 +296,31 @@ int SequenceClip::getThumbFrame() const
     return qMax(0, pCore->currentDoc()->getSequenceProperty(m_sequenceUuid, QStringLiteral("thumbnailFrame")).toInt());
 }
 
+void SequenceClip::saveAudioWave()
+{
+    const QString cachePath = getAudioThumbPath(0);
+    if (!m_audioSynced) {
+        // Delete existing audio cache if any
+        if (!cachePath.isEmpty()) {
+            QFile::remove(cachePath);
+        }
+        return;
+    }
+    QVector<int16_t> levels = audioFrameCache(0);
+    if (levels.isEmpty()) {
+        qDebug() << ":: AUDIO LEVELS EMPTY FOR CURRENT TIMELINE...";
+        return;
+    }
+    QFile file(cachePath);
+    if (file.open(QIODevice::WriteOnly)) {
+        QDataStream out(&file);
+        out << levels;
+        file.close();
+    } else {
+        qWarning() << "Could not write to audiothumb file: " << cachePath;
+    }
+}
+
 int SequenceClip::getThumbFromPercent(int percent, bool storeFrame)
 {
     int framePos = ProjectClip::getThumbFromPercent(percent, storeFrame);

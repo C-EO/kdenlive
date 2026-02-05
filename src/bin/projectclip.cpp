@@ -2084,22 +2084,17 @@ void ProjectClip::discardAudioThumb(bool recreate)
     const QList<int> streams = m_audioInfo->streams().keys();
     // Delete audio thumbnail data
     for (const int &st : streams) {
-        audioThumbPath = getAudioThumbPath(st);
-        if (!audioThumbPath.isEmpty()) {
-            QFile::remove(audioThumbPath);
+        // Delete stored thumbnail
+        if (recreate || m_clipType != ClipType::Timeline) {
+            audioThumbPath = getAudioThumbPath(st);
+            if (!audioThumbPath.isEmpty()) {
+                QFile::remove(audioThumbPath);
+            }
         }
         // Clear audio cache
         QString key = QStringLiteral("%1:%2").arg(m_binId).arg(st);
         pCore->audioThumbCache.insert(key, QByteArray("-"));
     }
-    // Delete thumbnail
-    for (const int &st : streams) {
-        audioThumbPath = getAudioThumbPath(st);
-        if (!audioThumbPath.isEmpty()) {
-            QFile::remove(audioThumbPath);
-        }
-    }
-
     resetProducerProperty(QStringLiteral("kdenlive:audio_max"));
     m_audioThumbCreated = false;
     refreshAudioInfo();
