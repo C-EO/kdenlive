@@ -289,11 +289,6 @@ Item {
             root.seeking = false
             root.captureRightClick = false
         }
-        onDoubleClicked: {
-            if (audioThumb.dirty) {
-                controller.refreshAudio()
-            }
-        }
 
         onWheel: wheel => {
             if (wheel.modifiers & Qt.ControlModifier) {
@@ -314,9 +309,22 @@ Item {
 
         }
     }
-    ToolTip {
-        text: audioThumb.dirty ? i18n("Audio wave not synced. Double click to update") : ""
-        delay: 1000
-        visible: thumbMouseArea.containsMouse
+    Rectangle {
+        visible: audioThumb.dirty
+        width: root.baseUnit * 3
+        anchors.left: parent.left
+        anchors.bottom: parent.bottom
+        anchors.leftMargin: 6
+        anchors.bottomMargin: 6
+        height: width
+        radius: 4
+        color: audioRefresh.hovered ? activePalette.highlight : Qt.rgba(activePalette.base.r, activePalette.base.g, activePalette.base.b, 0.5)
+        K.MonitorToolButton {
+            id: audioRefresh
+            hoverEnabled: true
+            iconName: "view-refresh"
+            toolTipText: i18n("Click to refresh audio waveform")
+            onClicked: controller.refreshAudio()
+        }
     }
 }

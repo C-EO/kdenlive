@@ -1062,7 +1062,7 @@ bool ProjectItemModel::requestAddBinClip(QString &id, std::shared_ptr<Mlt::Produ
         const std::function<void()> readyCallBackExec = std::bind(readyCallBack, id);
         QMetaObject::invokeMethod(qApp, [readyCallBackExec] { readyCallBackExec(); });
         // Generate audio thumbnail
-        if (type == ClipType::Timeline && KdenliveSettings::audiothumbnails() && producer->get_int("kdenlive:duration") > 0) {
+        if (type == ClipType::Timeline && KdenliveSettings::audiothumbnails() && producer->get_int("kdenlive:duration") > 1) {
             ObjectId oid(KdenliveObjectType::BinClip, new_clip->clipId().toInt(), QUuid());
             AudioLevelsTask::start(oid, new_clip.get(), false);
         }

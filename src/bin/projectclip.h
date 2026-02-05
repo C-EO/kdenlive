@@ -311,6 +311,7 @@ public:
     /** @brief Returns the clip name (usually file name) */
     QString clipName();
     virtual bool audioSynced() const;
+    virtual void markAudioDirty();
     /** @brief Save an xml playlist of current clip with in/out points as zone.x()/y() */
     void saveZone(QPoint zone, const QDir &dir);
     /** @brief When a sequence clip has a track change, update info and properties panel */

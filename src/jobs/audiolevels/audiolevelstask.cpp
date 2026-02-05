@@ -187,9 +187,14 @@ void AudioLevelsTask::run()
             // else, or if using libav failed, use MLT
             const int channels = binClip->audioInfo()->channelsForStream(streamIdx.key());
             if (isTimeline) {
+                int duration = binClip->frameDuration();
+                if (duration < 2) {
+                    // Trying to generate audio wave for empty sequence, abort
+                    break;
+                }
                 QTemporaryFile *tmpFile = binClip->getSequenceTmpResource();
                 if (tmpFile) {
-                    levels = generateMLT(streamIdx.key(), service, tmpFile->fileName(), channels, clbk, m_isCanceled, binClip->frameDuration());
+                    levels = generateMLT(streamIdx.key(), service, tmpFile->fileName(), channels, clbk, m_isCanceled, duration);
                     delete tmpFile;
                 }
             } else {

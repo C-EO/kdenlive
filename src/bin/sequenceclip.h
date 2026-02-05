@@ -89,6 +89,7 @@ public:
     int getStartTimecode() override;
     const QString hash(bool createIfEmpty = true) override;
     bool audioSynced() const override;
+    void markAudioDirty() override;
 
 public Q_SLOTS:
     bool setProducer(std::shared_ptr<Mlt::Producer> producer, bool generateThumb = false, bool clearTrackProducers = true) override;

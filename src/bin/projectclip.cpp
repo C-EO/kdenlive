@@ -3311,3 +3311,8 @@ bool ProjectClip::audioSynced() const
 {
     return true;
 }
+
+void ProjectClip::markAudioDirty()
+{
+    // Not relevant for normal clips, only for sequences
+}

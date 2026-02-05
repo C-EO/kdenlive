@@ -104,6 +104,7 @@ SequenceClip::SequenceClip(const QString &id, const QDomElement &description, co
     : ProjectClip(id, description, thumb, model)
 {
     m_sequenceUuid = QUuid(getXmlProperty(description, QStringLiteral("kdenlive:uuid")));
+    connect(this, &ProjectClip::audioThumbReady, this, &SequenceClip::updateAudioSync);
 }
 
 std::shared_ptr<SequenceClip> SequenceClip::construct(const QString &id, const QDomElement &description, const QIcon &thumb,
@@ -244,6 +245,7 @@ void SequenceClip::setProperties(const QMap<QString, QString> &properties, bool 
         }
     }
     bool durationChanged = properties.contains("length") && properties.value("length").toInt() != getFramePlaytime();
+    qDebug() << ":::: SEQUENCE DURATION CHANGED;: " << properties.value("length").toInt() << " != " << getFramePlaytime();
     ProjectClip::setProperties(properties, refreshPanel);
     if (properties.contains(QStringLiteral("kdenlive:clipname"))) {
         if (!m_sequenceUuid.isNull()) {
@@ -260,6 +262,20 @@ void SequenceClip::setProperties(const QMap<QString, QString> &properties, bool 
             // Refresh monitor duration
             pCore->getMonitor(Kdenlive::ClipMonitor)->adjustRulerSize(properties.value("length").toInt());
         }
+    }
+}
+
+void SequenceClip::markAudioDirty()
+{
+    if (!m_audioSynced) {
+        // Already dirty, abort
+        return;
+    }
+    discardAudioThumb();
+    m_audioSynced = false;
+    if (pCore->taskManager.displayedClip == m_binId.toInt()) {
+        // Mark audio thumb as dirty
+        pCore->getMonitor(Kdenlive::ClipMonitor)->markAudioDirty(true);
     }
 }
 

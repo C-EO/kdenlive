@@ -155,7 +155,7 @@ public:
 private:
     enum ItemRole { NameRole = Qt::UserRole, DurationRole, UsageRole };
 
-    QTimeLine *m_timeLine;
+    QTimeLine *m_timeLine{nullptr};
     QAction *m_action{nullptr};
     QMutex m_locker;
 
@@ -331,6 +331,8 @@ public:
     void saveZone(const QStringList &info, const QDir &dir);
     /** @brief A bin clip changed (its effects), invalidate preview */
     void invalidateClip(const QString &binId);
+    /** @brief A bin clip changed (its effects), invalidate audio preview */
+    void invalidateClipAudio(const QString &binId);
     /** @brief Recreate missing proxies on document opening */
     void checkMissingProxies();
     /** @brief Save folder state (expanded or not) */

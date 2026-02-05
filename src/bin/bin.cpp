@@ -1210,9 +1210,11 @@ SmallJobLabel::SmallJobLabel(QWidget *parent)
 {
     setFixedWidth(0);
     setFlat(true);
-    m_timeLine = new QTimeLine(500, this);
-    QObject::connect(m_timeLine, &QTimeLine::valueChanged, this, &SmallJobLabel::slotTimeLineChanged);
-    QObject::connect(m_timeLine, &QTimeLine::finished, this, &SmallJobLabel::slotTimeLineFinished);
+    if (style()->styleHint(QStyle::QStyle::SH_Widget_Animation_Duration, nullptr, this) > 0) {
+        m_timeLine = new QTimeLine(500, this);
+        QObject::connect(m_timeLine, &QTimeLine::valueChanged, this, &SmallJobLabel::slotTimeLineChanged);
+        QObject::connect(m_timeLine, &QTimeLine::finished, this, &SmallJobLabel::slotTimeLineFinished);
+    }
     hide();
 }
 
@@ -1275,7 +1277,7 @@ void SmallJobLabel::slotSetJobCount(int jobCount)
         setText(i18np("%1 job", "%1 jobs", jobCount));
         setToolTip(i18np("%1 pending job", "%1 pending jobs", jobCount));
 
-        if (style()->styleHint(QStyle::SH_Widget_Animate, nullptr, this) != 0) {
+        if (m_timeLine == nullptr) {
             setFixedWidth(sizeHint().width());
             m_action->setVisible(true);
             return;
@@ -1296,7 +1298,7 @@ void SmallJobLabel::slotSetJobCount(int jobCount)
             m_timeLine->start();
         }
     } else {
-        if (style()->styleHint(QStyle::SH_Widget_Animate, nullptr, this) != 0) {
+        if (m_timeLine == nullptr) {
             setFixedWidth(0);
             m_action->setVisible(false);
             return;
@@ -5698,6 +5700,29 @@ void Bin::invalidateClip(const QString &binId)
             QList<int> values = i.value();
             for (int j : std::as_const(values)) {
                 pCore->invalidateItem(ObjectId(KdenliveObjectType::TimelineClip, j, i.key()));
+            }
+        }
+    }
+}
+
+void Bin::invalidateClipAudio(const QString &binId)
+{
+    std::shared_ptr<ProjectClip> clip = getBinClip(binId);
+    if (!clip) {
+        // Clip was deleted, abort
+        qDebug() << "::::: CLIP NOT FOUND: " << binId;
+    }
+    if (clip->clipType() == ClipType::Timeline) {
+        clip->markAudioDirty();
+    }
+    if (clip->hasAudio()) {
+        QMap<QUuid, QList<int>> allIds = clip->getAllTimelineInstances();
+        QMapIterator<QUuid, QList<int>> i(allIds);
+        while (i.hasNext()) {
+            i.next();
+            QList<int> values = i.value();
+            for (int j : std::as_const(values)) {
+                pCore->invalidateAudio(ObjectId(KdenliveObjectType::TimelineClip, j, i.key()));
             }
         }
     }
