@@ -142,6 +142,10 @@ QString ClipCreator::createPlaylistClip(const QString &name, std::pair<int, int>
     prod->set("kdenlive:sequenceproperties.tracksCount", tracks.first + tracks.second);
 
     std::function<void(const QString &)> callBack = [readyCallBack](const QString &binId) {
+        if (!pCore->window()) {
+            // We are in non graphical mode, abort
+            return;
+        }
         pCore->activeBin()->selectClipById(binId);
         if (readyCallBack) {
             readyCallBack(binId);
