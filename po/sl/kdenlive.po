@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive Trunk\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-06 00:44+0000\n"
-"PO-Revision-Date: 2026-02-02 08:45+0100\n"
+"PO-Revision-Date: 2026-02-06 07:45+0100\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -16897,29 +16897,27 @@ msgstr "Zastarelo"
 #: data/profiles.xml:4
 #, kde-format
 msgid "Generic (HD for web, mobile devices...)"
-msgstr ""
+msgstr "Generično (HD za splet, mobilne naprave, ...)"
 
 #: data/profiles.xml:27
 #, kde-format
 msgid "Ultra-High Definition (4K)"
-msgstr ""
+msgstr "Ultra visoka ločljivost (4K)"
 
 #: data/profiles.xml:43
-#, fuzzy, kde-format
-#| msgid "Feather Alpha"
+#, kde-format
 msgid "Video with Alpha"
-msgstr "Operjana alfa"
+msgstr "Video z alfo"
 
 #: data/profiles.xml:58
 #, kde-format
 msgid "Old-TV definition (DVD...)"
-msgstr ""
+msgstr "Stara TV ločljivost (DVD, …)"
 
 #: data/profiles.xml:75
-#, fuzzy, kde-format
-#| msgid "AMF hardware acceleration"
+#, kde-format
 msgid "Hardware Accelerated (experimental)"
-msgstr "Strojno pospeševanje AMF"
+msgstr "S strojnim pospeševanjem (poskusno)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, profile_audioonly)
 #: data/profiles.xml:116 src/ui/configtranscode_ui.ui:76
@@ -29541,10 +29539,9 @@ msgstr ""
 "Preverite vašo namestitev Kdenlive ali nastavitve gonilnika. Popravite to."
 
 #: src/monitor/view/AudioView.qml:326
-#, fuzzy, kde-format
-#| msgid "Click to reset Audio Waveform Zoom"
+#, kde-format
 msgid "Click to refresh audio waveform"
-msgstr "Kliknite za ponastavitev povečave valovne oblike zvoka"
+msgstr "Kliknite za osvežitev valovne oblike zvoka"
 
 #: src/monitor/view/ClipMonitor.qml:365 src/monitor/view/ProjectMonitor.qml:195
 #, kde-format
@@ -39648,53 +39645,3 @@ msgstr "%1m"
 msgctxt "h as hours"
 msgid "%1h"
 msgstr "%1u"
-
-#~ msgid ""
-#~ "\n"
-#~ "        <p>This is the first bugfix release for the 24.02 version. Some "
-#~ "of the most noteworthy fixes:</p>\n"
-#~ "        <ul>\n"
-#~ "          <li>Fix distorted font in some parts of the UI</li>\n"
-#~ "          <li>Fix crash editing gradients in titler</li>\n"
-#~ "          <li>Fix adding a mix to a grouped clip could move existing cut</"
-#~ "li>\n"
-#~ "          <li>Fix moving and deleting a single item in a group</li>\n"
-#~ "          <li>Fix crash in spacer tool with grouped subtitles</li>\n"
-#~ "          <li>Fix multiple issues on sequence clips (incorrectly saving "
-#~ "changes, subtitles not duplicated)</li>\n"
-#~ "          <li>Fix multiple issues with subtitles (multiple subtitles "
-#~ "tracks not correctly saved or displayed)</li>\n"
-#~ "        </ul>\n"
-#~ "      "
-#~ msgstr ""
-#~ "\n"
-#~ "        <p>To je prva izdaja s popravki za različico 24.02. Nekaj najbolj "
-#~ "omembe vrednih popravkov:</p>\n"
-#~ "        <ul>\n"
-#~ "          <li>popravljena deformirana pisava v nekaterih delih vmesnika;</"
-#~ "li>\n"
-#~ "          <li>odpravljeno sesutje pri urejanju prelivov v urejevalniku "
-#~ "naslovov;</li>\n"
-#~ "          <li>popravljeno premikanje obstoječega reza ob dodajanju "
-#~ "mešanice združenemu posnetku;</li>\n"
-#~ "          <li>popravljeno premikanje in brisanje posameznega elementa v "
-#~ "skupini;</li>\n"
-#~ "          <li>odpravljeno sesutje orodja praznine s podnapisi v skupini;</"
-#~ "li>\n"
-#~ "          <li>popravljenih več težav s posnetki zaporedja (nepravilno "
-#~ "shranjevanje sprememb, podnaslovi se ne podvojijo);</li>\n"
-#~ "          <li>popravljenih več težav s podnaslovi (več stez podnaslovov "
-#~ "se ne shrani ali prikaže pravilno).</li>\n"
-#~ "        </ul>\n"
-#~ "      "
-
-#, fuzzy
-#~ msgid "Kdenlive video project document"
-#~ msgstr "Dokument video projekta Kdenlive"
-
-#, fuzzy
-#~ msgid "Kdenlive video title"
-#~ msgstr "Video naslov Kdenlive"
-
-#~ msgid "MLT video playlist"
-#~ msgstr "Seznam predvajanja MLT"

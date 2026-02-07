@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-06 00:44+0000\n"
-"PO-Revision-Date: 2026-02-02 07:49+0100\n"
+"PO-Revision-Date: 2026-02-06 06:27+0100\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
 "Language: ka\n"
@@ -16341,10 +16341,9 @@ msgid "Ultra-High Definition (4K)"
 msgstr ""
 
 #: data/profiles.xml:43
-#, fuzzy, kde-format
-#| msgid "Feather Alpha"
+#, kde-format
 msgid "Video with Alpha"
-msgstr "ბუმბულის ალფა"
+msgstr "ვიდეო ალფა არხით"
 
 #: data/profiles.xml:58
 #, kde-format
@@ -16352,10 +16351,9 @@ msgid "Old-TV definition (DVD...)"
 msgstr ""
 
 #: data/profiles.xml:75
-#, fuzzy, kde-format
-#| msgid "AMF hardware acceleration"
+#, kde-format
 msgid "Hardware Accelerated (experimental)"
-msgstr "AMF აპარატურის აჩქარება"
+msgstr "აპარატურის აჩქარებით (ექსპერიმენტული)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, profile_audioonly)
 #: data/profiles.xml:116 src/ui/configtranscode_ui.ui:76
@@ -28878,10 +28876,9 @@ msgstr ""
 "თქვენს Kdenlive-ის ფაილებს ან დრაივერის პარამეტრებს რაღაც სჭირს. გაასწორეთ."
 
 #: src/monitor/view/AudioView.qml:326
-#, fuzzy, kde-format
-#| msgid "Click to reset Audio Waveform Zoom"
+#, kde-format
 msgid "Click to refresh audio waveform"
-msgstr "დააწკაპუნეთ აუდიოს ტალღის ფორმის ჩამოსაყრელად"
+msgstr "დააწკაპუნეთ აუდიოს ტალღის ფორმის განახლებისთვის"
 
 #: src/monitor/view/ClipMonitor.qml:365 src/monitor/view/ProjectMonitor.qml:195
 #, kde-format

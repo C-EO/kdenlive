@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-06 00:44+0000\n"
-"PO-Revision-Date: 2026-02-04 08:25-0300\n"
+"PO-Revision-Date: 2026-02-06 08:22-0300\n"
 "Last-Translator: Marcus Gama <marcus.gama@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_BR@kde.org>\n"
 "Language: pt_BR\n"
@@ -16971,29 +16971,27 @@ msgstr "Obsoleto"
 #: data/profiles.xml:4
 #, kde-format
 msgid "Generic (HD for web, mobile devices...)"
-msgstr ""
+msgstr "Genérico (HD para web, dispositivos móveis...)"
 
 #: data/profiles.xml:27
 #, kde-format
 msgid "Ultra-High Definition (4K)"
-msgstr ""
+msgstr "Ultra-High Definition (4K)"
 
 #: data/profiles.xml:43
-#, fuzzy, kde-format
-#| msgid "Feather Alpha"
+#, kde-format
 msgid "Video with Alpha"
-msgstr "Pluma do alfa"
+msgstr "Vídeo com alfa"
 
 #: data/profiles.xml:58
 #, kde-format
 msgid "Old-TV definition (DVD...)"
-msgstr ""
+msgstr "Definição de TV antiga (DVD...)"
 
 #: data/profiles.xml:75
-#, fuzzy, kde-format
-#| msgid "AMF hardware acceleration"
+#, kde-format
 msgid "Hardware Accelerated (experimental)"
-msgstr "Aceleração de hardware AMF"
+msgstr "Acelerado por hardware (experimental)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, profile_audioonly)
 #: data/profiles.xml:116 src/ui/configtranscode_ui.ui:76
@@ -29638,10 +29636,9 @@ msgstr ""
 "configuração do driver de vídeo. Tente corrigir isto."
 
 #: src/monitor/view/AudioView.qml:326
-#, fuzzy, kde-format
-#| msgid "Click to reset Audio Waveform Zoom"
+#, kde-format
 msgid "Click to refresh audio waveform"
-msgstr "Clique para redefinir zoom das formas de ondas de áudio"
+msgstr "Clique para atualizar as formas de ondas de áudio"
 
 #: src/monitor/view/ClipMonitor.qml:365 src/monitor/view/ProjectMonitor.qml:195
 #, kde-format
