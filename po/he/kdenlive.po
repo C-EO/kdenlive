@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-06 00:44+0000\n"
-"PO-Revision-Date: 2026-02-02 21:14+0200\n"
+"PO-Revision-Date: 2026-02-06 11:02+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -4895,7 +4895,7 @@ msgstr ""
 #: data/effects/avfilter/avfilter_lut3d.xml:8
 #, kde-format
 msgid "LUT file to apply"
-msgstr ""
+msgstr "קובץ LUT להחלה"
 
 #: data/effects/avfilter/avfilter_lut3d.xml:11
 #: data/effects/avfilter/avfilter_shear.xml:17
@@ -5292,7 +5292,7 @@ msgstr "כיבוי/הפעלה של הרשת"
 #: data/effects/avfilter/avfilter_oscilloscope.xml:53
 #, kde-format
 msgid "Print Statistics"
-msgstr ""
+msgstr "הצגת סטטיסטיקה"
 
 #: data/effects/avfilter/avfilter_oscilloscope.xml:54
 #, kde-format
